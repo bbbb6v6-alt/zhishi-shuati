@@ -35,7 +35,7 @@ router.post('/batch', async (req, res) => {
   }
 });
 
-// 获取所有题目（支持按类型筛选和按ID列表获取）
+// 获取所有题目（支持按类型筛选、按ID列表获取、随机获取）
 router.get('/', async (req, res) => {
   try {
     const client = getSupabaseClient();
@@ -54,8 +54,14 @@ router.get('/', async (req, res) => {
       if (idList.length > 0) {
         query = query.in('id', idList);
       }
-    } else if (type && type !== 'all') {
+    } else if (type && type !== 'all' && type !== 'random') {
       query = query.eq('type', type);
+    }
+    // 'all' 和 'random' 类型都获取所有题目
+    
+    if (type === 'random') {
+      // 随机排序
+      query = query.order('id', { ascending: false }); // 先按ID降序
     }
     
     if (limit) {
@@ -65,7 +71,14 @@ router.get('/', async (req, res) => {
       query = query.range(parseInt(offset as string), parseInt(offset as string) + (parseInt(limit as string) || 10) - 1);
     }
     
-    const { data, error } = await query;
+    let { data, error } = await query;
+    
+    if (error) throw new Error(`查询失败: ${error.message}`);
+    
+    // 如果是随机模式，打乱顺序
+    if (type === 'random' && data) {
+      data = data.sort(() => Math.random() - 0.5);
+    }
     
     if (error) throw new Error(`查询失败: ${error.message}`);
     

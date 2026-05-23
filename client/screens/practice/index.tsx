@@ -154,7 +154,7 @@ export default function PracticeScreen() {
     setLoadingExplanation(true);
     try {
       const response = await fetch(
-        `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/explain/explain`,
+        `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/explain`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -162,11 +162,13 @@ export default function PracticeScreen() {
         }
       );
       const data = await response.json();
-      if (data.success) {
+      if (data.success && data.data?.explanation) {
         setAiExplanation(data.data.explanation);
         setShowExplanation(true);
       } else {
-        Alert.alert('提示', data.error || '获取解析失败');
+        // 如果API调用失败，显示原始解析
+        setAiExplanation(data.data?.originalExplanation || '暂无解析');
+        setShowExplanation(true);
       }
     } catch (error) {
       console.error('获取解析失败:', error);
@@ -262,13 +264,8 @@ export default function PracticeScreen() {
     return (
       <View className="mt-4 space-y-3">
         {currentQuestion.options.map((option, index) => {
-          const isMulti = currentQuestion.type === 'multiple';
-          const selectedIndexes = isMulti && Array.isArray(selectedAnswer) 
-            ? selectedAnswer.map(a => a.charCodeAt(0) - 65)
-            : [];
-          const isSelected = isMulti 
-            ? selectedIndexes.includes(index)
-            : (selectedAnswer !== null && !Array.isArray(selectedAnswer) && selectedAnswer !== '' && index === Number(selectedAnswer));
+          const optionKey = getOptionLabel(index);
+          const isSelected = selectedAnswer === optionKey;
           const isCorrectAnswer = currentQuestion.answer === getOptionLabel(index);
           let bgClass = 'bg-white dark:bg-gray-800';
           let borderClass = 'border-gray-200 dark:border-gray-700';
