@@ -3,6 +3,38 @@ import { getSupabaseClient } from '../storage/database/supabase-client.js';
 
 const router = Router();
 
+// 批量导入题目
+router.post('/batch', async (req, res) => {
+  try {
+    const client = getSupabaseClient();
+    const questions = req.body;
+    
+    if (!Array.isArray(questions) || questions.length === 0) {
+      return res.status(400).json({ success: false, error: '无效的题目数据' });
+    }
+    
+    // 确保所有题目都有answer字段
+    const cleanQuestions = questions.map((q: any) => ({
+      ...q,
+      answer: q.answer || '',
+      explanation: q.explanation || '',
+    }));
+    
+    // 批量插入
+    const { data, error } = await client.from('questions').insert(cleanQuestions).select();
+    
+    if (error) {
+      console.error('批量插入失败:', error);
+      return res.status(500).json({ success: false, error: error.message });
+    }
+    
+    res.json({ success: true, count: data?.length || 0 });
+  } catch (error: any) {
+    console.error('批量导入失败:', error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
 // 获取所有题目（支持按类型筛选）
 router.get('/', async (req, res) => {
   try {

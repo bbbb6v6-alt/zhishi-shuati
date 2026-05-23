@@ -4,6 +4,31 @@ import { getSupabaseClient } from '../storage/database/supabase-client.js';
 
 const router = Router();
 
+// 批量导入题目
+router.post('/batch', async (req, res) => {
+  try {
+    const client = getSupabaseClient();
+    const { questions } = req.body;
+    
+    if (!Array.isArray(questions) || questions.length === 0) {
+      return res.status(400).json({ success: false, error: '无效的题目数据' });
+    }
+    
+    // 批量插入
+    const { data, error } = await client.from('questions').insert(questions).select();
+    
+    if (error) {
+      console.error('批量插入失败:', error);
+      return res.status(500).json({ success: false, error: error.message });
+    }
+    
+    res.json({ success: true, count: data?.length || 0 });
+  } catch (error: any) {
+    console.error('批量导入失败:', error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
 // 持久化存储的PDF URL（从沙箱URL转换而来）
 const PDF_KEY = 'file_af6200cf';
 
