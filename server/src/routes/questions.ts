@@ -334,37 +334,48 @@ router.post('/submit', async (req, res) => {
 router.get('/wrong/list', async (req, res) => {
   try {
     const client = getSupabaseClient();
+    
+    // 先获取错题记录
     const { data: wrongList, error } = await client
       .from('wrong_questions')
-      .select(`
-        id,
-        question_id,
-        user_answer,
-        answered_at,
-        questions (
-          id,
-          type,
-          question,
-          options,
-          answer,
-          explanation
-        )
-      `)
+      .select('id, question_id, user_answer, answered_at')
       .eq('is_wrong', true)
       .order('answered_at', { ascending: false });
     
     if (error) throw new Error(`查询失败: ${error.message}`);
     
+    if (!wrongList || wrongList.length === 0) {
+      return res.json({ success: true, data: [] });
+    }
+    
+    // 获取所有题目ID
+    const questionIds = wrongList.map((w: any) => w.question_id);
+    
+    // 批量获取题目详情
+    const { data: questionsData, error: questionsError } = await client
+      .from('questions')
+      .select('id, type, question, options, answer, explanation')
+      .in('id', questionIds);
+    
+    if (questionsError) throw new Error(`查询题目失败: ${questionsError.message}`);
+    
+    // 构建题目ID到题目详情的映射
+    const questionsMap = new Map();
+    (questionsData || []).forEach((q: any) => {
+      questionsMap.set(q.id, {
+        ...q,
+        options: q.options ? JSON.parse(q.options) : null,
+        answer: q.answer ? (typeof q.answer === 'string' && q.answer.startsWith('[') ? JSON.parse(q.answer) : q.answer) : q.answer,
+      });
+    });
+    
+    // 合并数据
     const formattedList = (wrongList || []).map((item: any) => ({
       id: item.id,
       questionId: item.question_id,
       userAnswer: item.user_answer ? (item.user_answer.startsWith('[') ? JSON.parse(item.user_answer) : item.user_answer) : null,
       answeredAt: item.answered_at,
-      question: item.questions ? {
-        ...item.questions,
-        options: item.questions.options ? JSON.parse(item.questions.options) : null,
-        answer: item.questions.answer ? JSON.parse(item.questions.answer) : item.questions.answer,
-      } : null,
+      question: questionsMap.get(item.question_id) || null,
     }));
     
     res.json({ success: true, data: formattedList });
