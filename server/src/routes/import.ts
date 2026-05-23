@@ -5,7 +5,7 @@ import { getSupabaseClient } from '../storage/database/supabase-client.js';
 const router = Router();
 
 // 持久化存储的PDF URL（从沙箱URL转换而来）
-const PDF_KEY = 'proxy_60ecbaca';
+const PDF_KEY = 'file_af6200cf';
 
 // 获取PDF的持久化URL
 async function getPdfUrl(): Promise<string> {
@@ -245,6 +245,34 @@ router.get('/preview', async (req, res) => {
       content: textContent,
       length: textContent.length
     });
+    
+  } catch (error) {
+    console.error('获取内容失败:', error);
+    res.status(500).json({ success: false, error: '获取内容失败' });
+  }
+});
+
+// 获取完整PDF文本内容（不限长度）
+router.get('/fulltext', async (req, res) => {
+  try {
+    const config = new Config();
+    const client = new FetchClient(config);
+    
+    const pdfUrl = await getPdfUrl();
+    const response = await client.fetch(pdfUrl);
+    
+    if (response.status_code !== 0) {
+      return res.status(500).json({ success: false, error: '获取PDF失败' });
+    }
+    
+    const textContent = response.content
+      .filter(item => item.type === 'text')
+      .map(item => item.text)
+      .join('\n');
+    
+    // 直接返回原始文本，不包装JSON
+    res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+    res.send(textContent);
     
   } catch (error) {
     console.error('获取内容失败:', error);

@@ -27,11 +27,41 @@ router.get('/', async (req, res) => {
     if (error) throw new Error(`查询失败: ${error.message}`);
     
     // 解析 options 和 answer JSON 字段
-    const formattedResult = (data || []).map((q: any) => ({
-      ...q,
-      options: q.options ? JSON.parse(q.options) : null,
-      answer: q.answer ? JSON.parse(q.answer) : q.answer,
-    }));
+    const formattedResult = (data || []).map((q: any) => {
+      let parsedOptions = null;
+      let parsedAnswer = q.answer;
+      
+      // 解析 options 字段
+      if (q.options) {
+        try {
+          parsedOptions = JSON.parse(q.options);
+        } catch {
+          // 如果解析失败，可能是简单选项字符串（如"A,B,C,D"），转换为数组
+          if (typeof q.options === 'string' && /^[A-Z,]+$/.test(q.options)) {
+            parsedOptions = q.options.split(',');
+          }
+        }
+      }
+      
+      // 解析 answer 字段（多选题答案保持字符串格式如"AB"，前端会处理）
+      if (q.answer && typeof q.answer === 'string') {
+        // 如果是多选题且答案是简单字符串（如"AB"），保持字符串格式
+        if (q.type === 'multiple_choice' && /^[A-Z]+$/.test(q.answer)) {
+          parsedAnswer = q.answer; // 保持 "AB" 字符串格式
+        }
+      } else if (q.answer && Array.isArray(q.answer)) {
+        // 如果 answer 已经是数组（可能是 Supabase JSON 类型自动解析），转为字符串
+        if (q.type === 'multiple_choice') {
+          parsedAnswer = q.answer.join(''); // ["A","B"] -> "AB"
+        }
+      }
+      
+      return {
+        ...q,
+        options: parsedOptions,
+        answer: parsedAnswer,
+      };
+    });
     
     res.json({ success: true, data: formattedResult });
   } catch (error) {
@@ -56,12 +86,18 @@ router.get('/:id', async (req, res) => {
       return res.status(404).json({ success: false, error: '题目不存在' });
     }
     
+    // 多选题答案是简单字符串如"AB"，转为数组
+    let formattedAnswer = data.answer;
+    if (data.type === 'multiple_choice' && data.answer && typeof data.answer === 'string' && /^[A-Z]+$/.test(data.answer)) {
+      formattedAnswer = data.answer.split('');
+    }
+    
     res.json({
       success: true,
       data: {
         ...data,
-        options: data.options ? JSON.parse(data.options) : null,
-        answer: data.answer ? JSON.parse(data.answer) : data.answer,
+        options: data.options ? (() => { try { return JSON.parse(data.options); } catch { return null; } })() : null,
+        answer: formattedAnswer,
       }
     });
   } catch (error) {
@@ -98,6 +134,18 @@ router.get('/stats/overview', async (req, res) => {
       .eq('type', 'short_answer');
     if (shortAnswerError) throw new Error(`统计失败: ${shortAnswerError.message}`);
     
+    const { count: multipleChoice, error: multipleChoiceError } = await client
+      .from('questions')
+      .select('*', { count: 'exact', head: true })
+      .eq('type', 'multiple_choice');
+    if (multipleChoiceError) throw new Error(`统计失败: ${multipleChoiceError.message}`);
+    
+    const { count: fillBlank, error: fillBlankError } = await client
+      .from('questions')
+      .select('*', { count: 'exact', head: true })
+      .eq('type', 'fill_blank');
+    if (fillBlankError) throw new Error(`统计失败: ${fillBlankError.message}`);
+    
     const { count: wrongCount, error: wrongError } = await client
       .from('wrong_questions')
       .select('question_id', { count: 'exact', head: true })
@@ -110,6 +158,8 @@ router.get('/stats/overview', async (req, res) => {
         total: total || 0,
         judgment: judgment || 0,
         choice: choice || 0,
+        multipleChoice: multipleChoice || 0,
+        fillBlank: fillBlank || 0,
         shortAnswer: shortAnswer || 0,
         wrongCount: wrongCount || 0,
       }
@@ -139,7 +189,30 @@ router.post('/submit', async (req, res) => {
     }
     
     const question = questionData;
-    const correctAnswer = question.answer ? JSON.parse(question.answer) : question.answer;
+    // 多选题答案可能是字符串 "AB"，也可能是 JSON 数组格式
+    let correctAnswer = question.answer;
+    if (question.type === 'multiple_choice') {
+      // 多选题答案：如果是字符串直接使用，如果是 JSON 字符串则解析
+      if (typeof question.answer === 'string') {
+        try {
+          const parsed = JSON.parse(question.answer);
+          correctAnswer = Array.isArray(parsed) ? parsed.join('') : parsed;
+        } catch {
+          correctAnswer = question.answer; // 已经是字符串 "AB"
+        }
+      } else if (Array.isArray(question.answer)) {
+        correctAnswer = question.answer.join(''); // 数组转字符串
+      }
+    } else {
+      // 非多选题：如果是 JSON 字符串则解析
+      if (typeof question.answer === 'string' && question.answer.startsWith('[')) {
+        try {
+          correctAnswer = JSON.parse(question.answer);
+        } catch {
+          correctAnswer = question.answer;
+        }
+      }
+    }
     
     // 判断答案是否正确
     let isCorrect = false;
@@ -148,8 +221,13 @@ router.post('/submit', async (req, res) => {
       const userAnswerLower = String(userAnswer || '').toLowerCase().trim();
       const correctAnswerLower = String(correctAnswer || '').toLowerCase().trim();
       isCorrect = correctAnswerLower.includes(userAnswerLower) || userAnswerLower.includes(correctAnswerLower);
+    } else if (question.type === 'multiple_choice') {
+      // 多选题：排序后比较字符串
+      const userStr = String(userAnswer || '').split('').sort().join('');
+      const correctStr = String(correctAnswer || '').split('').sort().join('');
+      isCorrect = userStr === correctStr;
     } else if (question.type === 'choice' && Array.isArray(correctAnswer)) {
-      // 多选题
+      // 可能是之前遗留的多选题格式（数组）
       const userAnswerArray = Array.isArray(userAnswer) ? userAnswer.sort() : [userAnswer];
       const correctAnswerArray = [...correctAnswer].sort();
       isCorrect = JSON.stringify(userAnswerArray) === JSON.stringify(correctAnswerArray);
@@ -168,6 +246,16 @@ router.post('/submit', async (req, res) => {
       if (insertError) throw new Error(`插入失败: ${insertError.message}`);
     }
     
+    // 解析 options
+    let parsedOptions = null;
+    if (question.options) {
+      try {
+        parsedOptions = JSON.parse(question.options);
+      } catch {
+        parsedOptions = ['A', 'B', 'C', 'D']; // 默认选项
+      }
+    }
+    
     res.json({
       success: true,
       data: {
@@ -176,7 +264,7 @@ router.post('/submit', async (req, res) => {
         explanation: question.explanation,
         question: {
           ...question,
-          options: question.options ? JSON.parse(question.options) : null,
+          options: parsedOptions,
         }
       }
     });

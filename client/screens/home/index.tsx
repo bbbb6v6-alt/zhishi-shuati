@@ -11,6 +11,8 @@ interface Stats {
   total: number;
   judgment: number;
   choice: number;
+  multipleChoice: number;
+  fillBlank: number;
   shortAnswer: number;
   wrongCount: number;
 }
@@ -203,6 +205,44 @@ export default function HomeScreen() {
               </View>
               <View className="flex-row items-center">
                 <Text className="text-sm text-gray-500 mr-2">{stats?.shortAnswer || 0} 题</Text>
+                <Text className="text-gray-400 text-xl">›</Text>
+              </View>
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity 
+            className="bg-white rounded-2xl p-4 mb-3 shadow-sm"
+            onPress={() => handlePractice('multiple_choice')}
+            activeOpacity={0.8}
+          >
+            <View className="flex-row items-center justify-between">
+              <View className="flex-row items-center">
+                <View className="w-10 h-10 rounded-full bg-[#D1FAE5] items-center justify-center mr-3">
+                  <FontAwesome6 name="check" size={20} color="#059669" />
+                </View>
+                <Text className="text-base font-bold text-gray-800">多选题</Text>
+              </View>
+              <View className="flex-row items-center">
+                <Text className="text-sm text-gray-500 mr-2">{stats?.multipleChoice || 0} 题</Text>
+                <Text className="text-gray-400 text-xl">›</Text>
+              </View>
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity 
+            className="bg-white rounded-2xl p-4 mb-3 shadow-sm"
+            onPress={() => handlePractice('fill_blank')}
+            activeOpacity={0.8}
+          >
+            <View className="flex-row items-center justify-between">
+              <View className="flex-row items-center">
+                <View className="w-10 h-10 rounded-full bg-[#E9D5FF] items-center justify-center mr-3">
+                  <Text className="text-xl">▢</Text>
+                </View>
+                <Text className="text-base font-bold text-gray-800">填空题</Text>
+              </View>
+              <View className="flex-row items-center">
+                <Text className="text-sm text-gray-500 mr-2">{stats?.fillBlank || 0} 题</Text>
                 <Text className="text-gray-400 text-xl">›</Text>
               </View>
             </View>

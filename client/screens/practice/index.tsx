@@ -44,6 +44,17 @@ export default function PracticeScreen() {
       if (data.success) {
         let questionList = data.data;
         
+        // 修复多选题和单选题的 options 字段
+        questionList = questionList.map((q: any) => {
+          if ((q.type === 'choice' || q.type === 'multiple_choice') && q.options) {
+            // 如果 options 是字符串且包含双引号，替换为固定的 A/B/C/D 选项
+            if (typeof q.options === 'string' && (q.options.includes('""') || !q.options.startsWith('['))) {
+              q.options = ['A', 'B', 'C', 'D'];
+            }
+          }
+          return q;
+        });
+        
         // 如果是随机练习，打乱顺序
         if (params.type === 'random') {
           questionList = [...questionList].sort(() => Math.random() - 0.5);
@@ -72,8 +83,14 @@ export default function PracticeScreen() {
       if (currentQuestion.type === 'short_answer') {
         answerToSubmit = shortAnswer;
       } else if (currentQuestion.type === 'choice' && Array.isArray(currentQuestion.answer)) {
-        // 多选题
+        // 单选题中的多选题
         answerToSubmit = multiSelect;
+      } else if (currentQuestion.type === 'multiple_choice') {
+        // 多选题：把选项索引转换为字母
+        answerToSubmit = multiSelect.map(i => String.fromCharCode(65 + i)).sort().join('');
+      } else if (currentQuestion.type === 'fill_blank') {
+        // 填空题
+        answerToSubmit = shortAnswer;
       }
 
       const response = await fetch(`${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions/submit`, {
@@ -123,8 +140,10 @@ export default function PracticeScreen() {
   const getTypeLabel = (type: string) => {
     switch (type) {
       case 'judgment': return '判断题';
-      case 'choice': return '选择题';
+      case 'choice': return '单选题';
+      case 'multiple_choice': return '多选题';
       case 'short_answer': return '简答题';
+      case 'fill_blank': return '填空题';
       default: return type;
     }
   };
@@ -133,7 +152,9 @@ export default function PracticeScreen() {
     switch (type) {
       case 'judgment': return '#059669';
       case 'choice': return '#0EA5E9';
+      case 'multiple_choice': return '#7C3AED';
       case 'short_answer': return '#D97706';
+      case 'fill_blank': return '#EC4899';
       default: return '#6B7280';
     }
   };
@@ -200,6 +221,61 @@ export default function PracticeScreen() {
       );
     }
 
+    // 多选题
+    if (currentQuestion.type === 'multiple_choice' && currentQuestion.options) {
+      return (
+        <View className="mt-4">
+          {currentQuestion.options.map((option, index) => {
+            const optionKey = String.fromCharCode(65 + index); // A, B, C, D
+            const isSelected = selectedAnswer?.includes(optionKey);
+            
+            return (
+              <TouchableOpacity
+                key={index}
+                className={`p-4 rounded-xl mb-3 border-2 ${isSelected ? 'border-[#7C3AED] bg-[#F3E8FF]' : 'border-gray-200 bg-white'}`}
+                onPress={() => {
+                  if (isSelected) {
+                    setSelectedAnswer(selectedAnswer.filter((k: string) => k !== optionKey));
+                  } else {
+                    setSelectedAnswer([...(selectedAnswer || []), optionKey]);
+                  }
+                }}
+                disabled={submitted}
+              >
+                <View className="flex-row items-center">
+                  <View className={`w-6 h-6 rounded-full border-2 mr-3 items-center justify-center ${isSelected ? 'border-[#7C3AED] bg-[#7C3AED]' : 'border-gray-300'}`}>
+                    {isSelected && <Text className="text-white text-xs">✓</Text>}
+                  </View>
+                  <Text className={`text-base flex-1 ${isSelected ? 'text-[#7C3AED] font-bold' : 'text-gray-700'}`}>
+                    {optionKey}. {option}
+                  </Text>
+                </View>
+              </TouchableOpacity>
+            );
+          })}
+          <Text className="text-sm text-[#6B7280] mt-2">* 此题为多选题，请选择所有正确答案</Text>
+        </View>
+      );
+    }
+
+    // 填空题
+    if (currentQuestion.type === 'fill_blank') {
+      return (
+        <View className="mt-4">
+          <TextInput
+            className="bg-white border-2 border-gray-200 rounded-xl p-4 min-h-[120px] text-base"
+            placeholder="请输入你的答案..."
+            multiline
+            value={shortAnswer}
+            onChangeText={setShortAnswer}
+            editable={!submitted}
+            textAlignVertical="top"
+          />
+          <Text className="text-sm text-[#6B7280] mt-2">* 答案可能包含多个空，请用&quot;、&quot;或&quot;分隔</Text>
+        </View>
+      );
+    }
+
     if (currentQuestion.type === 'short_answer') {
       return (
         <View className="mt-4">
@@ -227,12 +303,15 @@ export default function PracticeScreen() {
     
     let correctAnswerText = '';
     if (currentQuestion.type === 'judgment') {
-      correctAnswerText = correctAnswer ? '正确' : '错误';
-    } else if (currentQuestion.type === 'choice' && currentQuestion.options) {
+      correctAnswerText = correctAnswer === 'true' || correctAnswer === true ? '正确' : '错误';
+    } else if ((currentQuestion.type === 'choice' || currentQuestion.type === 'multiple_choice') && currentQuestion.options) {
       if (Array.isArray(correctAnswer)) {
         correctAnswerText = correctAnswer.map((i: number) => String.fromCharCode(65 + i)).join('、');
+      } else if (typeof correctAnswer === 'string') {
+        // 多选题答案已经是ABCD格式
+        correctAnswerText = correctAnswer.split('').join('、');
       } else {
-        correctAnswerText = String.fromCharCode(65 + correctAnswer);
+        correctAnswerText = String.fromCharCode(65 + Number(correctAnswer));
       }
     } else {
       correctAnswerText = String(correctAnswer);
