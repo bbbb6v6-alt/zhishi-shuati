@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import questionsRouter from "./routes/questions.js";
+import importRouter from "./routes/import.js";
 
 const app = express();
 const port = process.env.PORT || 9091;
@@ -18,6 +19,7 @@ app.get('/api/v1/health', (req, res) => {
 
 // Routes
 app.use('/api/v1/questions', questionsRouter);
+app.use('/api/v1/import', importRouter);
 
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}/`);
