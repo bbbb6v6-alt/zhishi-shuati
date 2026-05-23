@@ -79,18 +79,25 @@ export default function PracticeScreen() {
     if (!currentQuestion || submitted) return;
 
     try {
-      let answerToSubmit = selectedAnswer;
-      if (currentQuestion.type === 'short_answer') {
+      let answerToSubmit;
+      
+      if (currentQuestion.type === 'short_answer' || currentQuestion.type === 'fill_blank') {
         answerToSubmit = shortAnswer;
-      } else if (currentQuestion.type === 'choice' && Array.isArray(currentQuestion.answer)) {
-        // 单选题中的多选题
-        answerToSubmit = multiSelect;
+      } else if (currentQuestion.type === 'judgment') {
+        // 判断题：直接使用 true/false
+        answerToSubmit = selectedAnswer ? 'true' : 'false';
+      } else if (currentQuestion.type === 'choice') {
+        // 单选题：将索引转换为字母 (0->A, 1->B, 2->C, 3->D)
+        if (typeof selectedAnswer === 'number') {
+          answerToSubmit = String.fromCharCode(65 + selectedAnswer);
+        } else {
+          answerToSubmit = selectedAnswer;
+        }
       } else if (currentQuestion.type === 'multiple_choice') {
-        // 多选题：把选项索引转换为字母
+        // 多选题：把选项索引转换为字母并排序
         answerToSubmit = multiSelect.map(i => String.fromCharCode(65 + i)).sort().join('');
-      } else if (currentQuestion.type === 'fill_blank') {
-        // 填空题
-        answerToSubmit = shortAnswer;
+      } else {
+        answerToSubmit = selectedAnswer;
       }
 
       const response = await fetch(`${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions/submit`, {
@@ -429,9 +436,9 @@ export default function PracticeScreen() {
           <View className="mt-6 mb-8">
             {!submitted ? (
               <TouchableOpacity
-                className={`py-4 rounded-xl items-center ${selectedAnswer || shortAnswer.trim() ? 'bg-[#C41E3A]' : 'bg-gray-300'}`}
+                className={`py-4 rounded-xl items-center ${(selectedAnswer !== null && selectedAnswer !== undefined) || shortAnswer.trim() ? 'bg-[#C41E3A]' : 'bg-gray-300'}`}
                 onPress={handleSubmit}
-                disabled={!selectedAnswer && !shortAnswer.trim()}
+                disabled={(selectedAnswer === null || selectedAnswer === undefined) && !shortAnswer.trim()}
               >
                 <Text className="text-white text-lg font-bold">提交答案</Text>
               </TouchableOpacity>
