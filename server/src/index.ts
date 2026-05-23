@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import questionsRouter from "./routes/questions.js";
 import importRouter from "./routes/import.js";
+import explainRouter from "./routes/explain.js";
 import { getSupabaseClient } from "./storage/database/supabase-client.js";
 
 const app = express();
@@ -21,6 +22,7 @@ app.get('/api/v1/health', (req, res) => {
 // Routes
 app.use('/api/v1/questions', questionsRouter);
 app.use('/api/v1/import', importRouter);
+app.use('/api/v1/explain', explainRouter);
 
 // Debug route to fix options
 app.post('/api/v1/debug/fix-options', async (req, res) => {
