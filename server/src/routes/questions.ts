@@ -334,36 +334,69 @@ router.post('/submit', async (req, res) => {
 router.get('/wrong/list', async (req, res) => {
   try {
     const client = getSupabaseClient();
-    const { data: wrongList, error } = await client
+    
+    // 分步查询：先获取错题列表，再获取对应的题目
+    const { data: wrongList, error: wrongError } = await client
       .from('wrong_questions')
-      .select(`
-        id,
-        question_id,
-        user_answer,
-        answered_at,
-        questions (
-          id,
-          type,
-          question,
-          options,
-          answer,
-          explanation
-        )
-      `)
+      .select('*')
       .eq('is_wrong', true)
       .order('answered_at', { ascending: false });
     
-    if (error) throw new Error(`查询失败: ${error.message}`);
+    if (wrongError) {
+      console.error('Wrong list query error:', wrongError);
+      throw new Error(`查询失败: ${wrongError.message}`);
+    }
     
-    const formattedList = (wrongList || []).map((item: any) => ({
+    if (!wrongList || wrongList.length === 0) {
+      return res.json({ success: true, data: [] });
+    }
+    
+    // 获取所有错题的ID
+    const questionIds = wrongList.map((item: any) => item.question_id);
+    
+    // 查询对应的题目
+    const { data: questionsData, error: questionsError } = await client
+      .from('questions')
+      .select('id, type, question, options, answer, explanation')
+      .in('id', questionIds);
+    
+    if (questionsError) {
+      console.error('Questions query error:', questionsError);
+      throw new Error(`查询失败: ${questionsError.message}`);
+    }
+    
+    // 创建题目映射
+    const questionsMap = new Map();
+    (questionsData || []).forEach((q: any) => {
+      questionsMap.set(q.id, q);
+    });
+    
+    // 格式化结果
+    const formattedList = wrongList.map((item: any) => ({
       id: item.id,
       questionId: item.question_id,
-      userAnswer: item.user_answer ? (item.user_answer.startsWith('[') ? JSON.parse(item.user_answer) : item.user_answer) : null,
+      userAnswer: (() => {
+        if (!item.user_answer) return null;
+        try {
+          // 尝试解析JSON数组
+          if (item.user_answer.startsWith('[')) {
+            return JSON.parse(item.user_answer);
+          }
+          // 如果是JSON对象
+          if (item.user_answer.startsWith('{')) {
+            return JSON.parse(item.user_answer);
+          }
+          // 返回原始字符串（如 "B", "true", "AB"）
+          return item.user_answer;
+        } catch {
+          return item.user_answer;
+        }
+      })(),
       answeredAt: item.answered_at,
-      question: item.questions ? {
-        ...item.questions,
-        options: item.questions.options ? JSON.parse(item.questions.options) : null,
-        answer: item.questions.answer ? JSON.parse(item.questions.answer) : item.questions.answer,
+      question: questionsMap.get(item.question_id) ? {
+        ...questionsMap.get(item.question_id),
+        options: questionsMap.get(item.question_id).options ? (typeof questionsMap.get(item.question_id).options === 'string' ? (() => { try { return questionsMap.get(item.question_id).options.startsWith('[') ? JSON.parse(questionsMap.get(item.question_id).options) : questionsMap.get(item.question_id).options; } catch { return questionsMap.get(item.question_id).options; } })() : questionsMap.get(item.question_id).options) : null,
+        answer: questionsMap.get(item.question_id).answer ? (typeof questionsMap.get(item.question_id).answer === 'string' ? (() => { try { return questionsMap.get(item.question_id).answer.startsWith('[') ? JSON.parse(questionsMap.get(item.question_id).answer) : questionsMap.get(item.question_id).answer; } catch { return questionsMap.get(item.question_id).answer; } })() : questionsMap.get(item.question_id).answer) : null,
       } : null,
     }));
     

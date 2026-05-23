@@ -9,7 +9,7 @@ import {
   Alert,
 } from 'react-native';
 import { useFocusEffect } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Screen } from '@/components/Screen';
 import { useSafeRouter, useSafeSearchParams } from '@/hooks/useSafeRouter';
 import { Ionicons } from '@expo/vector-icons';
@@ -30,6 +30,7 @@ export default function PracticeScreen() {
   const params = useSafeSearchParams<{ type?: string; questionIds?: string }>();
   const questionType = params.type || 'judgment';
   const initialQuestionIds = params.questionIds ? JSON.parse(params.questionIds) : null;
+  const insets = useSafeAreaInsets();
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -542,10 +543,10 @@ export default function PracticeScreen() {
   }
 
   return (
-    <Screen>
-      <SafeAreaView className="flex-1 bg-gray-50 dark:bg-gray-900">
+    <Screen safeAreaEdges={['top', 'left', 'right']}>
+      <View className="flex-1 bg-gray-50 dark:bg-gray-900">
         {/* 顶部导航栏 */}
-        <View className="bg-white dark:bg-gray-800 px-4 py-3 border-b border-gray-200 dark:border-gray-700">
+        <View className="bg-white dark:bg-gray-800 px-4 py-3 border-b border-gray-200 dark:border-gray-700" style={{ paddingTop: insets.top > 0 ? 0 : 12 }}>
           <View className="flex-row items-center justify-between">
             <View className="flex-row items-center">
               <TouchableOpacity
@@ -572,7 +573,7 @@ export default function PracticeScreen() {
           </View>
         </View>
 
-        <ScrollView className="flex-1 p-4" contentContainerStyle={{ paddingBottom: 100 }}>
+        <ScrollView className="flex-1 p-4" contentContainerStyle={{ paddingBottom: Math.max(insets.bottom, 100) + 100 }}>
           {/* 题目类型标签 */}
           <View className="mb-4">
             <View className="bg-blue-100 dark:bg-blue-900/30 px-3 py-1 rounded-full self-start">
@@ -655,7 +656,7 @@ export default function PracticeScreen() {
         </ScrollView>
 
         {/* 底部导航栏 */}
-        <View className="absolute bottom-0 left-0 right-0 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 px-4 py-3">
+        <View className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 px-4 py-3" style={{ paddingBottom: Math.max(insets.bottom, 12) }}>
           <View className="flex-row items-center justify-between">
             <TouchableOpacity
               onPress={handlePrev}
@@ -715,7 +716,7 @@ export default function PracticeScreen() {
             </TouchableOpacity>
           </View>
         </View>
-      </SafeAreaView>
+      </View>
     </Screen>
   );
 }
