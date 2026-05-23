@@ -198,7 +198,6 @@ export default function PracticeScreen() {
         { text: '取消', style: 'cancel' },
         { text: '确定', onPress: () => {
           setCurrentIndex(0);
-          setSubmittedAnswers({});
           fetchQuestions();
         }},
       ]
@@ -260,7 +259,13 @@ export default function PracticeScreen() {
     return (
       <View className="mt-4 space-y-3">
         {currentQuestion.options.map((option, index) => {
-          const isSelected = selectedAnswer === index;
+          const isMulti = currentQuestion.type === 'multiple';
+          const selectedIndexes = isMulti && Array.isArray(selectedAnswer) 
+            ? selectedAnswer.map(a => a.charCodeAt(0) - 65)
+            : [];
+          const isSelected = isMulti 
+            ? selectedIndexes.includes(index)
+            : (selectedAnswer !== null && !Array.isArray(selectedAnswer) && selectedAnswer !== '' && index === Number(selectedAnswer));
           const isCorrectAnswer = currentQuestion.answer === getOptionLabel(index);
           let bgClass = 'bg-white dark:bg-gray-800';
           let borderClass = 'border-gray-200 dark:border-gray-700';
@@ -281,7 +286,7 @@ export default function PracticeScreen() {
           return (
             <TouchableOpacity
               key={index}
-              onPress={() => handleOptionSelect(index)}
+              onPress={() => handleOptionSelect(getOptionLabel(index))}
               disabled={isSubmitted}
               className={`p-4 rounded-xl border-2 ${borderClass} ${bgClass} ${isSubmitted ? 'opacity-80' : ''}`}
             >

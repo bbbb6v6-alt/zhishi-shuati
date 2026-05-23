@@ -42,12 +42,19 @@ export default function HomeScreen() {
     }, [])
   );
 
+  const [selectedType, setSelectedType] = useState('judgment');
+
   const handlePractice = (type: string) => {
+    setSelectedType(type);
     router.push('/practice', { type });
   };
 
   const handleWrong = () => {
     router.push('/wrong');
+  };
+
+  const handleRefresh = (type: string) => {
+    router.push('/practice', { type, refresh: 'true' });
   };
 
   if (loading) {
@@ -254,7 +261,7 @@ export default function HomeScreen() {
         {/* 刷新重做按钮 */}
         <TouchableOpacity 
           className="bg-[#FEF2F2] rounded-2xl p-4 mb-6 shadow-sm border-2 border-[#FECACA]"
-          onPress={handleRefresh}
+          onPress={() => handleRefresh(selectedType)}
           activeOpacity={0.8}
         >
           <View className="flex-row items-center justify-center">
