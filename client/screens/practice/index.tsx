@@ -69,7 +69,7 @@ export default function PracticeScreen() {
     } finally {
       setIsLoading(false);
     }
-  }, [questionType, type]);
+  }, [questionType]);
 
   useFocusEffect(
     useCallback(() => {
@@ -197,6 +197,12 @@ export default function PracticeScreen() {
   };
 
   // 选择题选项点击
+  // 获取单选题的选项键（如 'A'）根据索引
+  const getOptionKeyByIndex = (index: number): string => {
+    return String.fromCharCode(65 + index); // 0 -> 'A', 1 -> 'B', etc.
+  };
+
+  // 单选题选项点击
   const handleOptionSelect = (index: number) => {
     if (isSubmitted) return;
     setSelectedAnswer(index);
