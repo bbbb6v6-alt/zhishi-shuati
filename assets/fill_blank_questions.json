@@ -1,0 +1,1269 @@
+[
+  {
+    "type": "fill_blank",
+    "question": "____的中国工人、农民、军人、知识分子和其他阶 层的先进分子，承认党的纲领和章程，愿意参加党的一个组织 并在其中积极工作、执行党的决议和按期交纳党费的，可以申 请加入中国共产党。",
+    "answer": "年满十八岁",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "发展党员，必须经过党的支部，坚持____ 的原则。",
+    "answer": "个别吸收",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员的预备期一般为____ 。",
+    "answer": "一年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员的____与正式党员一样。预备党员的(权利)除了 没有(表决权)、(选举权)和被(选举权)以外，也同正式党员一 样。",
+    "answer": "义务、权利、表决权、选举权、被选举权",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "申请入党的人，要有____正式党员作介绍人。",
+    "answer": "1-2名",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的最高理想和最终目标是____。",
+    "answer": "实现共产主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的基本宗旨是____ 。",
+    "answer": "全心全意为人民服务",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的中央委员会每届任期____年。",
+    "answer": "五年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的纪律处分由轻到重分别是____、(严重警告)、(撤销党 内职务)、(留党察看)、(开除党籍) 。",
+    "answer": "警告、严重警告、撤销党内职务、留党察看、开除党籍",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "留党察看的期限最长不超过____年。",
+    "answer": "2",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "对党员的纪律处分，必须经过____讨论决定，报党的 基层委员会批准。",
+    "answer": "支部大会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党是根据自己的____，按照(民主集中制) 原则组织起来的统一整体。",
+    "answer": "纲领和章程、民主集中制",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员预备期满必须由____向(党支部)提出转正申 请。",
+    "answer": "考察人、党支部",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "端正____是争取入党的首要问题。",
+    "answer": "入党动机",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "申请入党的人，要填写入党志愿书，要有____ 作介绍人，要经过支部大会通过和上级党组织批准，并且经过 预备期的考察，才能成为正式党员。",
+    "answer": "两名正式党员",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员预备期满时，应由____主动向党组织提出转为 正式党员的申请。",
+    "answer": "本人",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员预备期满时，需要继续考察和教育的，可以延长预 备期，但不能超过____ 。",
+    "answer": "一年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员转为正式党员，或延长预备期，或取消预备党员资 格，都应当经____ 。",
+    "answer": "支部大会讨论通过和上级党组织批准",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员的预备期，从____他为预备党员之日算 起。",
+    "answer": "支部大会通过",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "共产党员的党龄，从____之日算起。",
+    "answer": "预备期满转为正式党员",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的各级委员会实行____的 制度。",
+    "answer": "集体领导和个人分工负责相结合",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的纪律处分有____。",
+    "answer": "警告、严重警告、撤销党内职务、留党察看、开除党籍",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是党内的最高处分。",
+    "answer": "开除党籍",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "对党员的纪律处分，必须经过____讨论决定，报党 的(基层委员会) 批准。",
+    "answer": "支部大会、基层委员会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党党徽为____组成的图案。",
+    "answer": "镰刀和锤头",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党党旗为旗面缀有____的红旗。",
+    "answer": "金黄色党徽图案",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "国际歌的曲作者是____，词作者是(欧仁·鲍狄 埃)。",
+    "answer": "比尔·狄盖特、欧仁·鲍狄埃",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的中央组织是党的最高领导机关，负责领导全党的各项工 作。包括党的____以及由它选举产生的(中央委 员会)和(中央纪律检查委员会)。",
+    "answer": "全国代表大会、中央委员会、中央纪律检查委员会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党组织讨论决定问题，必须执行____的原则。",
+    "answer": "少数服从多数",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "各基层单位，凡是有正式党员____以上，都应当成立党的 基层组织。",
+    "answer": "3人",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的各级代表大会代表实行____。",
+    "answer": "任期制",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的中央和省、自治区、直辖市委员会实行____。",
+    "answer": "巡视制度",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《中国共产党章程》明确规定，中国共产党以马克思列宁主 义、毛泽东思想、邓小平理论、“三个代表”重要思想和科学 发展观、____作为自己的行 动指南。",
+    "answer": "习近平新时代中国特色社会主义思想",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《中国共产党章程》明确，必须坚持____的发展 思想，坚持创新、协调、绿色、开放、共享的新发展理念。",
+    "answer": "以人民为中心",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《中国共产党章程》总纲指出，要充分发挥____作为 第一生产力的作用，充分发挥创新作为引领发展第一动力的作 用。",
+    "answer": "科学技术",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党诞生于____年。中国共产党第一次党的全国代 表大会于那年的7月23日至8月初在上海法租界望志路举行。最 后一天的会议改在(浙江嘉兴南湖)的游船上举行。",
+    "answer": "1921、浙江嘉兴南湖",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1934年10月，中央红军撤出中央根据地，进行____，(1936年)红军三大主力会师，历时两年 的长征，最后以(共产党和红军)的胜利而宣告结束。",
+    "answer": "战略转移、长征、1936、共产党和红军",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1934年10月中旬，中央机关和中央红军8万多人撤离中央苏 区，踏上向西突围的征程，长征开始。1936年三大红军主力在 ____会师，顺利完成长征。",
+    "answer": "陕北",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1934年10月中旬，中央机关和中央红军8万多人撤离____，踏上向西突围的征程，伟大的长征开始。",
+    "answer": "中央苏区",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1935年1月15日至17日中共中央在贵州召开的____是 党的历史上一个生死攸关的转折点，它标志着中国共产党在政 治上的成熟。",
+    "answer": "遵义会议",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中共六大1928年6月8日至7月1日在____召开。",
+    "answer": "莫斯科",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的七大的主要功绩之一是确立了____在全党的指 导地位。",
+    "answer": "毛泽东思想",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "社会主义初级阶段从时间上说开始于____年。",
+    "answer": "1956",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1978年5月11日，《《光明日报》刊登了____的特约评论员文章。",
+    "answer": "《实践是检验真理的唯一标准》",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1978年12月，中共____全会在(北京)召开，作出 了把党和国家工作重点转移到(社会主义现代化建设)上来和 (实行改革开放)的战略决策。",
+    "answer": "十一届三中、北京、社会主义现代化建设、实行改革开放",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1987年10月，党的十三大召开，比较系统地阐述了关于____的理论。",
+    "answer": "社会主义初级阶段",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的____完整地概括了党在社会主义初级阶段的基本路 线。",
+    "answer": "十三大",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "江泽民在党的____上提出了社会主义初级阶段的基本 纲领。",
+    "answer": "十五大",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2007年10月党的十七大报告提出了____的重大命题。",
+    "answer": "中国特色社会主义理论体系",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是中国特色社会主义的初始阶段。",
+    "answer": "社会主义初级阶段",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是党的根本组织制度。",
+    "answer": "民主集中制",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "四项基本原则是坚持（社会主义道路）、坚持____、坚持(党的领导)、坚持(马克思列宁主义、毛泽东思想)。",
+    "answer": "社会主义道路、人民民主专政、党的领导、马克思列宁主义、毛泽东思想",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国特色社会主义进入新时代，在现阶段，我国社会的主要 矛盾是____和(不平衡不充分的发展) 之间的矛盾。",
+    "answer": "人民日益增长的美好生活需要、不平衡不充分的发展",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我国社会主义基本经济制度是____ 。",
+    "answer": "以公有制为主体、多种所有制经济共同发展",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我国社会的分配制度是____。",
+    "answer": "按劳分配为主体、多种分配方式并存",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我国社会主义的根本政治制度是____。",
+    "answer": "人民代表大会制度",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____、(坚持人民民主专政)、(坚持中国共 产党的领导)、(坚持马克思列宁主义毛泽东思想)这四项基本原 则，是我们的立国之本。",
+    "answer": "坚持社会主义道路、坚持人民民主专政、坚持中国共产党的领导、坚持马克思列宁主义毛泽东思想",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党领导人民发展社会主义民主政治。坚持____、(人民当家作主)、(依法治国)有机统一，走中国特色社会 主义政治发展道路。",
+    "answer": "党的领导、人民当家作主、依法治国",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "必须坚定不移走中国特色社会主义政治发展道路，坚持____、人民当家作主、依法治国有机统一。",
+    "answer": "党的领导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "必须按照中国特色社会主义事业总体布局，全面推进经济建 设、政治建设、文化建设、社会建设、____建设。",
+    "answer": "生态文明",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "(党的政治建设）作为党的根本性建设，决定党的建设方向和 效果，事关统揽推进伟大斗争、伟大工程、伟大事业、伟大梦 想。",
+    "answer": "党的政治建设",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2019年10月28日至31日召开的____审议通 过了《中共中央关于坚持和完善中国特色社会主义制度、推进 国家治理体系和治理能力现代化若干重大问题的决定》。",
+    "answer": "党的十九届四中全会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是中国特色社会主义最本质的特征，是 中国特色社会主义制度的最大优势，党是最高政治领导力量。 新的征程上，我们必须紧紧依靠人民创造历史，坚持全心全意 170 为人民服务的根本宗旨，站稳人民立场，贯彻党的群众路线。",
+    "answer": "中国共产党领导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党为什么能，中国特色社会主义为什么好，归根到 底是因为____ 。",
+    "answer": "马克思主义行",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的十九届六中全会认为，总结党的百年奋斗重大成就和历 史经验，是在建党百年历史条件下开启全面建设____新征程、在新时代坚持和发展中国特色社会主义的需 要。",
+    "answer": "社会主义现代化国家",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党第十九届中央委员会第六次全体会议，于____在北京举行。",
+    "answer": "2021年11月8日至11日",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的十九届六中全会听取和讨论了____委 托作的工作报告。",
+    "answer": "习近平受中央政治局",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的十九届六中全会审议通过了（《中共中央关于党的百年 奋斗重大成就和历史经验的决议》《关于召开党的第二十次全 国代表大会的决议》）。",
+    "answer": "《中共中央关于党的百年奋斗重大成就和历史经验的决议》《关于召开党的第二十次全国代表大会的决议》",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的十九届六中全会充分肯定党的____以来中 央政治局的工作。",
+    "answer": "十九届五中全会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党自一九二一年成立以来，始终坚持____理 想和(社会主义)信念，团结带领全国各族人民为争取民族独 立、人民解放和实现国家富强、人民幸福而不懈奋斗，已经走 过一百年光辉历程。",
+    "answer": "共产主义、社会主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国产生了共产党，这是开天辟地的大事变，深刻改变了近 代以后____发展的方向和进程，深刻改变了(中国人民 和中华民族)的前途和命运，深刻改变了(世界)发展的趋势和 格局。",
+    "answer": "中华民族、中国人民和中华民族、世界",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2021年7月1日，习近平在庆祝中国共产党成立100周年大会上强 调，勇于____是中国共产党区别于其他政党的显著标志。",
+    "answer": "自我革命",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的百年奋斗开辟了实现中华民族伟大复兴的正确道路， 中国仅用几十年时间就走完发达国家几百年走过的工业化历 程，创造了经济快速发展和____两大奇迹。",
+    "answer": "社会长期稳定",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是我们立党立国的根本指导思想，是我们党 的灵魂和旗帜。",
+    "answer": "马克思主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "一百年来，中国共产党弘扬____精神，在长期奋斗 中构建起中国共产党人的精神谱系，锤炼出鲜明的政治品格。",
+    "answer": "伟大建党",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的宗旨是____。",
+    "answer": "全心全意为人民服务",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的组织原则是____。",
+    "answer": "民主集中制",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的最高理想和最终目标是____。",
+    "answer": "实现共产主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "保持党的团结统一，要求全党必须做到____。",
+    "answer": "对党忠诚",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的成就和贡献，不仅是____，也是(世界 性的)。",
+    "answer": "历史性的、世界性的",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的历史自信，既是对____，也是 对(奋斗精神的自信)。",
+    "answer": "奋斗成就的自信、奋斗精神的自信",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "被习近平总书记称为共产党人精神上的“钙”的是____。",
+    "answer": "理想信念",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "弘扬以伟大建党精神为源头的中国共产党人精神谱系，用好 红色资源，深入开展社会主义核心价值观宣传教育，深化____、集体主义、社会主义教育，着力培养担当民族复兴大 任的时代新人。",
+    "answer": "爱国主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党史学习教育的十六字明确要求是：____，(学史增 信)，(学史崇德)，(学史力行)。",
+    "answer": "学史明理、学史增信、学史崇德、学史力行",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是党最根本、最重要的纪律，遵守党的政治纪 律是遵守党的全部纪律的基础。",
+    "answer": "政治纪律",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2022年5月10日，庆祝中国共产主义青年团成立100周年大 会隆重举行。习近平强调，在新民主主义革命时期，共青团广 泛传播马克思主义，用先进思想启迪青年觉醒、凝聚青春力 量，团结带领广大团员青年踊跃投身反帝反封建的____、( 农民运动)、(学生运动)。",
+    "answer": "工人运动、农民运动、学生运动",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2022年5月10日，庆祝中国共产主义青年团成立100周年大 会隆重举行。习近平强调，在新民主主义革命时期，共青团积 极参加党领导的革命武装，在____、(抗日救亡)、(推 173 翻国民党反动统治)的伟大斗争中冲锋陷阵，展现出不怕牺牲、 浴血斗争的精神风貌。",
+    "answer": "打倒军阀、抗日救亡、推翻国民党反动统治",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十大主题是：高举中国特色社会主义伟大旗帜，全 面贯彻新时代中国特色社会主义思想，弘扬伟大建党精神，自 信自强、守正创新，踔厉奋发、勇毅前行，为全面建设____、全面推进(中华民族伟大复兴)而团结奋斗。",
+    "answer": "社会主义现代化国家、中华民族伟大复兴",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党第二十次全国代表大会，是在全党全国各族人民 迈上全面建设社会主义现代化国家新征程、向____ 奋 斗目标进军的关键时刻召开的一次十分重要的大会。",
+    "answer": "第二个百年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "十年来，我们经历了对党和人民事业具有重大现实意义和 深远历史意义的三件大事：一是____，二是(中国特色社会主义进入新时代)，三是(完成脱贫攻 坚、全面建成小康社会的历史任务，实现第一个百年奋斗目 标)。",
+    "answer": "迎来中国共产党成立一百周年、中国特色社会主义进入新时代、完成脱贫攻坚、全面建成小康社会的历史任务，实现第一个百年奋斗目标",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "实践告诉我们，中国共产党为什么能，中国特色社会主义为 什么好，归根到底是____，是(中国化时代化的马克 思主义行) 。",
+    "answer": "马克思主义行、中国化时代化的马克思主义行",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "要健全____制度体系，扩大人民有序政治参与， 保证人民依法实行民主选举、民主协商、民主决策、民主管 理、民主监督。",
+    "answer": "人民当家作主",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持法治国家、法治政府、____一体建设，全面推 进科学立法、严格执法、公正司法、全民守法，全面推进国家 各方面工作法治化。",
+    "answer": "法治社会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持党对人民军队的____，坚持政治建军、改革强 军、科技强军、人才强军、依法治军。",
+    "answer": "绝对领导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我们要坚持____在意识形态领域指导地位的根本制 度。",
+    "answer": "马克思主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新时代十年的伟大变革，在党史、新中国史、改革开放史、 ____、中华民族发展史上具有里程碑意义。",
+    "answer": "社会主义发展史",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "“打虎”、____、(猎狐)多管齐下，反腐败斗争取得压 倒性胜利并全面巩固，消除了党、国家、军队内部存在的严重 隐患。",
+    "answer": "拍蝇、猎狐",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新时代十年的伟大变革，在党史、新中国史、改革开放史、 ____、中华民族发展史上具有里程碑意义。",
+    "answer": "社会主义发展史",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "开展了史无前例的反腐败斗争，以“ 得罪千百人、不负十 四亿”的使命担当祛疴治乱，不敢腐、____、(不想腐)一 体推进。",
+    "answer": "不能腐、不想腐",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "人民群众获得感、幸福感、安全感更加充实、更有保障、 更可持续，____取得新成效。",
+    "answer": "共同富裕",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持以____的发展思想。不断实现发展为了人 民、发展依靠人民、发展成果由人民共享，让现代化建设成果 更多更公平惠及全体人民。",
+    "answer": "以人民为中心",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新时代的伟大成就是____一道拼出来、干出来、奋 斗出来的！",
+    "answer": "党和人民",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是实现中华民族伟大复兴的必由之 路。",
+    "answer": "中国特色社会主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "拥有马克思主义科学理论指导是我们党坚定信仰信念、把 握历史主动的____。",
+    "answer": "根本所在",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "广大青年要坚定不移听党话、跟党走，怀抱梦想又脚踏实 地，敢想敢为又善作善成，立志做____、能吃 苦、肯奋斗的新时代好青年，让青春在全面建设社会主义现代 化国家的火热实践中绽放绚丽之花。",
+    "answer": "有理想、敢担当",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国式现代化，是____领导的社会主义现代化， 既有各国现代化的共同特征，更有基于自己国情的中国特色。",
+    "answer": "中国共产党",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国坚持在____基础上同各国发展友好合 作，推动构建新型国际关系，深化拓展平等、开放、合作的全 球伙伴关系，致力于扩大同各国利益的汇合点。",
+    "answer": "和平共处五项原则",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国积极参与全球治理体系改革和建设，践行____的全球治理观，坚持真正的多边主义，推进国际关系民主 176 化，推动全球治理朝着更加公正合理的方向发展。",
+    "answer": "共商共建共享",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我国制造业规模、外汇储备稳居世界____",
+    "answer": "第一",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是坚持和发展中国特色社会主义的必 由之路。",
+    "answer": "坚持党的全面领导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持以____为中心的创作导向，推出更多增强人民精神 力量的优秀作品，培育造就大批德艺双馨的文学艺术家和规模 宏大的文化文艺人才队伍。",
+    "answer": "人民",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十大报告明确提出：“我们创立了新时代中国特色社 会主义思想，明确坚持和发展中国特色社会主义的基本方略，提 出一系列治国理政新理念新思想新战略，实现了马克思主义____新的飞跃。”",
+    "answer": "中国化、时代化",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我们必须增强____，坚持(底线思维)，做到居安思 危、未雨绸缪，准备经受风高浪急甚至惊涛骇浪的重大考验。",
+    "answer": "忧患意识、底线思维",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "牢牢掌握____对意识形态工作领导权，全面落实意识形态 工作责任制，巩固壮大奋进新时代的主流思想舆论。",
+    "answer": "党",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持____在我国现代化建设全局中的核心地位。",
+    "answer": "创新",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新的征程上，我们必须坚持党的全面领导，不断完善党的 领导，增强____、坚定(“四个自信”)、做到(“两 个维护”），牢记“国之大者”，不断提高党科学执政、民主 177 执政、依法执政水平，充分发挥党总揽全局、协调各方的领导 核心作用！",
+    "answer": "“四个意识”、“四个自信”、“两个维护”",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新的征程上，我们必须坚持党的基本理论、基本路线、基 本方略，统筹推进经济建设，____，(社会建设)， (文化建设)，政治建设“五位一体”总体布局。",
+    "answer": "生态文明建设、社会建设、文化建设",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "解决台湾问题、实现祖国完全统一，是中国共产党矢志不 渝的历史任务，是全体中华儿女的共同愿望。要坚持____和(“九二共识”)，推进祖国和平统一进程。",
+    "answer": "一个中国原则、“九二共识”",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是中国共产党团结海内外全体中华儿女实 现中华民族伟大复兴的重要法宝。",
+    "answer": "爱国统一战线",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚定中国特色社会主义道路自信、理论自信、制度自信， 说到底就是要坚定____",
+    "answer": "文化自信",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "学校扎实开展校史校情教育，弘扬师大精神，光大优良传 统，“（知师大）、（懂师大）、（爱师大）、（为师大）、 （强师大）”的理念深入人心，激励全校师生同心同德、团结 奋斗，干事创业的精神面貌焕然一新。",
+    "answer": "知师大、懂师大、爱师大、为师大、强师大",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（加快建设教育强国）、（加快推进教育现代化），将是 未来一段时期内我国教育改革发展的主要任务。",
+    "answer": "加快建设教育强国、加快推进教育现代化",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持把强化区域协同融通作为着力点，沿江省市要坚持省 际共商、生态共治、全域共建、发展共享，增强区域（交通互联 178 性）、（政策统一性）、（规则一致性）、（执行协同性）， 稳步推进生态共同体和利益共同体建设，促进区域协调发展。 （优美的自然环境）本身就是乡村振兴的优质资源，要找到实现 生态价值转换的有效途径，让群众得到实实在在的好处。",
+    "answer": "互联性、政策统一性、规则一致性、执行协同性、优美的自然环境",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "乡村要振兴，关键是（把基层党组织建好、建强）。基层 党组织要成为群众致富的领路人，确保党的惠民政策落地见 效，真正成为战斗堡垒。",
+    "answer": "把基层党组织建好、建强",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "有序扩大民间投资市场准入，推进促进公平竞争的政策实 施，构建（亲清统一）的新型政商关系，促进民营经济健康发 展。",
+    "answer": "亲清统一",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持____、(质量兴农)、(绿色兴农)，把农业建设 成为大产业，加快建设农业强省",
+    "answer": "产业兴农、质量兴农、绿色兴农",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "根据新修订《中国共产党纪律处分条例》规定党纪处分决 定作出后，应当在一个月内向受处分党员所在党的基层组织中 的（全体党员及其本人宣布），是领导班子成员的还应当向所 在党组织领导班子宣布，并按照干部管理权限和组织关系将处 分决定材料归入受处分者档案。",
+    "answer": "全体党员及其本人宣布",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "通过网络、广播、电视、报刊、传单、书籍等，或者利用 讲座、论坛、报告会、座谈会等方式，公开发表坚持资产阶级 自由化立场、反对（四项基本原则），反对党的改革开放决策 的文章、演说、宣言、声明等的，给予开除党籍处分。",
+    "answer": "四项基本原则",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "根据新修订《中国共产党纪律处分条例》规定，在党内组 织秘密集团或者组织其他分裂党的活动的，给予（开除党籍） 处分。",
+    "answer": "开除党籍",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "参加秘密集团或者参加其他分裂党的活动的，给予（留党 察看或者开除党籍）处分。",
+    "answer": "留党察看或者开除党籍",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党员领导干部对违反政治纪律和政治规矩等错误思想和行 为（不报告、不抵制、不斗争），放任不管，搞无原则一团和 气，造成不良影响的，给予警告或者严重警告处分；情节严重 的，给予撤销党内职务或者留党察看处分。",
+    "answer": "不报告、不抵制、不斗争",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "根据新修订《中国共产党纪律处分条例》规定组织、参加 旨在反对（党的领导）、反对（社会主义制度）或者敌视政府 等组织的，对策划者、组织者和骨干分子，给予开除党籍处 分。",
+    "answer": "党的领导、社会主义制度",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "侵犯党员的____，情节较重的， 给予警告或者严重警告处分；情节严重的，给予撤销党内职务 处分。",
+    "answer": "表决权、选举权和被选举权",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党员干部必须正确行使（人民赋予的权力），清正廉洁， 反对特权思想和特权现象，反对任何滥用职权、谋求私利的行 为。",
+    "answer": "人民赋予的权力",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "根据新修订《中国共产党纪律处分条例》规定对涉及群众 生产、生活等切身利益的问题依照政策或者有关规定能解决而 180 不及时解决，庸懒无为、效率低下，造成不良影响，对（直接 责任者和领导责任者），情节较重的，给予警告或者严重警告 处分；情节严重的，给予撤销党内职务或者留党察看处分。",
+    "answer": "直接责任者和领导责任者",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "工作中不敢斗争、不愿担当，面对重大矛盾冲突、危机困 难临阵退缩，造成不良影响或者严重后果的，给予（警告或者 严重警告）处分；情节严重的，给予（撤销党内职务、留党察 看或者开除党籍）处分。",
+    "answer": "警告或者严重警告、撤销党内职务、留党察看或者开除党籍",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（党的纪律）是党的各级组织和全体党员必须遵守的行为 规则。",
+    "answer": "党的纪律",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "把（习近平新时代中国特色社会主义思想）的新发展写入 党章，作为全党全国人民的行动指南，这是新时代新征程上， 确保我们党坚定信仰信念、把握历史主动、实现民族复兴的根 本保障。",
+    "answer": "习近平新时代中国特色社会主义思想",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章强调实行（正确的集中），坚定维护以习近平同志为 核心的党中央权威和集中统一领导，保证全党的团结统一和行 动一致，保证党的决定得到迅速有效的贯彻执行。",
+    "answer": "正确的集中",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "把（全面建成社会主义现代化强国，分两步走）的总的战 略安排写入党章，即：到二〇三五年基本实现社会主义现代 化，到本世纪中叶把我国建成社会主义现代化强国。这凝聚起 全党全国各族人民共同奋斗的意志和力量，激励着全党全国人 民坚定信心、锐意进取。",
+    "answer": "全面建成社会主义现代化强国，分两步走",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中央八项规定（2012年12月4日）由中共中央政治局审议通 过。",
+    "answer": "2012年12月4日",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中央政治局全体同志要改进（调查研究），到基层调研要深 入了解真实情况，总结经验、研究问题、解决困难、指导工作。",
+    "answer": "调查研究",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "精简会议活动要求不铺设（迎宾地毯）、不摆放花草。",
+    "answer": "迎宾地毯",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "规范出访活动规定，一般不安排中资机构、（华侨华 人）、留学生代表等到机场迎送。",
+    "answer": "华侨华人",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "八项规定要求改进警卫工作，一般不得（封路）、不清场 闭馆。",
+    "answer": "封路",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "改进调查研究要求（轻车简从）、减少陪同、简化接待。",
+    "answer": "轻车简从",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中央政治局同志出席会议和活动应根据工作需要、新闻价 值、（社会效果）决定是否报道，进一步压缩报道的数量、字 数、时长。",
+    "answer": "社会效果",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "违反八项规定情节较轻的，可能面临（批评教育）、责令 检查或诫勉谈话。",
+    "answer": "批评教育",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中央政治局全体同志要改进调查研究，切忌走过场、搞 （形式主义）。",
+    "answer": "形式主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "群众可通过拨打（12388）纪检监察举报热线参与监督。",
+    "answer": "12388",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "要精简（文件简报），切实改进文风，没有实质内容、可 发可不发的文件、简报一律不发。",
+    "answer": "文件简报",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "深化基层减负要求整治“（指尖）上的形式主义”。",
+    "answer": "指尖",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "严格文稿发表规定，除中央统一安排外，个人不得公开出 版（著作）。",
+    "answer": "著作",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "公务接待中，接待对象在10人以内的，陪餐人数不得超过 （3）人。",
+    "answer": "3",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "厉行勤俭节约要求严格执行住房、（车辆配备）等有关工 作和生活待遇的规定。",
+    "answer": "车辆配备",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会由中央政治局主持，中央委员会总书 记（习近平）作了重要讲话。",
+    "answer": "习近平",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章规定，中国共产党代表中国先进生产力的发展要求， 代表中国先进文化的前进方向，代表（中国最广大人民的根本 利益）。",
+    "answer": "中国最广大人民的根本利益",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会指出，“十五五”时期经济社会发展 以（满足人民日益增长的美好生活需要）为根本目的。",
+    "answer": "满足人民日益增长的美好生活需要",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "习近平新时代中国特色社会主义思想是党和人民实践经验 183 和集体智慧的结晶，是（中国特色社会主义理论体系）的重要 组成部分。",
+    "answer": "中国特色社会主义理论体系",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会强调，要坚持（有效市场）和有为政 府相结合，推动经济社会高质量发展。",
+    "answer": "有效市场",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章规定，党的最大政治优势是（密切联系群众），党执 政后的最大危险是脱离群众。",
+    "answer": "密切联系群众",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会提出，要坚决破除阻碍（全国统一大 市场 ）建设卡点堵点，增强国内大循环内生动力。",
+    "answer": "全国统一大市场",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党人的初心和使命，就是为中国人民（谋幸 福），为中华民族谋复兴。",
+    "answer": "谋幸福",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会指出，要加快经济社会发展全面绿色 转型，建设（美丽中国）。",
+    "answer": "美丽中国",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章规定，坚持（改革开放），是我们的强国之路。",
+    "answer": "改革开放",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会强调，要推进国家安全体系和能力现 代化，建设（更高水平）平安中国。",
+    "answer": "更高水平",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十大报告指出，（坚持党的全面领导）是当代中国 发展进步的根本保证。",
+    "answer": "坚持党的全面领导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会提出，要扎实推进（全体人民共同富 裕），让全体人民共同富裕迈出坚实步伐。",
+    "answer": "全体人民共同富裕",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章规定，党的各级组织要按规定实行（党务公开），使 党员对党内事务有更多地了解和参与。",
+    "answer": "党务公开",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会指出，要如期实现（建军一百年）奋 斗目标，高质量推进国防和军队现代化。",
+    "answer": "建军一百年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（新质生产力）是生产力中创新最活跃、技术最前沿、前 景最广阔、影响最广泛的部分，代表生产力的演进方向。",
+    "answer": "新质生产力",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "“十五五”时期国防和军队现代化建设，一定要把（政治 建军）摆在首要位置。",
+    "answer": "政治建军",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "人民军队的生命力在于（战斗力）。",
+    "answer": "战斗力",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "推进军事治理现代化，持续深化政治整训，贯通抓好（整 顿思想）、（整顿用人）、（整顿组织）、（整顿作风）、 （整顿纪律），加强重点行业和领域整肃治理，实现政治上的正 本清源，巩固人民军队纯洁光荣。",
+    "answer": "整顿思想、整顿用人、整顿组织、整顿作风、整顿纪律",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（防灾减灾救灾）涉及经济、社会、生态等各个领域，既 是国家治理的首要任务，又是国家治理能力的重要体现。",
+    "answer": "防灾减灾救灾",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新时代以来，以习近平同志为核心的党中央高度重视（平 安中国建设），领导广大人民群众成功续写了经济快速发展和 社会长期稳定两大奇迹新篇章。 185 五、简答题",
+    "answer": "平安中国建设",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的性质是什么？ 答：中国共产党是中国工人阶级的先锋队，同时是中国人民和 中华民族的先锋队，是中国特色社会主义事业的领导核心，代 表中国先进生产力的发展要求，代表中国先进文化的前进方 向，代表中国最广大人民的根本利益。党的最高理想和最终目 标是实现共产主义。",
+    "answer": "ACD",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的指导思想是什么？ 答：中国共产党以马克思列宁主义、毛泽东思想、邓小平理 论、“三个代表”重要思想、科学发展观、习近平新时代中国 特色社会主义思想作为自己的行动指南。",
+    "answer": "ABD",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党在社会主义初级阶段的基本路线是什么？ 答：中国共产党在社会主义初级阶段的基本路线是：领导和团 结全国各族人民，以经济建设为中心，坚持四项基本原则、坚 持改革开放，自力更生，艰苦创业，为把我国建设成为富强、 民主、文明、和谐、美丽的社会主义现代化强国而奋斗。",
+    "answer": "BC",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的宗旨是什么？ 答：中国共产党的宗旨是全心全意为人民服务。",
+    "answer": "BC",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "四项基本原则的内容是什么？ 答：四项基本原则是指坚持社会主义道路、坚持人民民主专 政、坚持中国共产党的领导、坚持马克思列宁主义毛泽东思想 这四项基本原则，是我们的立国之本。在社会主义现代化建设的 整个过程中，必须坚持四项基本原则，反对资产阶级自由化。",
+    "answer": "AD",
+    "options": null,
+    "explanation": ""
+  }
+]

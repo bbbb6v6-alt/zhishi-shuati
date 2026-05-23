@@ -52,7 +52,7 @@ export default function PracticeScreen() {
   const fetchQuestions = useCallback(async (questionIds?: (number | string)[]) => {
     try {
       setIsLoading(true);
-      let url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&limit=100`;
+      let url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&limit=1000`;
       
       if (questionIds && questionIds.length > 0) {
         // 如果有指定的题目ID，按ID获取
@@ -136,6 +136,9 @@ export default function PracticeScreen() {
       
       // 记录做过的题目ID
       setDoneQuestionIds(prev => new Set([...prev, currentQuestion.id]));
+      
+      // 提交后自动获取AI智能解析
+      fetchAiExplanation();
     } catch (error) {
       console.error('提交失败:', error);
       Alert.alert('错误', '提交失败，请重试');
@@ -464,7 +467,7 @@ export default function PracticeScreen() {
     return (
       <View className="mt-4">
         {/* AI解析按钮 */}
-        {!showExplanation && !isSubmitted && (
+        {!showExplanation && (
           <TouchableOpacity
             onPress={fetchAiExplanation}
             disabled={loadingExplanation}
