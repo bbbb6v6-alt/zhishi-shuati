@@ -27,8 +27,9 @@ interface Question {
 
 export default function PracticeScreen() {
   const safeRouter = useSafeRouter();
-  const params = useSafeSearchParams<{ type?: string }>();
+  const params = useSafeSearchParams<{ type?: string; questionIds?: string }>();
   const questionType = params.type || 'judgment';
+  const initialQuestionIds = params.questionIds ? JSON.parse(params.questionIds) : null;
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -38,6 +39,7 @@ export default function PracticeScreen() {
   const [isCorrect, setIsCorrect] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
+  const [doneQuestionIds, setDoneQuestionIds] = useState<Set<number>>(new Set());
 
   // 智能解析相关
   const [aiExplanation, setAiExplanation] = useState<string | null>(null);
@@ -47,12 +49,17 @@ export default function PracticeScreen() {
   const currentQuestion = questions[currentIndex];
 
   // 获取题目列表
-  const fetchQuestions = useCallback(async () => {
+  const fetchQuestions = useCallback(async (questionIds?: (number | string)[]) => {
     try {
       setIsLoading(true);
-      const response = await fetch(
-        `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&limit=50`
-      );
+      let url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&limit=100`;
+      
+      if (questionIds && questionIds.length > 0) {
+        // 如果有指定的题目ID，按ID获取
+        url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&ids=${questionIds.join(',')}`;
+      }
+      
+      const response = await fetch(url);
       const data = await response.json();
       if (data.success && data.data.length > 0) {
         setQuestions(data.data);
@@ -73,8 +80,13 @@ export default function PracticeScreen() {
 
   useFocusEffect(
     useCallback(() => {
-      fetchQuestions();
-    }, [fetchQuestions])
+      if (initialQuestionIds && initialQuestionIds.length > 0) {
+        // 从首页传来的已做过的题目，重新做这些题
+        fetchQuestions(initialQuestionIds);
+      } else {
+        fetchQuestions();
+      }
+    }, [fetchQuestions, initialQuestionIds])
   );
 
   // 提交答案
@@ -121,6 +133,9 @@ export default function PracticeScreen() {
       const data = await response.json();
       setIsSubmitted(true);
       setIsCorrect(data.data?.isCorrect || false);
+      
+      // 记录做过的题目ID
+      setDoneQuestionIds(prev => new Set([...prev, currentQuestion.id]));
     } catch (error) {
       console.error('提交失败:', error);
       Alert.alert('错误', '提交失败，请重试');
@@ -181,7 +196,11 @@ export default function PracticeScreen() {
       '确定要重新开始吗？所有进度将清除。',
       [
         { text: '取消', style: 'cancel' },
-        { text: '确定', onPress: fetchQuestions },
+        { text: '确定', onPress: () => {
+          setCurrentIndex(0);
+          setSubmittedAnswers({});
+          fetchQuestions();
+        }},
       ]
     );
   };
@@ -203,9 +222,9 @@ export default function PracticeScreen() {
   };
 
   // 单选题选项点击
-  const handleOptionSelect = (index: number) => {
+  const handleOptionSelect = (optionKey: string) => {
     if (isSubmitted) return;
-    setSelectedAnswer(index);
+    setSelectedAnswer(optionKey);
   };
 
   // 多选题选项点击

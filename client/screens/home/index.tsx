@@ -250,6 +250,20 @@ export default function HomeScreen() {
         </View>
 
         <View className="h-8" />
+
+        {/* 刷新重做按钮 */}
+        <TouchableOpacity 
+          className="bg-[#FEF2F2] rounded-2xl p-4 mb-6 shadow-sm border-2 border-[#FECACA]"
+          onPress={handleRefresh}
+          activeOpacity={0.8}
+        >
+          <View className="flex-row items-center justify-center">
+            <View className="w-10 h-10 rounded-full bg-[#FEE2E2] items-center justify-center mr-3">
+              <FontAwesome6 name="rotate-right" size={20} color="#DC2626" />
+            </View>
+            <Text className="text-base font-bold text-[#DC2626]">刷新重做</Text>
+          </View>
+        </TouchableOpacity>
       </ScrollView>
     </Screen>
   );

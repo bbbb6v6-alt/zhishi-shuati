@@ -35,22 +35,33 @@ router.post('/batch', async (req, res) => {
   }
 });
 
-// 获取所有题目（支持按类型筛选）
+// 获取所有题目（支持按类型筛选和按ID列表获取）
 router.get('/', async (req, res) => {
   try {
     const client = getSupabaseClient();
-    const { type, limit, offset } = req.query;
+    const { type, limit, offset, ids } = req.query;
     
     let query = client.from('questions').select('*');
     
-    if (type && type !== 'all') {
+    if (ids) {
+      // 按ID列表获取，支持 ids=1,2,3 或 ids[0]=1&ids[1]=2 两种格式
+      let idList: number[] = [];
+      if (Array.isArray(ids)) {
+        idList = ids.map(id => parseInt(String(id).trim())).filter(id => !isNaN(id));
+      } else {
+        idList = String(ids).split(',').map(id => parseInt(id.trim())).filter(id => !isNaN(id));
+      }
+      if (idList.length > 0) {
+        query = query.in('id', idList);
+      }
+    } else if (type && type !== 'all') {
       query = query.eq('type', type);
     }
     
     if (limit) {
       query = query.limit(parseInt(limit as string));
     }
-    if (offset) {
+    if (offset && !ids) {
       query = query.range(parseInt(offset as string), parseInt(offset as string) + (parseInt(limit as string) || 10) - 1);
     }
     
