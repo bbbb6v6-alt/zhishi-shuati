@@ -36,6 +36,7 @@ export default function WrongQuestionsScreen() {
   const [aiExplanation, setAiExplanation] = useState('');
   const [loadingExplanation, setLoadingExplanation] = useState(false);
   const [submittingAnswer, setSubmittingAnswer] = useState(false);
+  const [showQuestionPicker, setShowQuestionPicker] = useState(false);
 
   const fetchWrongQuestions = async () => {
     try {
@@ -378,12 +379,58 @@ export default function WrongQuestionsScreen() {
         </View>
 
         {/* Progress Bar */}
-        <View className="h-1 bg-gray-800 rounded-full mb-6">
+        <View className="h-1 bg-gray-800 rounded-full mb-3">
           <View 
             className="h-full bg-[#C41E3A] rounded-full transition-all"
             style={{ width: `${((currentIndex + 1) / wrongQuestions.length) * 100}%` }}
           />
         </View>
+
+        {/* Question Number Picker */}
+        <TouchableOpacity 
+          className="bg-gray-800/50 rounded-xl p-3 mb-4 flex-row items-center justify-between"
+          onPress={() => setShowQuestionPicker(!showQuestionPicker)}
+        >
+          <Text className="text-gray-300 text-sm">选择题号</Text>
+          <View className="flex-row items-center gap-2">
+            <Text className="text-[#C41E3A] font-semibold">第 {currentIndex + 1} 题</Text>
+            <FontAwesome6 
+              name={showQuestionPicker ? "chevron-up" : "chevron-down"} 
+              size={14} 
+              color="#9CA3AF" 
+            />
+          </View>
+        </TouchableOpacity>
+
+        {/* Question Picker Grid */}
+        {showQuestionPicker && (
+          <View className="bg-gray-800/80 rounded-xl p-3 mb-4 max-h-60">
+            <ScrollView showsVerticalScrollIndicator={false}>
+              <View className="flex-row flex-wrap gap-2">
+                {wrongQuestions.map((wq, idx) => (
+                  <TouchableOpacity
+                    key={wq.id}
+                    className={`w-10 h-10 rounded-lg items-center justify-center ${
+                      idx === currentIndex 
+                        ? 'bg-[#C41E3A]' 
+                        : 'bg-gray-700'
+                    }`}
+                    onPress={() => {
+                      setCurrentIndex(idx);
+                      setShowQuestionPicker(false);
+                    }}
+                  >
+                    <Text className={`text-sm font-medium ${
+                      idx === currentIndex ? 'text-white' : 'text-gray-300'
+                    }`}>
+                      {idx + 1}
+                    </Text>
+                  </TouchableOpacity>
+                ))}
+              </View>
+            </ScrollView>
+          </View>
+        )}
 
         {/* Question */}
         <View className="bg-gray-800/50 rounded-2xl p-5 mb-4">
