@@ -1,9 +1,10 @@
-import React, { useState, useCallback } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView, ActivityIndicator, Alert } from 'react-native';
+import React, { useState, useCallback, useEffect } from 'react';
+import { View, Text, TouchableOpacity, ScrollView, ActivityIndicator, TextInput, Alert } from 'react-native';
 import { Screen } from '@/components/Screen';
 import { useSafeRouter } from '@/hooks/useSafeRouter';
 import { useFocusEffect } from 'expo-router';
 import { FontAwesome6 } from '@expo/vector-icons';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const EXPO_PUBLIC_BACKEND_BASE_URL = process.env.EXPO_PUBLIC_BACKEND_BASE_URL || 'http://localhost:9091';
 
@@ -24,9 +25,17 @@ interface WrongQuestion {
 
 export default function WrongQuestionsScreen() {
   const router = useSafeRouter();
+  const insets = useSafeAreaInsets();
   const [wrongQuestions, setWrongQuestions] = useState<WrongQuestion[]>([]);
   const [loading, setLoading] = useState(true);
-  const [expandedId, setExpandedId] = useState<number | null>(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<any>(null);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isCorrect, setIsCorrect] = useState(false);
+  const [fillBlankInput, setFillBlankInput] = useState('');
+  const [aiExplanation, setAiExplanation] = useState('');
+  const [loadingExplanation, setLoadingExplanation] = useState(false);
+  const [submittingAnswer, setSubmittingAnswer] = useState(false);
 
   const fetchWrongQuestions = async () => {
     try {
@@ -49,57 +58,153 @@ export default function WrongQuestionsScreen() {
     }, [])
   );
 
-  const handleClearAll = () => {
-    Alert.alert(
-      '清空错题',
-      '确定要清空所有错题记录吗？',
-      [
-        { text: '取消', style: 'cancel' },
-        {
-          text: '确定',
-          style: 'destructive',
-          onPress: async () => {
-            try {
-              const response = await fetch(`${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions/wrong/clear`, {
-                method: 'DELETE',
-              });
-              const data = await response.json();
-              if (data.success) {
-                setWrongQuestions([]);
-              }
-            } catch (error) {
-              console.error('Failed to clear wrong questions:', error);
-            }
-          },
-        },
-      ]
-    );
+  useEffect(() => {
+    // 重置状态当题目改变时
+    setSelectedAnswer(null);
+    setIsSubmitted(false);
+    setIsCorrect(false);
+    setFillBlankInput('');
+    setAiExplanation('');
+  }, [currentIndex]);
+
+  const currentQuestion = wrongQuestions[currentIndex];
+
+  const handleOptionSelect = (optionKey: string) => {
+    if (isSubmitted) return;
+    setSelectedAnswer(optionKey);
   };
 
-  const handleDeleteOne = async (id: number) => {
-    try {
-      const response = await fetch(`${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions/wrong/${id}`, {
-        method: 'DELETE',
-      });
-      const data = await response.json();
-      if (data.success) {
-        setWrongQuestions(wrongQuestions.filter(q => q.id !== id));
+  const checkAnswer = (userAnswer: any, correctAnswer: any, type: string): boolean => {
+    if (type === 'fill_blank') {
+      // 填空题模糊匹配
+      const normalize = (s: string) => s.trim().replace(/\s+/g, '');
+      const userAns = normalize(userAnswer);
+      const correctAns = normalize(correctAnswer);
+      return userAns.includes(correctAns) || correctAns.includes(userAns);
+    }
+    if (type === 'judgment') {
+      // 判断题：true/false 比较
+      const userVal = userAnswer === 'true' || userAnswer === true;
+      const correctVal = correctAnswer === 'true' || correctAnswer === true || correctAnswer === '对';
+      return userVal === correctVal;
+    }
+    if (type === 'choice' || type === 'multi_choice') {
+      // 选择题：直接比较字符串
+      const normalizedUser = String(userAnswer).toUpperCase();
+      const normalizedCorrect = String(correctAnswer).toUpperCase();
+      return normalizedUser === normalizedCorrect;
+    }
+    return String(userAnswer) === String(correctAnswer);
+  };
+
+  const handleSubmit = async () => {
+    if (!currentQuestion || !currentQuestion.question) return;
+
+    let userAnswer = selectedAnswer;
+    const type = currentQuestion.question.type;
+
+    // 填空题处理
+    if (type === 'fill_blank') {
+      userAnswer = fillBlankInput.trim();
+      if (!userAnswer) {
+        Alert.alert('提示', '请输入答案');
+        return;
       }
-    } catch (error) {
-      console.error('Failed to delete wrong question:', error);
+    }
+
+    if (type !== 'judgment' && !userAnswer) {
+      Alert.alert('提示', '请选择一个选项');
+      return;
+    }
+
+    setSubmittingAnswer(true);
+    setIsSubmitted(true);
+
+    const correctAnswer = currentQuestion.question.answer;
+    const correct = checkAnswer(userAnswer, correctAnswer, type);
+    setIsCorrect(correct);
+
+    // 如果答对了，从错题列表中移除
+    if (correct) {
+      try {
+        await fetch(`${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions/wrong/${currentQuestion.id}`, {
+          method: 'DELETE',
+        });
+        // 从列表中移除
+        const newList = wrongQuestions.filter((_, idx) => idx !== currentIndex);
+        setWrongQuestions(newList);
+        // 如果还有题，调整索引
+        if (currentIndex >= newList.length && newList.length > 0) {
+          setCurrentIndex(newList.length - 1);
+        }
+      } catch (error) {
+        console.error('Failed to remove correct answer:', error);
+      }
+    }
+
+    setSubmittingAnswer(false);
+  };
+
+  const handlePrev = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
     }
   };
 
-  const handleRePractice = (questionId: number) => {
-    router.push('/practice', { type: 'wrong', questionId: questionId.toString() });
+  const handleNext = () => {
+    if (currentIndex < wrongQuestions.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
+  const handleRePractice = () => {
+    setCurrentIndex(0);
+    setSelectedAnswer(null);
+    setIsSubmitted(false);
+    setIsCorrect(false);
+    setFillBlankInput('');
+  };
+
+  const fetchAiExplanation = async () => {
+    if (!currentQuestion?.question) return;
+    setLoadingExplanation(true);
+    setAiExplanation('');
+    
+    try {
+      const response = await fetch(`${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/explain`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          questionId: currentQuestion.question.id,
+          question: currentQuestion.question.question,
+          answer: currentQuestion.question.answer,
+          type: currentQuestion.question.type,
+        }),
+      });
+      
+      const data = await response.json();
+      if (data.success && data.explanation) {
+        setAiExplanation(data.explanation);
+      } else if (data.explanation) {
+        setAiExplanation(data.explanation);
+      } else {
+        setAiExplanation('暂无解析');
+      }
+    } catch (error) {
+      console.error('Failed to fetch explanation:', error);
+      setAiExplanation('解析加载失败');
+    } finally {
+      setLoadingExplanation(false);
+    }
   };
 
   const getTypeLabel = (type: string) => {
     switch (type) {
       case 'judgment': return '判断题';
-      case 'choice': return '选择题';
-      case 'short_answer': return '简答题';
-      default: return type;
+      case 'choice': return '单选题';
+      case 'multi_choice': return '多选题';
+      case 'fill_blank': return '填空题';
+      default: return '选择题';
     }
   };
 
@@ -107,40 +212,122 @@ export default function WrongQuestionsScreen() {
     switch (type) {
       case 'judgment': return '#059669';
       case 'choice': return '#0EA5E9';
-      case 'short_answer': return '#D97706';
+      case 'multi_choice': return '#8B5CF6';
+      case 'fill_blank': return '#F59E0B';
       default: return '#6B7280';
     }
   };
 
-  const formatAnswer = (answer: any, type: string, options: string[] | null) => {
-    if (type === 'judgment') {
-      return answer ? '正确' : '错误';
-    }
-    if (type === 'choice' && options) {
-      if (Array.isArray(answer)) {
-        return answer.map((i: number) => String.fromCharCode(65 + i)).join('、');
-      }
-      return String.fromCharCode(65 + answer);
-    }
-    return String(answer || '未作答');
-  };
+  const renderOptions = () => {
+    if (!currentQuestion?.question) return null;
+    const { type, options, answer } = currentQuestion.question;
 
-  const formatCorrectAnswer = (answer: any, type: string, options: string[] | null) => {
+    // 填空题
+    if (type === 'fill_blank') {
+      return (
+        <View className="mt-4">
+          <Text className="text-gray-300 mb-2 font-medium">请输入答案：</Text>
+          <TextInput
+            className="bg-gray-800 text-white rounded-xl px-4 py-3 text-base border border-gray-700"
+            placeholder="输入你的答案"
+            placeholderTextColor="#6B7280"
+            value={fillBlankInput}
+            onChangeText={setFillBlankInput}
+            editable={!isSubmitted}
+          />
+        </View>
+      );
+    }
+
+    // 判断题
     if (type === 'judgment') {
-      return answer ? '正确' : '错误';
+      return (
+        <View className="mt-4 flex-row gap-3">
+          {['true', 'false'].map((option) => {
+            const isSelected = selectedAnswer === option;
+            const isCorrectOption = answer === option || answer === (option === 'true');
+            const isWrongSelection = isSelected && !isCorrectOption && isSubmitted;
+            const showCorrect = isSubmitted && isCorrectOption;
+
+            return (
+              <TouchableOpacity
+                key={option}
+                className={`flex-1 py-4 rounded-xl border-2 ${
+                  isSelected
+                    ? isWrongSelection
+                      ? 'border-red-500 bg-red-500/20'
+                      : showCorrect
+                      ? 'border-green-500 bg-green-500/20'
+                      : 'border-[#C41E3A] bg-[#C41E3A]/20'
+                    : 'border-gray-600 bg-gray-800/50'
+                }`}
+                onPress={() => handleOptionSelect(option)}
+                disabled={isSubmitted}
+              >
+                <Text className={`text-center font-semibold text-base ${
+                  isSelected ? 'text-white' : 'text-gray-300'
+                }`}>
+                  {option === 'true' ? '正确' : '错误'}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
+        </View>
+      );
     }
-    if (type === 'choice' && options) {
-      if (Array.isArray(answer)) {
-        return answer.map((i: number) => `${String.fromCharCode(65 + i)}. ${options[i]}`).join('、');
-      }
-      return `${String.fromCharCode(65 + answer)}. ${options[answer]}`;
+
+    // 选择题/多选题
+    if (options) {
+      return (
+        <View className="mt-4 gap-2">
+          {Object.entries(options).map(([key, value]) => {
+            const isMulti = type === 'multi_choice';
+            const selectedKeys = Array.isArray(selectedAnswer) ? selectedAnswer : selectedAnswer ? [selectedAnswer] : [];
+            const isSelected = selectedKeys.includes(key);
+            const isCorrectOption = Array.isArray(answer) ? answer.includes(key) : answer === key;
+            const isWrongSelection = isSelected && !isCorrectOption && isSubmitted;
+            const showCorrect = isSubmitted && isCorrectOption;
+
+            return (
+              <TouchableOpacity
+                key={key}
+                className={`flex-row items-center p-4 rounded-xl border-2 ${
+                  isSelected
+                    ? isWrongSelection
+                      ? 'border-red-500 bg-red-500/20'
+                      : showCorrect
+                      ? 'border-green-500 bg-green-500/20'
+                      : 'border-[#C41E3A] bg-[#C41E3A]/20'
+                    : 'border-gray-600 bg-gray-800/50'
+                }`}
+                onPress={() => handleOptionSelect(key)}
+                disabled={isSubmitted}
+              >
+                <View className={`w-8 h-8 rounded-full items-center justify-center mr-3 ${
+                  isSelected ? 'bg-[#C41E3A]' : 'bg-gray-700'
+                }`}>
+                  <Text className="text-white font-bold">{key}</Text>
+                </View>
+                <Text className="flex-1 text-gray-100 font-medium">{value as string}</Text>
+                {showCorrect && (
+                  <FontAwesome6 name="check-circle" size={20} color="#22C55E" />
+                )}
+                {isWrongSelection && (
+                  <FontAwesome6 name="times-circle" size={20} color="#EF4444" />
+                )}
+              </TouchableOpacity>
+            );
+          })}
+        </View>
+      );
     }
-    return String(answer);
+
+    return null;
   };
 
   if (loading) {
     return (
-      <Screen>
+      <Screen safeAreaEdges={['top']}>
         <View className="flex-1 items-center justify-center">
           <ActivityIndicator size="large" color="#C41E3A" />
         </View>
@@ -148,147 +335,168 @@ export default function WrongQuestionsScreen() {
     );
   }
 
-  return (
-    <Screen>
-      {/* Header */}
-      <View className="bg-white px-4 py-4 border-b border-gray-100">
-        <View className="flex-row items-center justify-between">
-          <TouchableOpacity onPress={() => router.back()}>
-            <Text className="text-[#C41E3A] text-base">← 返回</Text>
-          </TouchableOpacity>
-          <Text className="text-lg font-bold text-gray-800">错题集</Text>
-          {wrongQuestions.length > 0 && (
-            <TouchableOpacity onPress={handleClearAll}>
-              <Text className="text-[#DC2626] text-base">清空</Text>
-            </TouchableOpacity>
-          )}
-        </View>
-      </View>
-
-      {wrongQuestions.length === 0 ? (
+  // 错题做完了
+  if (wrongQuestions.length === 0) {
+    return (
+      <Screen safeAreaEdges={['top', 'bottom']}>
         <View className="flex-1 items-center justify-center px-6">
-          <View className="w-20 h-20 rounded-full bg-[#D1FAE5] items-center justify-center mb-4">
-            <FontAwesome6 name="circle-check" size={40} color="#059669" />
+          <View className="w-24 h-24 rounded-full bg-green-500/20 items-center justify-center mb-6">
+            <FontAwesome6 name="check" size={48} color="#22C55E" />
           </View>
-          <Text className="text-xl text-gray-600 font-bold">太棒了！</Text>
-          <Text className="text-gray-500 mt-2 text-center">
-            暂无错题记录{'\n'}继续保持，再接再厉！
-          </Text>
-          <TouchableOpacity 
-            className="mt-8 bg-[#C41E3A] px-8 py-3 rounded-xl"
+          <Text className="text-2xl font-bold text-white mb-2">太棒了！</Text>
+          <Text className="text-gray-400 text-center mb-8">你已经把错题全部做对了</Text>
+          <TouchableOpacity
+            className="bg-[#C41E3A] px-8 py-3 rounded-full"
             onPress={() => router.back()}
           >
-            <Text className="text-white font-bold">返回首页</Text>
+            <Text className="text-white font-semibold">返回</Text>
           </TouchableOpacity>
         </View>
-      ) : (
-        <ScrollView className="flex-1 px-4 py-4" showsVerticalScrollIndicator={false}>
-          {/* Stats */}
-          <View className="bg-white rounded-2xl p-4 mb-4 shadow-sm">
-            <View className="flex-row items-center">
-              <View className="w-12 h-12 rounded-full bg-[#FEE2E2] items-center justify-center mr-4">
-                <View className="w-12 h-12 rounded-full bg-[#FEE2E2] items-center justify-center mr-4">
-                <FontAwesome6 name="pencil" size={22} color="#DC2626" />
-              </View>
-              </View>
-              <View>
-                <Text className="text-lg font-bold text-gray-800">错题统计</Text>
-                <Text className="text-gray-500 text-sm mt-1">
-                  共 {wrongQuestions.length} 道错题待复习
-                </Text>
-              </View>
+      </Screen>
+    );
+  }
+
+  return (
+    <Screen safeAreaEdges={['top', 'bottom']}>
+      <ScrollView 
+        className="flex-1 px-4" 
+        contentContainerStyle={{ paddingBottom: insets.bottom + 80 }}
+        showsVerticalScrollIndicator={false}
+      >
+        {/* Header */}
+        <View className="flex-row items-center justify-between mb-4 mt-2">
+          <View className="flex-row items-center gap-2">
+            <View className="bg-[#C41E3A] px-3 py-1 rounded-full">
+              <Text className="text-white text-sm font-medium">
+                {getTypeLabel(currentQuestion.question?.type || 'choice')}
+              </Text>
             </View>
           </View>
+          <Text className="text-gray-400">
+            第 {currentIndex + 1} / {wrongQuestions.length} 题
+          </Text>
+        </View>
 
-          {/* Wrong Questions List */}
-          <Text className="text-base font-bold text-gray-800 mb-3">错题列表</Text>
-          {wrongQuestions.map((item) => (
-            <View 
-              key={item.id} 
-              className="bg-white rounded-2xl p-4 mb-3 shadow-sm overflow-hidden"
-            >
-              {/* Question Header */}
-              <TouchableOpacity
-                className="flex-row items-center justify-between"
-                onPress={() => setExpandedId(expandedId === item.id ? null : item.id)}
-                activeOpacity={0.8}
-              >
-                <View className="flex-1">
-                  <View className="flex-row items-center mb-2">
-                    <View 
-                      className="px-2 py-0.5 rounded mr-2"
-                      style={{ backgroundColor: getTypeColor(item.question?.type || '') + '20' }}
-                    >
-                      <Text 
-                        className="text-xs font-bold"
-                        style={{ color: getTypeColor(item.question?.type || '') }}
-                      >
-                        {getTypeLabel(item.question?.type || '')}
-                      </Text>
-                    </View>
-                  </View>
-                  <Text className="text-base text-gray-800 line-clamp-2" numberOfLines={2}>
-                    {item.question?.question || '题目已删除'}
-                  </Text>
-                </View>
-                <Text className="text-gray-400 text-xl ml-3">
-                  {expandedId === item.id ? '↑' : '↓'}
+        {/* Progress Bar */}
+        <View className="h-1 bg-gray-800 rounded-full mb-6">
+          <View 
+            className="h-full bg-[#C41E3A] rounded-full transition-all"
+            style={{ width: `${((currentIndex + 1) / wrongQuestions.length) * 100}%` }}
+          />
+        </View>
+
+        {/* Question */}
+        <View className="bg-gray-800/50 rounded-2xl p-5 mb-4">
+          <Text className="text-white text-lg leading-relaxed">
+            {currentQuestion.question?.question}
+          </Text>
+        </View>
+
+        {/* Options */}
+        {renderOptions()}
+
+        {/* Submit Button */}
+        {!isSubmitted && (
+          <TouchableOpacity
+            className="bg-[#C41E3A] py-4 rounded-xl mt-6"
+            onPress={handleSubmit}
+            disabled={submittingAnswer}
+          >
+            <Text className="text-white text-center font-bold text-lg">
+              {submittingAnswer ? '提交中...' : '提交答案'}
+            </Text>
+          </TouchableOpacity>
+        )}
+
+        {/* Result */}
+        {isSubmitted && (
+          <View className="mt-6">
+            {/* Result Banner */}
+            <View className={`p-4 rounded-xl mb-4 ${
+              isCorrect ? 'bg-green-500/20' : 'bg-red-500/20'
+            }`}>
+              <View className="flex-row items-center gap-3">
+                <FontAwesome6 
+                  name={isCorrect ? 'check-circle' : 'times-circle'} 
+                  size={24} 
+                  color={isCorrect ? '#22C55E' : '#EF4444'} 
+                />
+                <Text className={`text-lg font-bold ${isCorrect ? 'text-green-400' : 'text-red-400'}`}>
+                  {isCorrect ? '回答正确' : '回答错误'}
                 </Text>
-              </TouchableOpacity>
-
-              {/* Expanded Content */}
-              {expandedId === item.id && item.question && (
-                <View className="mt-4 pt-4 border-t border-gray-100">
-                  {/* User's Wrong Answer */}
-                  <View className="mb-3">
-                    <Text className="text-sm text-gray-500 mb-1">你的答案：</Text>
-                    <Text className="text-[#DC2626] font-medium">
-                      {formatAnswer(item.userAnswer, item.question.type, item.question.options)}
-                    </Text>
-                  </View>
-
-                  {/* Correct Answer */}
-                  <View className="mb-4">
-                    <Text className="text-sm text-gray-500 mb-1">正确答案：</Text>
-                    <Text className="text-[#059669] font-bold">
-                      {formatCorrectAnswer(item.question.answer, item.question.type, item.question.options)}
-                    </Text>
-                  </View>
-
-                  {/* Explanation */}
-                  <View className="mb-4 p-3 bg-[#FEF3C7] rounded-xl">
-                    <Text className="text-sm text-gray-600 mb-1">解析：</Text>
-                    <Text className="text-sm text-gray-700 leading-relaxed">
-                      {item.question.explanation}
-                    </Text>
-                  </View>
-
-                  {/* Actions */}
-                  <View className="flex-row justify-between">
-                    <TouchableOpacity
-                      className="px-4 py-2 rounded-lg border border-gray-200"
-                      onPress={() => handleDeleteOne(item.id)}
-                    >
-                      <Text className="text-gray-600 text-sm">移除</Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                      className="px-4 py-2 rounded-lg bg-[#C41E3A]"
-                      onPress={() => handleRePractice(item.questionId)}
-                    >
-                      <Text className="text-white text-sm font-bold">重新练习</Text>
-                    </TouchableOpacity>
-                  </View>
-                </View>
+              </View>
+              {!isCorrect && (
+                <Text className="text-gray-300 mt-2">
+                  正确答案: {currentQuestion.question?.answer}
+                </Text>
               )}
             </View>
-          ))}
-          <View className="h-8" />
-        </ScrollView>
-      )}
+
+            {/* AI 解析按钮 */}
+            {!aiExplanation && (
+              <TouchableOpacity
+                className="bg-purple-500/20 border border-purple-500 py-3 rounded-xl mb-4"
+                onPress={fetchAiExplanation}
+                disabled={loadingExplanation}
+              >
+                <View className="flex-row items-center justify-center gap-2">
+                  <FontAwesome6 name="lightbulb" size={18} color="#A855F7" />
+                  <Text className="text-purple-400 font-medium">
+                    {loadingExplanation ? '正在生成智能解析...' : '点击获取智能解析'}
+                  </Text>
+                </View>
+              </TouchableOpacity>
+            )}
+
+            {/* 解析内容 */}
+            {aiExplanation && (
+              <View className="bg-purple-500/10 border border-purple-500/30 rounded-xl p-4 mb-4">
+                <View className="flex-row items-center gap-2 mb-2">
+                  <FontAwesome6 name="brain" size={16} color="#A855F7" />
+                  <Text className="text-purple-400 font-semibold">智能解析</Text>
+                </View>
+                <Text className="text-gray-300 leading-relaxed">{aiExplanation}</Text>
+              </View>
+            )}
+
+            {/* 原有解析 */}
+            {currentQuestion.question?.explanation && (
+              <View className="bg-gray-800/50 rounded-xl p-4 mb-4">
+                <Text className="text-gray-400 font-medium mb-1">题目解析</Text>
+                <Text className="text-gray-300 leading-relaxed">
+                  {currentQuestion.question.explanation}
+                </Text>
+              </View>
+            )}
+          </View>
+        )}
+      </ScrollView>
+
+      {/* Bottom Navigation */}
+      <View 
+        className="absolute bottom-0 left-0 right-0 bg-gray-900/95 border-t border-gray-800 px-4 py-3"
+        style={{ paddingBottom: insets.bottom + 12 }}
+      >
+        <View className="flex-row gap-3">
+          <TouchableOpacity
+            className={`flex-1 py-3 rounded-xl border border-gray-600 ${
+              currentIndex === 0 ? 'opacity-40' : ''
+            }`}
+            onPress={handlePrev}
+            disabled={currentIndex === 0}
+          >
+            <Text className="text-gray-300 text-center font-medium">上一题</Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity
+            className="flex-1 py-3 rounded-xl bg-[#C41E3A]"
+            onPress={handleNext}
+            disabled={currentIndex === wrongQuestions.length - 1}
+          >
+            <Text className="text-white text-center font-medium">下一题</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
     </Screen>
   );
 }
-
-const styles = {
-  container: 'flex-1 bg-[#F5F5F5]',
-};
