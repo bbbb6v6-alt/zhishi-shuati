@@ -1,0 +1,4622 @@
+[
+  {
+    "type": "judgment",
+    "question": "中国共产党以马克思列宁主义、毛泽东思想、邓小平理论、“三 个代表”思想、科学发展观作为自己的行动指南。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党一经诞生，就把为中国人民谋幸福、为中华民族谋 复兴确立为自己的初心使命。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党党员永远是劳动人民的普通一员，除了法律和政策 规定范围内的个人利益和工作职权以外，所有共产党员都不得谋 求任何私利和特权。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党第二十次全国代表大会报告全名为《高举中国特色 社会主义伟大旗帜，为全面建设社会主义现代化国家而团结奋 斗》。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十大报告指出，要注重从青年、产业工人、农民、知识 分子中发展党员。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "人民当家作主是全过程人民民主的重要体现。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "接受党的教育和培训是党员的义务。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "根据新修订《中国共产党纪律处分条例》规定，对于违犯党纪 的党组织，上级党组织应当责令其作出书面检查、给予通报 批评或警告。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "根据新修订《中国共产党纪律处分条例》规定，对于严重违犯 党纪、本身又不能纠正的党组织，上一级党的委员会在查明核实 — 2 — 后，根据情节严重的程度，可以予以：（一）改组；（二）解散。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员有作风纪律方面的苗头性、倾向性问题或者违犯党纪情 节轻微的，可以给予谈话提醒、批评教育、责令检查等，给予党 纪处分。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "预备党员违犯党纪，情节较轻，可以保留预备党员资格的， 党组织应当对其批评教育或者延长预备期；情节较重的，应当取 消其预备党员资格。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党和国家事业之所以能够取得历史性成就、发生历史性变革， 续写“两大奇迹”新篇章，关键在党、关键在全面从严治党。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中共第二十届四中全会指出，“十五五”时期是基本实现社 会主义现代化夯实基础、全面发力的关键时期，在基本实现社会 主义现代化进程中具有奠定基础的重要地位。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中共二十届四中全会指出，建设强大国内市场，加快构建新 发展格局，要坚持扩大内需这个战略基点，坚持惠民生和促消费、 投资于物和投资于人紧密结合，以新需求引领新供给。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会于2025 年10 月在北京召开，主要议题 是审议通过“十四五”规划建议。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会审议通过的《建议》是指导未来五年我 国经济社会发展的纲领性文件。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会审议通过的《建议》编制背景是“十四 五”规划胜利完成，“十五五”是衔接“十四五”、开启新征程 的关键五年。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会审议通过的《建议》将“深化供给侧结 构性改革”作为“十五五”时期经济社会发展的主线。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会提出，要健全宏观经济治理体系，其核 心是更好发挥政府作用，强化经济监测预测预警。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会审议通过的《建议》提出，要实施国家 大数据战略，加快建设数字中国，其核心是推动数字技术全链条、 全周期、全要素与实体经济深度融合。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会要求，要协同推进降碳、减污、扩绿、 增长，其根本目的是推动经济社会发展全面绿色转型。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会审议通过的《建议》提出，要健全国家 安全体系，其重点领域包括经济安全、科技安全、国防安全、网 络安全等。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的基层委员会每届任期三年至五年。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员在留党察看期间，没有表决权、选举权和被选举权。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "端正入党动机是争取入党的首要问题。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "发展是我们党执政兴国的第一要务。必须坚持以群众为中心 的发展思想。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "发展新质生产力是全面建设社会主义现代化国家的首要任务。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员在任何时候任何情况下都不能违反党的纪律。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员有权向党负责地揭发、检举党的任何组织和任何党员， 不提倡实名举报。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党和人民的利益高于一切，个人利益应服从党和人民的利益。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党章是最根本的党内法规，是管党治党的总规矩。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员如果没有正当理由，连续六个月不交纳党费，就被认为 是自行脱党。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的最高领导机关是中央委员会。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "推进文化自信自强，必须坚持社会主义核心价值观在意识形 态领域的指导地位。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "社会主义的本质，是解放生产力发展生产力，消灭剥削，消 除两极分化，最终达到共同富裕。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "我国的社会主义初级阶段，是指从我国进入社会主义到基本 实现社会主义现代化整个历史阶段。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的七大确立毛泽东思想为党的指导思想。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党的初心和使命，就是消灭剥削、消除两极分化, 实现共同富裕。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "办好中国的事情,关键在党，关键在党要管党、从严治党。党 要管党必须从党内政治生活管起，从严治党必须从党内政治生活 严起。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "高质量发展是全面建设社会主义现代化国家的首要任务。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党是中国工人阶级的先锋队，同时是中国公民的先 锋队。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "预备党员的预备期为一年，义务同正式党员一样。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的最高理想和最终目标是实现社会主义。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的行动指南包括马克思列宁主义、毛泽东思想、邓小平理 论、“三个代表”重要思想、科学发展观、习近平新时代中国特 色社会主义思想。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的全国代表大会每五年举行一次，由中央委员会召集。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员只能向上级党组织提出请求、申诉和控告，不能向中央 提出。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的十八大以来，以习近平同志为主要代表的中国共产党人 坚持把马克思主义基本原理同中国具体实际相结合、同中华优秀 传统文化相结合、科学回答了新时代坚持和发展什么样的中国特 色社会主义、怎样坚持和发展中国特色社会主义等重大时代课题， 创立了习近平新时代中国特色社会主义思想。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "公平正义是中国特色社会主义的内在要求。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "共同富裕是中国特色社会主义的根本原则。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "社会主义协商民主是我国人民民主的重要形式。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "人民代表大会制度是保证人民当家作主的根本政治制度。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的思想路线是一切从实际出发，理论联系实际，实事求是， 在实践中检验真理和发展真理。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "习近平总书记在庆祝中国共产党成立100 周年大会上强调， 勇于自我批评是中国共产党区别于其他政党的显著标志。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "走自己的路，是党的全部理论和实践立足点，更是党百年奋 斗得出的历史结论。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党第十九届中央委员会第六次全体会议，于2021 年 11 月8 日至11 日在北京举行，全会审议通过了《中共中央关于 党的百年奋斗重大成就和历史经验的决议》。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "总结党的百年奋斗重大成就和历史经验是推进党的自我革命、 提高全党斗争本领和应对风险挑战能力、永葆党的生机活力、团 结带领全国各族人民为实现中华民族伟大复兴的中国梦而继续 奋斗的需要。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "为了拯救民族危亡，中国人民奋起反抗，仁人志士奔走呐喊， 太平天国运动、戊戌变法、义和团运动、辛亥革命接连而起，各 种救国方案轮番出台，但都以失败而告终。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的十九届六中全会提出，改革开放和社会主义现代化建设 新时期，党面临的主要任务是，继续探索中国建设社会主义的正 确道路，解放和发展社会生产力，使人民摆脱贫困、尽快富裕起 来，为实现中华民族伟大复兴提供充满新的活力的体制保证和快 速发展的物质条件。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“三个代表”重要思想是我们党的立党之本、执政之基、力 量之源。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "科学发展观的核心是以人为本。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的十八大把科学发展观确立为党必须长期坚持的指导思想。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十大报告指出，中国式现代化是人口规模巨大的现代 化。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十大报告提出的“三个务必”是指务必不忘初心、牢 记使命，务必谦虚谨慎、艰苦奋斗，务必敢于斗争、善于斗争。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的领导是全面的、系统的、整体的，必须全面、系统、整 体加以落实。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的最高领导机关是党的全国代表大会。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员可以对党的决议有不同意见，但在行动上必须坚决执行。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员不得信仰宗教，但可以参加宗教活动。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员有权在党的会议上批评党的任何组织和任何党员，不需 要任何依据。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "申请入党的人，必须年满十八岁。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "发展党员,必须把政治标准放在首位。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "入党介绍人必须由两名正式党员担任。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "预备党员可以担任党小组长。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员的党龄，从预备期满转为正式党员之日算起。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员缴纳党费的比例是固定的，所有党员都样。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员有退党的自由。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员在除了政治、法律和政策规定范围内的个人利益和工作 职权以外，不得谋求任何私利和特权。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员如果没有正当理由，连续三个月不参加党的组织生活， 就被认为是自行脱党。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的纪律处分有五种:警告、严重警告、撤销党内职务、留党 察看、开除党籍。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "留党察看最长不超过两年。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员受到开除党籍处分，五年内不得重新入党。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员领导干部必须参加双重组织生活会。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员不得公开发表同中央决定不一致的意见。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员在留党察看期间，没有发言权。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员领导干部应当编入党的一个支部、小组，参加党的组织 生活。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的基层组织应当监督党员领导干部，但无权监督普通党员。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的各级领导机关，对同下级组织有关的重要问题作出决定 时，在通常情况下，要征求下级组织的意见。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "入党介绍人一般由培养联系人担任，或由党组织指定，入党 介绍人不能由发展对象自己约请。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员的义务是党章赋予的，是健全党内政治生活的基本条件， 是贯彻执行党的路线、方针、政策，维护党的团结和统一的有力 保证。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员的权利，是指党员对党应尽的责任，是党对党员的基本 要求，是党员条件的具体化，也是衡量一个党员合格不合格的具 体标准。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "具有中国国籍的公民方可申请入党，外国国籍或无国籍的人 不能加入中国共产党。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "申请可分为口头申请和书面申请两种形式，一般是书面申请 形式，即入党申请书。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "如果党员不宜担任原任职务，可以免职或调动工作，这种处 理属于党纪处分。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期是2026 年至2030 年。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会指出，实现社会主义现代化是一个阶梯 式递进、不断发展进步的历史过程。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会指出，建设现代化产业体系要以虚拟经 济为核心支撑。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期加快高水平科技自立自强，要加强原始创新 和关键核心技术攻关。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期构建新发展格局的战略基点是扩大外需。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期加强重点领域国家安全建设，要以经济安全 为首要任务。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "如期实现建军一百年奋斗目标是“十五五”时期的重要任务。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期促进区域协调发展不包括促进东中西部协 调发展。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期加快发展文化产业，要推动文化建设数字化 赋能、信息化转型。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期经济社会发展必须要坚持有效市场和有为 政府相结合。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会指出，推进两岸关系和平发展要坚决打 击“台独”分裂势力。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期我国发展处于战略机遇和风险挑战并存、不 确定难预料因素增多的时期。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期经济社会发展坚持以政治建设为中心。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会提出，把解决好“三农”问题作为全党 工作重中之重。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会提出，建设现代化产业体系需保持制造 业合理比重。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会提出，加快经济社会发展全面绿色转型， 需以碳达峰碳中和为牵引。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会提出，扩大高水平对外开放需稳步扩大 商品型开放。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”规划建议提出深化主流媒体系统性变革，推进新 闻宣传和网络舆论一体化管理，以提高主流舆论引导能力。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期将继续实行基本养老保险省级统筹制度，暂 不推进基本养老保险全国统筹。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“十五五”时期推进雄安新区建设，将以快速扩张城市规模 为核心目标，打造区域增长极。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会的全称：中国共产党中央委员会第二十 届第四次全体会议。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会审议通过了《中共中央关于编制国民经 济和社会发展第十五个五年规划的建议》。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会指出，“十四五”时期我国发展历程极 不寻常、极不平凡。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会指出，实现社会主义现代化是一个阶梯 式递进、不断探索实践的历史过程，需要不懈努力、接续奋斗。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十届四中全会指出，“十五五”时期是实现社会主义 现代化夯实基础、全面发力的关键时期。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "扩大高水平对外开放要稳步扩大制度型开放。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的纪律处分工作应遵循党纪面前一律平等的原则，对违犯 党纪的党组织和党员必须严肃、公正执行纪律，党内不允许有任 何不受纪律约束的党组织和党员。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员行为虽然造成损失或者后果，但不是出于故意或者过失， 而是由于不可抗力等原因所引起的，不追究党纪责任。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员因违犯党纪受到处分，影响期满后，党组织无需取消对 其的处分。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "从轻处分，是指在《中国共产党纪律处分条例》规定的违纪 行为应当受到的处分幅度以内，减轻一档给予处分。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "对于在党内担任两个以上职务的，党组织在作处分决定时， 应当明确是撤销其一切职务还是一个或者几个职务。如果决定撤 销其一个职务，必须撤销其担任的最低职务。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党是根据自己的纲领和章程，按照民主集中制组织起来的统 一整体。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员领导干部不重视家风建设，对配偶、子女及其配偶失管 失教，情节严重的，给予开除党籍处分。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "在上级检查、视察工作或者向上级汇报、报告工作时对应当 报告的事项不报告或者不如实报告，造成严重损害或者严重不良 影响的，对直接责任者和领导责任者给予警告或者严重警告处分； 情节严重的，给予撤销党内职务或者留党察看处分。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员受到留党察看处分，其党内职务可保留。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党纪处分决定作出后，应当在15 天内向受处分党员所在党 的基层组织中的全体党员及其本人宣布，是领导班子成员的还应 当向所在党组织领导班子宣布，并按照干部管理权限和组织关系 将处分决定材料归入受处分者档案。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《党章》规定，党组织必须严格执行和维护党的纪律，共产 党员必须自觉接受党的纪律的约束。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《党章》规定，党的各级领导干部，无论是由民主选举产生 的，或是由领导机关任命的，他们的职务都不是终身的，都可以 变动或解除。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《党章》规定，党员个人代表党组织发表重要主张，如果超 出党组织已有决定的范围，只能提交上级党组织决定。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《党章》规定，党员必须维护党的团结和统一，对党忠诚老 实，言行一致，坚决反对一切派别组织和小集团活动，反对阳奉 阴违的两面派行为和一切阴谋诡计。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《党章》规定，民主集中制是民主基础上的集中和集中指导 下的民主相结合。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《中国共产党廉洁自律准则》2015 年11 月1 日起施行，《中 国共产党党员领导干部廉洁从政若干准则》同时废止。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《中国共产党廉洁自律准则》是党执政以来第二部坚持正面 倡导、面向全体党员的规范全党廉洁自律工作的重要基础性法规。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《中国共产党廉洁自律准则》坚持依规治党与从严治党相结 合，紧扣廉洁自律主题。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党全体党员和各级党员领导干部必须坚持全心全 意为人民服务根本宗旨，必须继承发扬党的优良传统和作风。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《中国共产党纪律处分条例》仅适用于违犯党纪应当受到党 纪追究的党员。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "《中国共产党纪律处分条例》施行前，已结案的案件如需进 行复查复议，适用当时的规定或者政策。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党员受到开除党籍处分，终生不得重新入党。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的各级代表大会的代表受到留党察看处分的，党组织不能 终止其代表资格。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "受到改组处理的党组织领导机构成员，除应当受到撤销党内 职务处分的外，可以不免职。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "不论什么情况，对违纪党员都不能在《中国共产党纪律处分 条例》规定的处分幅度以外减轻处分。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "对违纪党员免予处分，应当作出书面结论。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "故意违纪受处分后又因故意违纪应当受到党纪处分的，应当 加重处分。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "对于经济方面共同违纪的，按照个人所得数额及其所起作用， 分别给予处分。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "预备党员违犯党纪，情节较轻，可以保留预备党员资格的， 党组织应当对其批评教育或者延长预备期；情节较重的，应当取 消其预备党员资格。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "临时出国(境)团(组)或者人员中的党员，擅自延长在国(境) 外期限，或者擅自变更路线的，是属于违反组织纪律的行为。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "违背社会公序良俗，在公共场所有不当行为，造成不良影响， 是属于违反群众纪律的行为。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "违纪后下落不明时间超过六个月的党员，党组织应当作出决 定，开除其党籍。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "“没有调查，就没有发言权”的著名论断出自毛泽东的《实 践论》。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "古田会议在中国革命历史上第一次提出了“枪杆子里面出 政权”的论断。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "在近代历史上，中华民族受尽了西方列强的侵略和欺辱，其 中通过不平等条约割让香港岛的是中日《南京条约》。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的三大优良作风是毛泽东在党的第七次全国代表大会所 作的报告中提出的。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "卢沟桥事变是日本帝国主义全面侵华战争的开始，也是中华 民族进行全面抗战的起点。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "第一次国共合作的政治基础是新三民主义。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "第一次鸦片战争以后，面对帝国主义的入侵，林则徐提出了 “师夷长技以制夷”的口号。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党独立领导武装斗争和创建人民军队开始于秋收 起义。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国第一个农村革命根据地是井冈山革命根据地。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "土地革命时期，川陕革命根据地是中华苏维埃共和国的第二 个大区域。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "辽沈战役是解放战争时期“三大战役”中规模最大、歼敌数 量最多的战役。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "以人民为中心是中国共产党区别于其他政党的显著标志。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "取消预备党员资格是党纪处分。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "预备党员预备期满，党的支部应及时决定他能否转为正式党 员。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "发展党员，必须经过党的支部，坚持慎重吸收的原则。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "争取入党的主要问题是思想上入党的问题。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "新时代新征程，经济和社会发展的战略目标是，到二〇三五 年基本实现社会主义现代化，到本世纪中叶把我国建成社会主义 现代化强国。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "新的征程上，我们必须坚持党的基本理论、基本路线、基本 方略，统筹推进“五位一体”总体布局、协调推进“四个全面” 战略布局。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "江山就是人民，人民就是江山，打江山、守江山，守的是人 民的心。中国共产党根基在人民、血脉在人民、力量在人民。中 国共产党始终代表最广大人民根本利益，与人民休戚与共、生死 — 18 — 相依，没有任何自己特殊的利益，从来不代表任何利益集团、任 何权势团体、任何特权阶层的利益。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "英雄人物是历史的创造者，是真正的英雄。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "人民性是马克思主义的根本属性，是它最鲜明的品格。我们 党是用马克思主义武装起来的政党，人民性也是我们党的根本属 性。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "以史为鉴、开创未来，必须做到4 个“必须”。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "中国共产党第二十次全国代表大会的主题是高举中国特色 社会主义伟大旗帜，全面贯彻新时代中国特色社会主义思想，弘 扬伟大建党精神，自信自强、守正创新，踔厉奋发、勇毅前行， 为全面建设社会主义现代化国家、全面推进中华民族伟大复兴而 团结奋斗。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "习近平在党的二十大报告中指出，党的十八大以来的十年， 我们党团结带领人民，攻克了许多长期没有解决的难题，办成了 许多事关长远的大事要事，推动党和国家事业取得彪炳史册的历 史胜利。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "坚持社会主义道路、坚持人民民主专政、坚持中国共产党的 领导、坚持马列主义、毛泽东思想这四项基本原则，是我们的立 国之本。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十大报告指出，中国特色社会主义制度（拥有马克思 主义科学理论指导）是我们党坚定信仰信念、把握历史主动的根 本所在。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的二十大报告提出，坚持把发展经济的着力点放在实体经 济上，推进新型工业化，加快建设制造强国、质量强国、航天强 国、交通强国、网络强国、数字中国。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的十八大报告深化了对中国特色社会主义的认识，首次将 “中国特色社会主义制度”写入党的全国代表大会报告中。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的十八届三中全会指出，全面深化改革，必须立足于我国 长期处于社会主义初级阶段这个最大实际，解决我国所有问题的 关键是创新。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "党的十八届四中全会强调，社会主义法治最根本的保证是党 的领导。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "二十届三中全会提出，高水平社会主义市场经济体制是中国 式现代化的重要保障。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "二十届三中全会提出，城乡融合发展是中国式现代化的本质 要求。",
+    "answer": "N",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "judgment",
+    "question": "领导干部树立正确政绩观，要检视自身是否脱离国情和本地 区本部门实际。",
+    "answer": "Y",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "1921 年7 月23 日，中国共产党第一次全国代表大会在上海法 租界望志路106 号举行。参加党的一大的有来自（ ）个地方的 13 人，他们代表着50 多名党员。",
+    "answer": "",
+    "options": "{\"A\": \"6\", \"B\": \"8\", \"C\": \"7\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党在（ ）上第一次明确提出反帝反封建的民主革 命纲领。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u4e00\\u5927\", \"B\": \"\\u515a\\u7684\\u4e8c\\u5927\", \"C\": \"\\u515a\\u7684\\u4e09\\u5927\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "( ）首次区分并制定了党的最高纲领和最低纲领。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u4e00\\u5927\", \"B\": \"\\u515a\\u7684\\u4e8c\\u5927\", \"C\": \"\\u515a\\u7684\\u4e09\\u5927\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "南昌起义后，中共中央在湖北汉口召开（ ），确定了土地革 命和武装反抗国民党反动派的总方针。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u4e09\\u5927\", \"B\": \"\\u515a\\u7684\\u56db\\u5927\", \"C\": \"\\u516b\\u4e03\\u4f1a\\u8bae\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "1928 年6 月18 日至7 月11 日，中国共产党在共产国际的帮 助下在（ ）举行第六次全国代表大会。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e0a\\u6d77\", \"B\": \"\\u83ab\\u65af\\u79d1\", \"C\": \"\\u9999\\u6e2f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）决议是中国共产党和红军建设的纲领性文献，解决了在 农村进行战争的环境中如何将以农民为主要成分的革命军队建 设成为无产阶级领导的新型人民军队这个根本性问题。",
+    "answer": "",
+    "options": "{\"A\": \"\\u53e4\\u7530\\u4f1a\\u8bae\", \"B\": \"\\u516b\\u4e03\\u4f1a\\u8bae\", \"C\": \"\\u515a\\u7684\\u516d\\u5927\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "打响武装反抗国民党反动派第一枪的是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5357\\u660c\\u8d77\\u4e49\", \"B\": \"\\u79cb\\u6536\\u8d77\\u4e49\", \"C\": \"\\u5e7f\\u5dde\\u8d77\\u4e49\", \"D\": \"\\u6b66\\u660c\\u8d77\\u4e49\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "1935 年1 月召开的（ ）会议确立了毛泽东在红军和党中央 的领导地位，挽救了党、挽救了红军、挽救了中国革命，成为党 的历史上一个生死攸关的转折点。",
+    "answer": "",
+    "options": "{\"A\": \"\\u53e4\\u7530\", \"B\": \"\\u9ece\\u5e73\", \"C\": \"\\u9075\\u4e49\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "红军二万五千里长征胜利结束的标志是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u7ea2\\u519b\\u7a7f\\u8d8a\\u5927\\u8349\\u5730\\u8fdb\\u5165\\u7518\\u8083\\u3001\\u9655\\u897fB.\\u4e2d\\u592e\\u7ea2\\u519b\\u540c\\u9655\\u5317\\u7ea2\\u519b\\u4f1a\\u5e08\", \"C\": \"\\u7ea2\\u519b\\u4e09\\u5927\\u4e3b\\u529b\\u5728\\u4f1a\\u5b81\\u4f1a\\u5e08\", \"D\": \"\\u9075\\u4e49\\u4f1a\\u8bae\\u7684\\u53ec\\u5f00\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的七大确立（ ）为党的指导思想，使全党在思想上、政 治上、组织上达到空前的统一和团结。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9a6c\\u5217\\u4e3b\\u4e49\", \"B\": \"\\u6bdb\\u6cfd\\u4e1c\\u601d\\u60f3\", \"C\": \"\\u5b9e\\u4e8b\\u6c42\\u662f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "1978 年12 月召开的（ ），是中华人民共和国成立以来中 国共产党历史上具有深远意义的伟大转折，开创了我国社会主 义事业发展的新时期。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u5341\\u5c4a\\u4e09\\u4e2d\\u5168\\u4f1a\", \"B\": \"\\u515a\\u7684\\u5341\\u4e00\\u5927\", \"C\": \"\\u515a\\u7684\\u5341\\u4e00\\u5c4a\\u4e09\\u4e2d\\u5168\\u4f1a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的十一届六中全会通过的（ ），标志着党胜利地完成了 指导思想上的拨乱反正。",
+    "answer": "",
+    "options": "{\"A\": \"\\u300a\\u5173\\u4e8e\\u82e5\\u5e72\\u5386\\u53f2\\u95ee\\u9898\\u7684\\u51b3\\u8bae\\u300b\", \"B\": \"\\u300a\\u5173\\u4e8e\\u5efa\\u56fd\\u4ee5\\u6765\\u515a\\u7684\\u82e5\\u5e72\\u5386\\u53f2\\u95ee\\u9898\\u7684\\u51b3\\u8bae\\u300b\", \"C\": \"\\u300a\\u5173\\u4e8e\\u515a\\u5185\\u653f\\u6cbb\\u751f\\u6d3b\\u7684\\u82e5\\u5e72\\u51c6\\u5219\\u300b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "“全世界无产者，联合起来！”的口号是（ ）中提出的。",
+    "answer": "",
+    "options": "{\"A\": \"\\u300a\\u5171\\u4ea7\\u4e3b\\u4e49\\u539f\\u7406\\u300b\", \"B\": \"\\u300a\\u5171\\u4ea7\\u515a\\u5ba3\\u8a00\\u300b\", \"C\": \"\\u300a\\u5173\\u4e8e\\u6ce2\\u5170\\u7684\\u6f14\\u8bf4\\u300b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）的发表，是马克思主义建党学说创立的主要标志。",
+    "answer": "",
+    "options": "{\"A\": \"\\u300a\\u5171\\u4ea7\\u4e3b\\u4e49\\u8005\\u540c\\u76df\\u7ae0\\u7a0b\\u300b\", \"B\": \"\\u300a\\u5171\\u4ea7\\u515a\\u5ba3\\u8a00\\u300b\", \"C\": \"\\u300a\\u5171\\u4ea7\\u4e3b\\u4e49\\u539f\\u7406\\u300b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国特色社会主义事业的领导核心是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u519c\\u6c11\\u9636\\u7ea7\", \"B\": \"\\u5de5\\u4eba\\u9636\\u7ea7\", \"C\": \"\\u77e5\\u8bc6\\u5206\\u5b50\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "共产党的党性是（ ）的最高表现。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5de5\\u4eba\\u9636\\u7ea7\\u7684\\u9636\\u7ea7\\u6027\", \"B\": \"\\u5148\\u8fdb\\u5206\\u5b50\\u7684\\u5148\\u8fdb\\u6027\", \"C\": \"\\u9769\\u547d\\u5206\\u5b50\\u7684\\u9769\\u547d\\u6027\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党党员标准主要是由（ ）决定的。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u5de5\\u4eba\\u9636\\u7ea7\\u5148\\u950b\\u961f\\u6027\\u8d28B.\\u515a\\u7684\\u4ee3\\u8868\\u6027C.\\u515a\\u7684\\u9769\\u547d\\u6027\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "申请入党时一般应采用（ ），向党组织表明入党志愿。",
+    "answer": "",
+    "options": "{\"A\": \"\\u53e3\\u5934\\u5f62\\u5f0f\", \"B\": \"\\u4e66\\u9762\\u5f62\\u5f0f\", \"C\": \"\\u53e3\\u5934\\u5f62\\u5f0f\\u3001\\u4e66\\u9762\\u5f62\\u5f0f\\u5747\\u53ef\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "入党时必须有（ ）作入党介绍人。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e24\\u540d\\u6b63\\u5f0f\\u515a\\u5458B.\\u4e09\\u540d\\u6b63\\u5f0f\\u515a\\u5458C.\\u4e24\\u540d\\u515a\\u5458\\uff0c\\u6b63\\u5f0f\\u3001\\u9884\\u5907\\u5747\\u53ef\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党章规定，党的最高领导机关，是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u5168\\u56fd\\u4ee3\\u8868\\u5927\\u4f1a\", \"B\": \"\\u515a\\u7684\\u4e2d\\u592e\\u59d4\\u5458\\u4f1a\", \"C\": \"\\u515a\\u7684\\u5168\\u56fd\\u4ee3\\u8868\\u5927\\u4f1a\\u548c\\u5b83\\u6240\\u4ea7\\u751f\\u7684\\u4e2d\\u592e\\u59d4\\u5458\\u4f1a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党章规定，可以申请入党的最低年龄为（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"16 \\u5c81\", \"B\": \"18 \\u5c81\", \"C\": \"20 \\u5c81\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "发展党员，必须坚持（ ）的原则。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2a\\u522b\\u5438\\u6536\", \"B\": \"\\u96c6\\u4f53\\u5438\\u6536\", \"C\": \"\\u4e2a\\u522b\\u5438\\u6536\\u4e0e\\u96c6\\u4f53\\u5438\\u6536\\u76f8\\u7ed3\\u5408\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "预备党员的预备期为（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"1 \\u5e74\", \"B\": \"2 \\u5e74\", \"C\": \"3 \\u5e74\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党员的党龄，从（ ）之日算起。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9012\\u4ea4\\u5165\\u515a\\u5fd7\\u613f\\u4e66\", \"B\": \"\\u652f\\u90e8\\u5927\\u4f1a\\u901a\\u8fc7\\u5176\\u4e3a\\u9884\\u5907\\u515a\\u5458\", \"C\": \"\\u9884\\u5907\\u671f\\u6ee1\\u8f6c\\u4e3a\\u6b63\\u5f0f\\u515a\\u5458\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党员如果没有正当理由，连续（ ）不参加党的组织生活， 或不交纳党费，或不做党所分配的工作，就被认为是自行脱党。",
+    "answer": "",
+    "options": "{\"A\": \"3 \\u4e2a\\u6708\", \"B\": \"6 \\u4e2a\\u6708\", \"C\": \"1 \\u5e74\", \"D\": \"2 \\u5e74\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党组织讨论决定问题，必须执行（ ）的原则。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2a\\u4eba\\u670d\\u4ece\\u7ec4\\u7ec7\", \"B\": \"\\u5c11\\u6570\\u670d\\u4ece\\u591a\\u6570\", \"C\": \"\\u4e0b\\u7ea7\\u670d\\u4ece\\u4e0a\\u7ea7\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "凡是成立党的新组织，或是撤销党的原有组织，必须由（ ） 决定。",
+    "answer": "",
+    "options": "{\"A\": \"\\u540c\\u7ea7\\u515a\\u7684\\u4ee3\\u8868\\u5927\\u4f1a\", \"B\": \"\\u4e0a\\u7ea7\\u515a\\u7ec4\\u7ec7\", \"C\": \"\\u4e0a\\u7ea7\\u515a\\u7684\\u4ee3\\u8868\\u5927\\u4f1a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是党内的最高处分。",
+    "answer": "",
+    "options": "{\"A\": \"\\u64a4\\u9500\\u515a\\u5185\\u804c\\u52a1\", \"B\": \"\\u7559\\u515a\\u5bdf\\u770b\", \"C\": \"\\u5f00\\u9664\\u515a\\u7c4d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的思想建设的根本问题是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5ba3\\u4f20\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\", \"B\": \"\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\\u4e0e\\u4e2d\\u56fd\\u5b9e\\u9645\\u76f8\\u7ed3\\u5408\", \"C\": \"\\u89e3\\u51b3\\u515a\\u5458\\u7684\\u601d\\u60f3\\u5165\\u515a\\u95ee\\u9898\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的（ ）是党的全部工作和战斗力的基础。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u5458\", \"B\": \"\\u5e72\\u90e8\", \"C\": \"\\u57fa\\u5c42\\u515a\\u7ec4\\u7ec7\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是实现社会主义现代化、创造人民美好生活的必由之 路。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u9053\\u8def\", \"B\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u7406\\u8bba\\u4f53\\u7cfb\", \"C\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u5236\\u5ea6\", \"D\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "习近平新时代中国特色社会主义思想，明确中国特色社会主 义最本质的特征是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u201c\\u4e94\\u4f4d\\u4e00\\u4f53\\u201d\\u603b\\u4f53\\u5e03\\u5c40\", \"B\": \"\\u5efa\\u8bbe\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u6cd5\\u6cbb\\u4f53\\u7cfb\", \"C\": \"\\u4ee5\\u4eba\\u6c11\\u5229\\u76ca\\u4e3a\\u6839\\u672c\\u51fa\\u53d1\\u70b9\", \"D\": \"\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u9886\\u5bfc\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "深刻认识党面临的（ ）尖锐性和严峻性，坚持问题导向， 保持战略定力，推动全面从严治党向纵深发展。",
+    "answer": "",
+    "options": "{\"A\": \"\\u7cbe\\u795e\\u61c8\\u6020\\u5371\\u9669\\u3001\\u80fd\\u529b\\u4e0d\\u8db3\\u5371\\u9669\\u3001\\u8131\\u79bb\\u7fa4\\u4f17\\u5371\\u9669\\u3001\\u6d88\\u6781\\u8150\\u8d25\\u5371\\u9669\", \"B\": \"\\u7cbe\\u795e\\u61c8\\u6020\\u5371\\u9669\\u3001\\u5c01\\u95ed\\u50f5\\u5316\\u5371\\u9669\\u3001\\u8131\\u79bb\\u7fa4\\u4f17\\u5371\\u9669\\u3001\\u6d88\\u6781\\u8150\\u8d25\\u5371\\u9669\", \"C\": \"\\u7cbe\\u795e\\u61c8\\u6020\\u5371\\u9669\\u3001\\u80fd\\u529b\\u4e0d\\u8db3\\u5371\\u9669\\u3001\\u5b98\\u50da\\u4e3b\\u4e49\\u5371\\u9669\\u3001\\u6d88\\u6781\\u8150\\u8d25\\u5371\\u9669\", \"D\": \"\\u7cbe\\u795e\\u61c8\\u6020\\u5371\\u9669\\u3001\\u80fd\\u529b\\u4e0d\\u8db3\\u5371\\u9669\\u3001\\u8131\\u79bb\\u7fa4\\u4f17\\u5371\\u9669\\u3001\\u8150\\u5316\\u5815\\u843d\\u5371\\u9669\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的（ ）是党的根本性建设，决定党的建设方向和效果。",
+    "answer": "",
+    "options": "{\"A\": \"\\u601d\\u60f3\\u5efa\\u8bbe\", \"B\": \"\\u653f\\u6cbb\\u5efa\\u8bbe\", \"C\": \"\\u7ec4\\u7ec7\\u5efa\\u8bbe\", \"D\": \"\\u5236\\u5ea6\\u5efa\\u8bbe\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "为了实现中华民族伟大复兴，中国共产党团结带领中国人民， 自信自强、守正创新，统揽（ ），创造了新时代中国特色社会 主义的伟大成就。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4f1f\\u5927\\u6597\\u4e89\\u3001\\u4f1f\\u5927\\u7406\\u8bba\\u3001\\u4f1f\\u5927\\u4e8b\\u4e1a\\u3001\\u4f1f\\u5927\\u601d\\u60f3\", \"B\": \"\\u4f1f\\u5927\\u5b9e\\u8df5\\u3001\\u4f1f\\u5927\\u7406\\u8bba\\u3001\\u4f1f\\u5927\\u4e8b\\u4e1a\\u3001\\u4f1f\\u5927\\u68a6\\u60f3\", \"C\": \"\\u4f1f\\u5927\\u5b9e\\u8df5\\u3001\\u4f1f\\u5927\\u5de5\\u7a0b\\u3001\\u4f1f\\u5927\\u4e8b\\u4e1a\\u3001\\u4f1f\\u5927\\u601d\\u60f3\", \"D\": \"\\u4f1f\\u5927\\u6597\\u4e89\\u3001\\u4f1f\\u5927\\u5de5\\u7a0b\\u3001\\u4f1f\\u5927\\u4e8b\\u4e1a\\u3001\\u4f1f\\u5927\\u68a6\\u60f3\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党自1921 年成立以来，始终把为中国人民（ ）、 为中华民族（ ）作为自己的初心使命。",
+    "answer": "",
+    "options": "{\"A\": \"\\u8c0b\\u89e3\\u653e\\uff0c\\u8c0b\\u72ec\\u7acb\", \"B\": \"\\u8c0b\\u89e3\\u653e\\uff0c\\u8c0b\\u590d\\u5174\", \"C\": \"\\u8c0b\\u5e78\\u798f\\uff0c\\u8c0b\\u590d\\u5174\", \"D\": \"\\u8c0b\\u5e78\\u798f\\uff0c\\u8c0b\\u5bcc\\u5f3a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全党要坚持（ ）观和正确（ ）观，从党的百年奋斗中看 清楚过去，我们为什么能够成功、弄明白未来我们怎样才 能继续成功。",
+    "answer": "",
+    "options": "{\"A\": \"\\u552f\\u7269\\u53f2\\uff0c\\u515a\\u53f2\", \"B\": \"\\u6838\\u5fc3\\u4ef7\\u503c\\uff0c\\u515a\\u53f2\", \"C\": \"\\u552f\\u7269\\u53f2\\uff0c\\u53d1\\u5c55\", \"D\": \"\\u6838\\u5fc3\\u4ef7\\u503c\\uff0c\\u53d1\\u5c55\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的百年奋斗锻造了走在时代前列的中国共产党，形成了以 （ ）为源头的精神谱系，保持了党的先进性和纯洁性。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e0d\\u5fd8\\u521d\\u5fc3\\u3001\\u7262\\u8bb0\\u4f7f\\u547dB.\\u5168\\u5fc3\\u5168\\u610f\\u4e3a\\u4eba\\u6c11\\u670d\\u52a1\", \"C\": \"\\u4f1f\\u5927\\u5efa\\u515a\\u7cbe\\u795e\", \"D\": \"\\u5171\\u4ea7\\u4e3b\\u4e49\\u7406\\u60f3\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全党要牢记中国共产党是什么、要干什么这个根本问题，把 握历史发展大势，坚定理想信念，牢记初心使命，始终（ ）， 不为任何风险所惧，不为任何干扰所惑。",
+    "answer": "",
+    "options": "{\"A\": \"\\u8c26\\u865a\\u8c28\\u614e\\u3001\\u8270\\u82e6\\u594b\\u6597\\u3001\\u4e0d\\u9a84\\u4e0d\\u8e81\", \"B\": \"\\u8270\\u82e6\\u594b\\u6597\\u3001\\u8c26\\u865a\\u8c28\\u614e\\u3001\\u4e0d\\u9a84\\u4e0d\\u8e81\", \"C\": \"\\u8270\\u82e6\\u594b\\u6597\\u3001\\u4e0d\\u9a84\\u4e0d\\u8e81\\u3001\\u8c26\\u865a\\u8c28\\u614e\", \"D\": \"\\u8c26\\u865a\\u8c28\\u614e\\u3001\\u4e0d\\u9a84\\u4e0d\\u8e81\\u3001\\u8270\\u82e6\\u594b\\u6597\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党员要求退党，应当经支部大会讨论（ ）后宣布，并报上 级党组织备案。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5f00\\u9664\", \"B\": \"\\u9664\\u540d\", \"C\": \"\\u7ed9\\u4e88\\u515a\\u7eaa\\u5904\\u5206\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "2021 年7 月1 日，习近平在庆祝中国共产党成立100 周年大 会发表重要讲话，一百年来中国共产党团结带领中国人民进行的 一切奋斗、一切牺牲、一切创造，归结起来就是一个主题：（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5168\\u9762\\u5efa\\u6210\\u793e\\u4f1a\\u4e3b\\u4e49\\u73b0\\u4ee3\\u5316\\u5f3a\\u56fd\", \"B\": \"\\u5b9e\\u73b0\\u4e2d\\u534e\\u6c11\\u65cf\\u4f1f\\u5927\\u590d\\u5174\", \"C\": \"\\u5b9e\\u73b0\\u5171\\u540c\\u5bcc\\u88d5\", \"D\": \"\\u5b9e\\u73b0\\u767e\\u5e74\\u594b\\u6597\\u76ee\\u6807\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的十九届六中全会重点研究（ ）问题。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5baa\\u6cd5\\u4fee\\u6539\", \"B\": \"\\u6df1\\u5316\\u515a\\u548c\\u56fd\\u5bb6\\u673a\\u6784\\u6539\\u9769\", \"C\": \"\\u5168\\u9762\\u603b\\u7ed3\\u515a\\u7684\\u767e\\u5e74\\u594b\\u6597\\u7684\\u91cd\\u5927\\u6210\\u5c31\\u548c\\u5386\\u53f2\\u7ecf\\u9a8c\", \"D\": \"\\u575a\\u6301\\u548c\\u5b8c\\u5584\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u5236\\u5ea6\\u3001\\u63a8\\u8fdb\\u56fd\\u5bb6\\u6cbb\\u7406\\u4f53\\u7cfb\\u548c\\u6cbb\\u7406 \\u80fd\\u529b\\u73b0\\u4ee3\\u5316\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "以习近平同志为核心的党中央，以伟大的历史主动精神、巨 大的政治勇气、强烈的责任担当，统筹国内国际两个大局，贯彻 党的（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u57fa\\u672c\\u7406\\u8bba\\u3001\\u57fa\\u672c\\u8def\\u7ebf\\u3001\\u57fa\\u672c\\u653f\\u7b56\", \"B\": \"\\u57fa\\u672c\\u7406\\u8bba\\u3001\\u57fa\\u672c\\u653f\\u7b56\\u3001\\u57fa\\u672c\\u65b9\\u7565\", \"C\": \"\\u57fa\\u672c\\u653f\\u7b56\\u3001\\u57fa\\u672c\\u8def\\u7ebf\\u3001\\u57fa\\u672c\\u65b9\\u7565\", \"D\": \"\\u57fa\\u672c\\u7406\\u8bba\\u3001\\u57fa\\u672c\\u8def\\u7ebf\\u3001\\u57fa\\u672c\\u65b9\\u7565\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "在全面从严治党上，党的（ ）能力显著增强，管党治党宽 松软状况得到根本扭转，反腐败斗争取得压倒性胜利并全面巩固， 党在革命性锻造中更加坚强。",
+    "answer": "",
+    "options": "{\"A\": \"\\u81ea\\u6211\\u51c0\\u5316\\u3001\\u81ea\\u6211\\u9769\\u65b0\\u3001\\u81ea\\u6211\\u5b8c\\u5584\\u3001\\u81ea\\u6211\\u63d0\\u9ad8\", \"B\": \"\\u81ea\\u6211\\u51c0\\u5316\\u3001\\u81ea\\u6211\\u5b8c\\u5584\\u3001\\u81ea\\u6211\\u9769\\u65b0\\u3001\\u81ea\\u6211\\u63d0\\u9ad8\", \"C\": \"\\u81ea\\u6211\\u5b8c\\u5584\\u3001\\u81ea\\u6211\\u51c0\\u5316\\u3001\\u81ea\\u6211\\u9769\\u65b0\\u3001\\u81ea\\u6211\\u63d0\\u9ad8\", \"D\": \"\\u81ea\\u6211\\u5b8c\\u5584\\u3001\\u81ea\\u6211\\u9769\\u65b0\\u3001\\u81ea\\u6211\\u51c0\\u5316\\u3001\\u81ea\\u6211\\u63d0\\u9ad8\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是我们立党立国、兴党兴国的根本指导思想。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5b9e\\u7528\\u4e3b\\u4e49\", \"B\": \"\\u6c11\\u65cf\\u4e3b\\u4e49\", \"C\": \"\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\", \"D\": \"\\u529f\\u5229\\u4e3b\\u4e49\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "从现在起，中国共产党的中心任务就是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u73b0\\u4ee3\\u5316\", \"B\": \"\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\\u4e2d\\u56fd\\u5316\", \"C\": \"\\u7ecf\\u6d4e\\u5168\\u7403\\u5316\", \"D\": \"\\u56e2\\u7ed3\\u5e26\\u9886\\u5168\\u56fd\\u5404\\u65cf\\u4eba\\u6c11\\u5168\\u9762\\u5efa\\u6210\\u793e\\u4f1a\\u4e3b\\u4e49\\u73b0\\u4ee3\\u5316\\u5f3a\\u56fd\\u3001\\u5b9e\\u73b0\\u7b2c \\u4e8c\\u4e2a\\u767e\\u5e74\\u594b\\u6597\\u76ee\\u6807\\uff0c\\u4ee5\\u4e2d\\u56fd\\u5f0f\\u73b0\\u4ee3\\u5316\\u5168\\u9762\\u63a8\\u8fdb\\u4e2d\\u534e\\u6c11\\u65cf\\u4f1f\\u5927\\u590d\\u5174\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我国是工人阶级领导的、以工农联盟为基础的（ ）的社会 主义国家，国家一切权力属于人民。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4eba\\u6c11\\u5f53\\u5bb6\\u4f5c\\u4e3b\", \"B\": \"\\u4eba\\u6c11\\u6c11\\u4e3b\\u4e13\\u653f\", \"C\": \"\\u591a\\u515a\\u6d3e\\u8054\\u5408\\u6267\\u653f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十大的全称是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u7b2c\\u4e8c\\u5341\\u6b21\\u515a\\u5458\\u4ee3\\u8868\\u5927\\u4f1a\", \"B\": \"\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u7b2c\\u4e8c\\u5341\\u6b21\\u4eba\\u6c11\\u4ee3\\u8868\\u5927\\u4f1a\", \"C\": \"\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u7b2c\\u4e8c\\u5341\\u6b21\\u5168\\u56fd\\u4ee3\\u8868\\u5927\\u4f1a\", \"D\": \"\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u7b2c\\u4e8c\\u5341\\u6b21\\u4ee3\\u8868\\u5927\\u4f1a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "劝党员退党，简称“劝退”，是指党员缺乏革命意志，（ ）， 不符合党员条件，经党的支部对其进行教育并在限期内仍无改正 和转变的，党组织应当劝其退党。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e0d\\u5c65\\u884c\\u515a\\u5458\\u4e49\\u52a1B.\\u4e0d\\u884c\\u4f7f\\u515a\\u5458\\u6743\\u5229C.\\u4e0d\\u53c2\\u52a0\\u515a\\u7684\\u7ec4\\u7ec7\\u751f\\u6d3b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全面建设社会主义现代化国家的前进道路上，必须牢牢把握 以下重大原则：坚持和加强党的全面领导、坚持中国特色社会主 义道路、（ ）、坚持深化改革开放、坚持发扬斗争精神。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4ee5\\u7ecf\\u6d4e\\u5efa\\u8bbe\\u4e3a\\u4e2d\\u5fc3\", \"B\": \"\\u56db\\u9879\\u57fa\\u672c\\u539f\\u5219\", \"C\": \"\\u575a\\u6301\\u4ee5\\u4eba\\u6c11\\u4e3a\\u4e2d\\u5fc3\\u7684\\u53d1\\u5c55\\u601d\\u60f3\", \"D\": \"\\u4eba\\u6c11\\u6c11\\u4e3b\\u4e13\\u653f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）坚持和发展中国特色社会主义的必由之路。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6df1\\u5165\\u6539\\u9769\\u5f00\\u653e\", \"B\": \"\\u5168\\u9762\\u4ece\\u4e25\\u6cbb\\u515a\", \"C\": \"\\u575a\\u6301\\u515a\\u7684\\u5168\\u9762\\u9886\\u5bfc\", \"D\": \"\\u5168\\u9762\\u4f9d\\u6cd5\\u6cbb\\u56fd\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是实现中华民族伟大复兴的必由之路。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49B.\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49C.\\u6539\\u9769\\u5f00\\u653eD.\\u575a\\u6301\\u515a\\u7684\\u9886\\u5bfc\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是党永葆生机活力、走好新的赶考之路的必由之路。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5168\\u9762\\u4ece\\u4e25\\u6cbb\\u515a\", \"B\": \"\\u5168\\u9762\\u4f9d\\u6cd5\\u6cbb\\u56fd\", \"C\": \"\\u5168\\u9762\\u675c\\u7edd\\u8150\\u8d25\", \"D\": \"\\u5168\\u9762\\u6539\\u9769\\u5f00\\u653e\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全面加强党的（ ），加强理想信念教育，引导全党牢记党 的宗旨，自觉做共产主义远大理想和中国特色社会主义共同理想 的坚定信仰者和忠实实践者。",
+    "answer": "",
+    "options": "{\"A\": \"\\u601d\\u60f3\\u5efa\\u8bbeB.\\u9053\\u5fb7\\u5efa\\u8bbeC.\\u653f\\u6cbb\\u5efa\\u8bbeD.\\u6587\\u5316\\u5efa\\u8bbe\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全党必须牢记，全面从严治党永远在路上，（ ）永远在路 上。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u81ea\\u6211\\u9769\\u547d\", \"B\": \"\\u515a\\u7684\\u53cd\\u8150\\u8d25\\u6597\\u4e89\", \"C\": \"\\u515a\\u7684\\u653f\\u6cbb\\u5efa\\u8bbe\", \"D\": \"\\u515a\\u7684\\u6cd5\\u6cbb\\u5efa\\u8bbe\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是国家治理的一场深刻革命，关系党执政兴国，关系 人民幸福安康，关系党和国家长治久安。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5168\\u9762\\u4ece\\u4e25\\u6cbb\\u515a\", \"B\": \"\\u5168\\u9762\\u4f9d\\u6cd5\\u6cbb\\u56fd\", \"C\": \"\\u5168\\u9762\\u53cd\\u5bf9\\u8150\\u8d25\", \"D\": \"\\u52a0\\u5f3a\\u57fa\\u5c42\\u6cbb\\u7406\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "开展了史无前例的反腐败斗争，以“得罪千百人、不负十四 亿”的使命担当祛疴治乱、不敢腐、（ ）、一体推进。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e0d\\u60f3\\u8150\\u3001\\u4e0d\\u80fd\\u8150\", \"B\": \"\\u4e0d\\u80fd\\u8150\\u3001\\u4e0d\\u60f3\\u8150\", \"C\": \"\\u4e0d\\u80fd\\u8150\", \"D\": \"\\u4e0d\\u60f3\\u8150\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党第二十次全国代表大会召开时间为（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"2022 \\u5e7410 \\u67081 \\u65e5\", \"B\": \"2021 \\u5e7410 \\u670816 \\u65e5\", \"C\": \"2022 \\u5e7410 \\u670816 \\u65e5\", \"D\": \"2022 \\u5e7410 \\u670822 \\u65e5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）概括和提出了习近平新时代中国特色社会主义思想， 将其确立为党必须长期坚持的指导思想并写进党章，实现了党的 指导思想的与时俱进。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u5341\\u4e03\\u5927\", \"B\": \"\\u515a\\u7684\\u5341\\u516b\\u5927\", \"C\": \"\\u515a\\u7684\\u5341\\u4e5d\\u5927\", \"D\": \"\\u515a\\u7684\\u4e8c\\u5341\\u5927\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全面建成社会主义现代化强国，第二步：（ ）把我国建成 富强民主文明和谐美丽的社会主义现代化强国。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4ece\\u4e8c0 \\u4e8c0 \\u5e74\\u5230\\u672c\\u4e16\\u7eaa\\u4e2d\\u53f6\", \"B\": \"\\u4ece\\u4e8c0 \\u4e8c0 \\u5e74\\u5230\\u672c\\u4e16\\u7eaa\\u521d\", \"C\": \"\\u4ece\\u4e8c0 \\u4e09\\u4e94\\u5e74\\u5230\\u672c\\u4e16\\u7eaa\\u4e2d\\u53f6\", \"D\": \"\\u4ece\\u4e8c0 \\u4e09\\u4e94\\u5e74\\u5230\\u672c\\u4e16\\u7eaa\\u521d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国式现代化，是（ ）的社会主义现代化。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u9886\\u5bfc\", \"B\": \"\\u4e2d\\u534e\\u6c11\\u65cf\", \"C\": \"\\u4e2d\\u56fd\\u7279\\u8272\", \"D\": \"\\u5168\\u56fd\\u5404\\u65cf\\u4eba\\u6c11\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "坚持（ ）以严的基调强化正风肃纪，锲而不舍落实，持续 深化纠治“四风”，重点纠治形式主义、官僚主义，坚决破除特 权思想和特权行为。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e09\\u4e0d\\u4e00\\u4f53\", \"B\": \"\\u53cd\\u8150\\u8d25\\u6597\\u4e89\", \"C\": \"\\u4e2d\\u592e\\u516b\\u9879\\u89c4\\u5b9a\\u7cbe\\u795e\", \"D\": \"\\u5168\\u9762\\u4ece\\u4e25\\u6cbb\\u515a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是危害党的生命力和战斗力的最大毒瘤。",
+    "answer": "",
+    "options": "{\"A\": \"\\u8131\\u79bb\\u7fa4\\u4f17\", \"B\": \"\\u4f5c\\u98ce\\u95ee\\u9898\", \"C\": \"\\u8150\\u8d25\", \"D\": \"\\u601d\\u60f3\\u629b\\u951a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我们创立了习近平新时代中国特色社会主义思想，明确坚持 和发展中国特色社会主义的基本方略，提出一系列治国理政（ ）， 实现了马克思主义中国化时代化新的飞跃。",
+    "answer": "",
+    "options": "{\"A\": \"\\u65b0\\u7406\\u5ff5\\u3001\\u65b0\\u601d\\u60f3\\u3001\\u65b0\\u6218\\u7565\", \"B\": \"\\u65b0\\u7406\\u8bba\\u3001\\u65b0\\u601d\\u60f3\\u3001\\u65b0\\u6218\\u7565\", \"C\": \"\\u65b0\\u7406\\u5ff5\\u3001\\u65b0\\u601d\\u60f3\\u3001\\u65b0\\u4e3e\\u63aa\", \"D\": \"\\u65b0\\u7406\\u8bba\\u3001\\u65b0\\u601d\\u60f3\\u3001\\u65b0\\u4e3e\\u63aa\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "明确我国社会主要矛盾是人民日益增长的（ ）需要和（ ） 的发展之间的矛盾，并紧紧围绕这个社会主要矛盾推进各项工作， 不断丰富和发展人类文明新形态。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5e78\\u798f\\u751f\\u6d3b\\u4e0d\\u5747\\u8861\\u4e0d\\u5145\\u5206\", \"B\": \"\\u7f8e\\u597d\\u751f\\u6d3b\\u4e0d\\u5747\\u8861\\u4e0d\\u5145\\u5206\", \"C\": \"\\u7f8e\\u597d\\u751f\\u6d3b\\u4e0d\\u5e73\\u8861\\u4e0d\\u5145\\u5206\", \"D\": \"\\u5e78\\u798f\\u751f\\u6d3b\\u4e0d\\u5e73\\u8861\\u4e0d\\u5145\\u5206\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是国家治理的一场深刻革命，关系党执政兴国，关 系人民幸福安康，关系党和国家长治久安。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5168\\u9762\\u4f9d\\u6cd5\\u6cbb\\u56fd\", \"B\": \"\\u5168\\u9762\\u4ece\\u4e25\\u6cbb\\u515a\", \"C\": \"\\u5168\\u9762\\u6df1\\u5316\\u6539\\u9769\", \"D\": \"\\u5168\\u9762\\u5efa\\u8bbe\\u793e\\u4f1a\\u4e3b\\u4e49\\u73b0\\u4ee3\\u5316\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "“（ ）”是中国特色社会主义的伟大创举，是香港、澳门 回归后保持长期繁荣稳定的最佳制度安排，必须长期坚持。",
+    "answer": "",
+    "options": "{\"A\": \"\\u201c\\u7279\\u522b\\u884c\\u653f\\u533a\\u201d\", \"B\": \"\\u201c\\u4e00\\u56fd\\u4e24\\u5236\\u201d\", \"C\": \"\\u201c\\u6e2f\\u4eba\\u6cbb\\u6e2f\\u3001\\u6fb3\\u4eba\\u6cbb\\u6fb3\\u201d D.\\u201c\\u4f9d\\u6cd5\\u6cbb\\u6e2f\\u6cbb\\u6fb3\\u201d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国坚定奉行（ ）的和平外交政策。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e92\\u5229\\u5171\\u8d62B.\\u72ec\\u7acb\\u5e73\\u7b49C.\\u53cb\\u597d\\u5171\\u5904D.\\u72ec\\u7acb\\u81ea\\u4e3b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）继续推进实践基础上的理论创新，首先要把握好的世 界观和方法论，坚持好、运用好贯穿其中的立场观点方法。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\", \"B\": \"\\u6bdb\\u6cfd\\u4e1c\\u601d\\u60f3\", \"C\": \"\\u9093\\u5c0f\\u5e73\\u7406\\u8bba\", \"D\": \"\\u4e60\\u8fd1\\u5e73\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u601d\\u60f3\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党员除了享有表决权、选举权和被选举权以外，还有权要求 （ ）或撤换不称职的干部。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5f00\\u9664\", \"B\": \"\\u7f62\\u514d\", \"C\": \"\\u8f9e\\u9000\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "新时代十年的伟大变革，在党史、新中国史、改革开放史、 （ ）、中华民族发展史上具有里程碑意义。",
+    "answer": "",
+    "options": "{\"A\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u53d1\\u5c55\\u53f2B.\\u4eba\\u6c11\\u594b\\u6597\\u53f2C.\\u9636\\u7ea7\\u6597\\u4e89\\u53f2D.\\u4e2d\\u534e\\u5d1b\\u8d77\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "贯彻（ ），以坚定的意志品质维护国家主权、安全、发展 利益，国家安全得到全面加强。",
+    "answer": "",
+    "options": "{\"A\": \"\\u603b\\u4f53\\u56fd\\u5bb6\\u5b89\\u5168\\u89c2B.\\u603b\\u4f53\\u5b89\\u5168\\u89c2C.\\u56fd\\u5bb6\\u5b89\\u5168\\u89c2D.\\u603b\\u4f53\\u56fd\\u5bb6\\u89c2\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "习近平在党的二十大报告中说，必须坚定不移走中国特色社 会主义政治发展道路，坚持党的领导、人民当家作主、依法治 国有机统一。加强（ ），全面发展（ ），积极发展（ ）， 巩固和发展（ ）。 ①人民当家作主制度保障②协商民主 ③最广泛的爱国统一战线④基层民主",
+    "answer": "",
+    "options": "{\"A\": \"\\u2461\\u2463\\u2462\\u2460\", \"B\": \"\\u2460\\u2462\\u2461\\u2463\", \"C\": \"\\u2460\\u2461\\u2463\\u2462\", \"D\": \"\\u2462\\u2461\\u2463\\u2460\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "习近平在党的二十大报告中指出，要实现好、维护好、发展 好（ ），紧紧抓住人民最关心最直接最现实的利益问题，坚持 尽力而为、量力而行。完善（ ），实施（ ），健全（ ）， 推进（ ）。 ①分配制度②社会保障体系③健康中国建设④就业优先战略 ⑤最广大人民根本利益",
+    "answer": "",
+    "options": "{\"A\": \"\\u2464\\u2461\\u2463\\u2462\\u2460B.\\u2464\\u2460\\u2463\\u2461\\u2462C.\\u2460\\u2461\\u2464\\u2463\\u2462D.\\u2462\\u2461\\u2463\\u2460\\u2464\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "坚定“四个自信”是哪“四个自信”?（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u9053\\u8def\\u81ea\\u4fe1\\u3001\\u5236\\u5ea6\\u81ea\\u4fe1\\u3001\\u6587\\u5316\\u81ea\\u4fe1\\u3001\\u601d\\u60f3\\u81ea\\u4fe1\", \"B\": \"\\u9053\\u8def\\u81ea\\u4fe1\\u3001\\u7406\\u8bba\\u81ea\\u4fe1\\u3001\\u5236\\u5ea6\\u81ea\\u4fe1\\u3001\\u6587\\u5316\\u81ea\\u4fe1\", \"C\": \"\\u9053\\u8def\\u81ea\\u4fe1\\u3001\\u6587\\u5316\\u81ea\\u4fe1\\u3001\\u4f53\\u5236\\u81ea\\u4fe1\\u3001\\u601d\\u60f3\\u81ea\\u4fe1\", \"D\": \"\\u7406\\u8bba\\u81ea\\u4fe1\\u3001\\u4f53\\u5236\\u81ea\\u4fe1\\u3001\\u5236\\u5ea6\\u81ea\\u4fe1\\u3001\\u601d\\u60f3\\u81ea\\u4fe1\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党第二十次全国代表大会的主题是：高举中国特色 社会主义伟大旗帜，全面贯彻新时代中国特色社会主义思想，弘 扬（ ），自信自强、守正创新，踔厉奋发、勇毅前行，为全面 建设社会主义现代化国家、全面推进中华民族伟大复兴而团结奋 斗。",
+    "answer": "",
+    "options": "{\"A\": \"\\u65f6\\u4ee3\\u521b\\u65b0\\u7cbe\\u795e\", \"B\": \"\\u4f1f\\u5927\\u5efa\\u515a\\u7cbe\\u795e\", \"C\": \"\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u4eba\\u7cbe\\u795e\\u8c31\\u7cfb\", \"D\": \"\\u4f1f\\u5927\\u594b\\u6597\\u7cbe\\u795e\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "完善科技创新体系，坚持（ ）在我国现代化建设全局中的 核心地位。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4eba\\u624d\", \"B\": \"\\u6559\\u80b2\", \"C\": \"\\u79d1\\u6280\", \"D\": \"\\u521b\\u65b0\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "深入开展社会主义核心价值观宣传教育，深化（ ）教育， 着力培养担当民族复兴大任的时代新人。",
+    "answer": "",
+    "options": "{\"A\": \"\\u7231\\u56fd\\u4e3b\\u4e49\\u3001\\u96c6\\u4f53\\u4e3b\\u4e49\\u3001\\u793e\\u4f1a\\u4e3b\\u4e49\", \"B\": \"\\u7231\\u56fd\\u4e3b\\u4e49\\u3001\\u793e\\u4f1a\\u4e3b\\u4e49\", \"C\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u3001\\u96c6\\u4f53\\u4e3b\\u4e49\", \"D\": \"\\u7231\\u56fd\\u4e3b\\u4e49\\u3001\\u96c6\\u4f53\\u4e3b\\u4e49\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "坚持以严的基调强化正风肃纪，锲而不舍落实中央八项规定 精神，持续深化纠治“四风”，重点纠治（ ）、（ ），坚决 破除特权思想和特权行为。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5f62\\u5f0f\\u4e3b\\u4e49\\u5b98\\u50da\\u4e3b\\u4e49\", \"B\": \"\\u4eab\\u4e50\\u4e3b\\u4e49\\u5b98\\u50da\\u4e3b\\u4e49\", \"C\": \"\\u5f62\\u5f0f\\u4e3b\\u4e49\\u6559\\u6761\\u4e3b\\u4e49\", \"D\": \"\\u5f62\\u5f0f\\u4e3b\\u4e49\\u4eab\\u4e50\\u4e3b\\u4e49\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "要坚持以社会主义核心价值观为引领，发展（ ），弘扬（ ）， 传承（ ），满足人民日益增长的精神文化需求。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9769\\u547d\\u6587\\u5316\\u3001\\u4e2d\\u534e\\u4f18\\u79c0\\u4f20\\u7edf\\u6587\\u5316\\u3001\\u793e\\u4f1a\\u4e3b\\u4e49\\u5148\\u8fdb\\u6587\\u5316\", \"B\": \"\\u4e2d\\u534e\\u4f18\\u79c0\\u4f20\\u7edf\\u6587\\u5316\\u3001\\u793e\\u4f1a\\u4e3b\\u4e49\\u5148\\u8fdb\\u6587\\u5316\\u3001\\u9769\\u547d\\u6587\\u5316\", \"C\": \"\\u4e2d\\u534e\\u4f18\\u79c0\\u4f20\\u7edf\\u6587\\u5316\\u3001\\u9769\\u547d\\u6587\\u5316\\u3001\\u793e\\u4f1a\\u4e3b\\u4e49\\u5148\\u8fdb\\u6587\\u5316\", \"D\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u5148\\u8fdb\\u6587\\u5316\\u3001\\u9769\\u547d\\u6587\\u5316\\u3001\\u4e2d\\u534e\\u4f18\\u79c0\\u4f20\\u7edf\\u6587\\u5316\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我们要坚持以（ ）安全为宗旨、以（ ）安全为根本、以 （ ）安全为基础，以军事科技文化社会安全为保障。",
+    "answer": "",
+    "options": "{\"A\": \"\\u653f\\u6cbb\\u4eba\\u6c11\\u7ecf\\u6d4e\", \"B\": \"\\u7ecf\\u6d4e\\u653f\\u6cbb\\u4eba\\u6c11\", \"C\": \"\\u4eba\\u6c11\\u653f\\u6cbb\\u7ecf\\u6d4e\", \"D\": \"\\u4eba\\u6c11\\u7ecf\\u6d4e\\u653f\\u6cbb\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "坚持社会主义市场经济改革方向，坚持高水平对外开放，加 快构建以（ ）为主体（ ）相互促进的新发展格局。",
+    "answer": "",
+    "options": "{\"A\": \"\\u56fd\\u9645\\u5927\\u5faa\\u73af\\u3001\\u56fd\\u5185\\u56fd\\u9645\\u53cc\\u5faa\\u73af\", \"B\": \"\\u56fd\\u5185\\u5927\\u5faa\\u73af\\u3001\\u56fd\\u9645\\u5927\\u5faa\\u73af\", \"C\": \"\\u56fd\\u5185\\u5927\\u5faa\\u73af\\u3001\\u56fd\\u5185\\u56fd\\u9645\\u53cc\\u5faa\\u73af\", \"D\": \"\\u56fd\\u5185\\u56fd\\u9645\\u53cc\\u5faa\\u73af\\u3001\\u56fd\\u5185\\u5927\\u5faa\\u73af\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "当党员对党的决议和政策有不同意见时，下列说法中，正确 的应该是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u53ef\\u4ee5\\u4e0d\\u6267\\u884c\\u515a\\u7684\\u51b3\\u8bae\\u548c\\u653f\\u7b56\", \"B\": \"\\u5728\\u575a\\u51b3\\u6267\\u884c\\u7684\\u524d\\u63d0\\u4e0b\\uff0c\\u53ef\\u4ee5\\u58f0\\u660e\\u4fdd\\u7559\\uff0c\\u5e76\\u4e14\\u53ef\\u4ee5\\u628a\\u81ea\\u5df1\\u7684\\u610f\\u89c1 \\u5411\\u515a\\u7684\\u4e0a\\u7ea7\\u7ec4\\u7ec7\\u76f4\\u81f3\\u4e2d\\u592e\\u63d0\\u51fa\", \"C\": \"\\u5fc5\\u987b\\u575a\\u51b3\\u6267\\u884c\\uff0c\\u4e0d\\u53ef\\u4ee5\\u58f0\\u660e\\u4fdd\\u7559\\uff0c\\u4e5f\\u4e0d\\u5141\\u8bb8\\u5411\\u4e0a\\u7ea7\\u7ec4\\u7ec7\\u63d0\\u51fa\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "为了实现中华民族伟大复兴，中国共产党团结带领中国人 民，浴血奋战、百折不挠，创造了（ ）的伟大成就。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6c11\\u4e3b\\u4e3b\\u4e49\\u9769\\u547d\", \"B\": \"\\u65b0\\u6c11\\u4e3b\\u4e3b\\u4e49\\u9769\\u547d\", \"C\": \"\\u571f\\u5730\\u9769\\u547d\", \"D\": \"\\u53cd\\u5c01\\u5efa\\u4e3b\\u4e49\\u9769\\u547d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是指导党和人民实现中华民族伟大复兴的正确理论。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u9053\\u8def\", \"B\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u7406\\u8bba\\u4f53\\u7cfb\", \"C\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u5236\\u5ea6\", \"D\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u6838\\u5fc3\\u4ef7\\u503c\\u89c2\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "新的征程上，我们必须坚持党的（ ），统筹推进“五位一 体”总体布局、协调推进“四个全面”战略布局，全面深化改革 开放，立足新发展阶段，完整、准确、全面贯彻新发展理念，构 建新发展格局。",
+    "answer": "",
+    "options": "{\"A\": \"\\u57fa\\u672c\\u7406\\u8bba\\u3001\\u57fa\\u672c\\u8def\\u7ebf\\u3001\\u57fa\\u672c\\u65b9\\u9488\", \"B\": \"\\u57fa\\u672c\\u7406\\u8bba\\u3001\\u57fa\\u672c\\u8def\\u7ebf\\u3001\\u57fa\\u672c\\u65b9\\u7565\", \"C\": \"\\u57fa\\u672c\\u539f\\u7406\\u3001\\u57fa\\u672c\\u8def\\u7ebf\\u3001\\u57fa\\u672c\\u65b9\\u9488\", \"D\": \"\\u57fa\\u672c\\u539f\\u7406\\u3001\\u57fa\\u672c\\u8def\\u7ebf\\u3001\\u57fa\\u672c\\u65b9\\u7565\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党江西师范大学第七次代表大会，是在全校上下学 习贯彻党的二十大精神和省委十五届四次全体（扩大）会议精神， 全力推进“双一流”建设的关键时期，召开的一次十分重要的会 议。一方面，2023 年是全面贯彻落实（ ）的开局之年，是全 面建设社会主义现代化国家开局起步的关键一年。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u4e8c\\u5341\\u5927\\u7cbe\\u795e\", \"B\": \"\\u4e60\\u8fd1\\u5e73\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u601d\\u60f3\", \"C\": \"\\u515a\\u7684\\u65b9\\u9488\\u3001\\u653f\\u7b56\", \"D\": \"\\u201c\\u5341\\u56db\\u4e94\\u201d\\u89c4\\u5212\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "习近平指出，要总结运用第一批主题教育的成功经验，高质 量开展第二批主题教育，用（ ）砥砺党员、干部，教育引导党 员、干部坚定理想信念、牢记初心使命、积极开拓进取、勇于担 当作为。要把实的要求贯穿主题教育全过程，坚决防止和克服形 式主义、官僚主义，实实在在抓好理论学习和调查研究，实实在 在检视整改突出问题，实实在在办好惠民利民实事，用实干推动 发展、取信于民。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e95\\u5188\\u5c71\\u7cbe\\u795e\\u3001\\u82cf\\u533a\\u7cbe\\u795e\", \"B\": \"\\u4e95\\u5188\\u5c71\\u7cbe\\u795e\\u3001\\u82cf\\u533a\\u7cbe\\u795e\\u3001\\u957f\\u5f81\\u7cbe\\u795e\", \"C\": \"\\u4e95\\u5188\\u5c71\\u7cbe\\u795e\\u3001\\u957f\\u5f81\\u7cbe\\u795e\", \"D\": \"\\u4e95\\u5188\\u5c71\\u7cbe\\u795e\\u3001\\u957f\\u5f81\\u7cbe\\u795e\\u3001\\u7ea2\\u519b\\u7cbe\\u795e\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我们深入推进全面从严治党，提出和落实新时代党的建设总 要求，以党的（ ）统领党的建设各项工作。",
+    "answer": "",
+    "options": "{\"A\": \"\\u601d\\u60f3\\u5efa\\u8bbe\", \"B\": \"\\u5236\\u5ea6\\u5efa\\u8bbe\", \"C\": \"\\u653f\\u6cbb\\u5efa\\u8bbe\", \"D\": \"\\u7ec4\\u7ec7\\u5efa\\u8bbe\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "经过不懈努力，党找到了（ ）这一跳出治乱兴衰历史周期 率的第二个答案。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4eba\\u6c11\\u76d1\\u7763\", \"B\": \"\\u81ea\\u6211\\u9769\\u547d\", \"C\": \"\\u793e\\u4f1a\\u6539\\u9769\", \"D\": \"\\u9636\\u7ea7\\u6597\\u4e89\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "八七会议上毛泽东提出了（ ）的著名论断。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e00\\u5207\\u53cd\\u52a8\\u6d3e\\u90fd\\u662f\\u7eb8\\u8001\\u864e\", \"B\": \"\\u67aa\\u6746\\u5b50\\u91cc\\u51fa\\u653f\\u6743\", \"C\": \"\\u661f\\u661f\\u4e4b\\u706b\\uff0c\\u53ef\\u4ee5\\u71ce\\u539f\", \"D\": \"\\u6ca1\\u6709\\u8c03\\u67e5\\uff0c\\u6ca1\\u6709\\u53d1\\u8a00\\u6743\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "健全党统一领导、全面覆盖、权威高效的监督体系，完善权 力监督制约机制，以（ ）为主导，促进各类监督贯通协调。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u5185\\u76d1\\u7763\", \"B\": \"\\u53f8\\u6cd5\\u76d1\\u7763\", \"C\": \"\\u793e\\u4f1a\\u76d1\\u7763\", \"D\": \"\\u5a92\\u4f53\\u76d1\\u7763\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是社会主义民主政治的本质属性，是最广泛、最真 实、最管用的民主。",
+    "answer": "",
+    "options": "{\"A\": \"\\u76f4\\u63a5\\u6c11\\u4e3bB.\\u5168\\u8fc7\\u7a0b\\u4eba\\u6c11\\u6c11\\u4e3bC.\\u4ee3\\u8bae\\u6c11\\u4e3bD.\\u9009\\u4e3e\\u6c11\\u4e3b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十大报告指出，必须持之以恒推进全面从严治党，深 入推进新时代党的建设新的伟大工程，以党的（ ）引领社会革 命。",
+    "answer": "",
+    "options": "{\"A\": \"\\u7ec4\\u7ec7\\u5efa\\u8bbe\", \"B\": \"\\u653f\\u6cbb\\u9886\\u5bfc\", \"C\": \"\\u81ea\\u6211\\u9769\\u547d\", \"D\": \"\\u5168\\u9762\\u9886\\u5bfc\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十大把推进（ ）常态化制度化写入了党章。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u7fa4\\u4f17\\u8def\\u7ebf\\u6559\\u80b2\\u5b9e\\u8df5\\u6d3b\\u52a8\", \"B\": \"\\u201c\\u4e09\\u4e25\\u4e09\\u5b9e\\u201d\\u4e13\\u9898\\u6559\\u80b2\", \"C\": \"\\u515a\\u53f2\\u5b66\\u4e60\\u6559\\u80b2\", \"D\": \"\\u201c\\u4e0d\\u5fd8\\u521d\\u5fc3\\u3001\\u7262\\u8bb0\\u4f7f\\u547d\\u201d\\u4e3b\\u9898\\u6559\\u80b2\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "根据新修订《中国共产党纪律处分条例》规定，党员受到警 告处分（ ）内、受到严重警告处分（ ）内，不得在党内提拔 职务或者进一步使用，也不得向党外组织推荐担任高于其原任职 务的党外职务或者进一步使用。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e00\\u5e74\\u3001\\u4e00\\u5e74\\u534a\", \"B\": \"\\u4e00\\u5e74\\u534a\\u3001\\u4e00\\u5e74\", \"C\": \"\\u534a\\u5e74\\u3001\\u4e00\\u5e74\", \"D\": \"\\u4e00\\u5e74\\u534a\\u3001\\u4e00\\u5e74\\u534a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "要坚持（ ）一起抓，把《条例》纳入党员、干部（培训） 必修课，增强遵规守纪的自觉。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7ae0\\u515a\\u89c4\\u515a\\u7eaa\", \"B\": \"\\u515a\\u6027\\u515a\\u98ce\\u515a\\u7eaa\", \"C\": \"\\u515a\\u98ce\\u653f\\u98ce\\u4f5c\\u98ce\", \"D\": \"\\u89c4\\u5b9a\\u7eaa\\u5f8b\\u6cd5\\u5f8b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "预备党员预备期满后，党组织经过考察认为其不履行党员义 务，不具备党员条件的，应当（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u7559\\u515a\\u5bdf\\u770b\", \"B\": \"\\u5ef6\\u957f\\u9884\\u5907\\u671f\", \"C\": \"\\u53d6\\u6d88\\u9884\\u5907\\u515a\\u5458\\u8d44\\u683c\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "社会主义初级阶段需要（ ）的时间。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5341\\u51e0\\u5e74\", \"B\": \"\\u51e0\\u5341\\u5e74\", \"C\": \"\\u4e0a\\u767e\\u5e74\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "《中国共产党章程》中关于党员权利的规定，下列说法中， 错误的是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u5458\\u53ea\\u80fd\\u5411\\u6240\\u5728\\u7684\\u515a\\u7ec4\\u7ec7\\u63d0\\u51fa\\u8bf7\\u6c42\\u3001\\u7533\\u8bc9\\u548c\\u63a7\\u544a\", \"B\": \"\\u515a\\u5458\\u53ef\\u4ee5\\u5411\\u515a\\u7684\\u4e0a\\u7ea7\\u7ec4\\u7ec7\\u76f4\\u81f3\\u4e2d\\u592e\\u63d0\\u51fa\\u8bf7\\u6c42\\u3001\\u7533\\u8bc9\\u548c\\u63a7\\u544a\\uff0c\\u5e76 \\u8981\\u6c42\\u6709\\u5173\\u7ec4\\u7ec7\\u7ed9\\u4ee5\\u8d1f\\u8d23\\u7684\\u7b54\\u590d\", \"C\": \"\\u5bf9\\u515a\\u7684\\u51b3\\u8bae\\u548c\\u653f\\u7b56\\u5982\\u6709\\u4e0d\\u540c\\u610f\\u89c1\\uff0c\\u5728\\u575a\\u51b3\\u6267\\u884c\\u7684\\u524d\\u63d0\\u4e0b\\uff0c\\u53ef\\u4ee5 \\u58f0\\u660e\\u4fdd\\u7559\", \"D\": \"\\u5728\\u515a\\u7ec4\\u7ec7\\u8ba8\\u8bba\\u51b3\\u5b9a\\u5bf9\\u515a\\u5458\\u7684\\u515a\\u7eaa\\u5904\\u5206\\u6216\\u4f5c\\u51fa\\u9274\\u5b9a\\u65f6\\uff0c\\u672c\\u4eba\\u6709\\u6743 \\u53c2\\u52a0\\u548c\\u8fdb\\u884c\\u7533\\u8fa9\\uff0c\\u5176\\u4ed6\\u515a\\u5458\\u53ef\\u4ee5\\u4e3a\\u4ed6\\u4f5c\\u8bc1\\u548c\\u8fa9\\u62a4\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "《中国共产党章程》中关于被留党察看的党员的权利，表述 正确的是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u5458\\u5728\\u7559\\u515a\\u5bdf\\u770b\\u671f\\u95f4\\u6ca1\\u6709\\u8868\\u51b3\\u6743\\u3001\\u9009\\u4e3e\\u6743\\u548c\\u88ab\\u9009\\u4e3e\\u6743\", \"B\": \"\\u515a\\u5458\\u5728\\u7559\\u515a\\u5bdf\\u770b\\u671f\\u95f4\\u6ca1\\u6709\\u8868\\u51b3\\u6743\\uff0c\\u4f46\\u6709\\u9009\\u4e3e\\u6743\\u548c\\u88ab\\u9009\\u4e3e\\u6743\", \"C\": \"\\u515a\\u5458\\u5728\\u7559\\u515a\\u5bdf\\u770b\\u671f\\u95f4\\u6709\\u8868\\u51b3\\u6743\\uff0c\\u4f46\\u6ca1\\u6709\\u9009\\u4e3e\\u6743\\u548c\\u88ab\\u9009\\u4e3e\\u6743\", \"D\": \"\\u515a\\u5458\\u5728\\u7559\\u515a\\u5bdf\\u770b\\u671f\\u95f4\\u6709\\u8868\\u51b3\\u6743\\u3001\\u9009\\u4e3e\\u6743\\u548c\\u88ab\\u9009\\u4e3e\\u6743\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "入党介绍人的任务是认真了解申请人的思想、品质、经历和 工作表现，向他解释（ ），说明党员的条件、义务和权利，并 向党组织作出负责的报告。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u8def\\u7ebf\\u65b9\\u9488\\u653f\\u7b56\", \"B\": \"\\u515a\\u7684\\u7eb2\\u9886\\u548c\\u515a\\u7684\\u7ae0\\u7a0b\", \"C\": \"\\u515a\\u7684\\u5386\\u53f2\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "《中国共产党发展党员工作细则》第十七条规定，基层党委 或县级党委组织部门应当对发展对象进行短期集中培训。培训时 间一般不少于（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e09\\u5929\\uff08\\u6216\\u4e0d\\u5c11\\u4e8e\\u4e8c\\u5341\\u56db\\u4e2a\\u5b66\\u65f6\\uff09\", \"B\": \"\\u4e94\\u5929\\uff08\\u6216\\u4e0d\\u5c11\\u4e8e\\u56db\\u5341\\u516b\\u4e2a\\u5b66\\u65f6\\uff09\", \"C\": \"\\u4e09\\u5929\\uff08\\u6216\\u4e0d\\u5c11\\u4e8e\\u56db\\u5341\\u516b\\u5b66\\u65f6\\uff09\", \"D\": \"\\u4e03\\u5929\\uff08\\u6216\\u4e0d\\u5c11\\u4e8e\\u4e8c\\u5341\\u56db\\u4e2a\\u5b66\\u65f6\\uff09\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "每一个党员都是自愿加入中国共产党的，这个“自愿”在一 定意义上是表明对中国共产党的“（ ）”性质的认同。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e24\\u4e2a\\u5148\\u950b\\u961f\", \"B\": \"\\u65e0\\u4ea7\\u9636\\u7ea7\", \"C\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\", \"D\": \"\\u5de5\\u4eba\\u9636\\u7ea7\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党员是一种（ ），是公民基于政治理想和认同而作出的自 愿选择。",
+    "answer": "",
+    "options": "{\"A\": \"\\u81ea\\u7136\\u8eab\\u4efd\", \"B\": \"\\u653f\\u6cbb\\u8eab\\u4efd\", \"C\": \"\\u793e\\u4f1a\\u8eab\\u4efd\", \"D\": \"\\u6587\\u5316\\u8eab\\u4efd\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "申请入党的人必须有两名党员作介绍人。这里的党员是指 （ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u5458\\u9886\\u5bfc\\u5e72\\u90e8\", \"B\": \"\\u6b63\\u5f0f\\u515a\\u5458\", \"C\": \"\\u9884\\u5907\\u515a\\u5458\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党第一次全国代表大会是在（ ）召开的。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e0a\\u6d77\", \"B\": \"\\u5317\\u4eac\", \"C\": \"\\u957f\\u6c99\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党成立后集中力量从事（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5b66\\u751f\\u8fd0\\u52a8\", \"B\": \"\\u5de5\\u4eba\\u8fd0\\u52a8\", \"C\": \"\\u519c\\u6c11\\u8fd0\\u52a8\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党成立后的第一部党章是在党的（ ）制定的。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e00\\u5927\", \"B\": \"\\u4e8c\\u5927\", \"C\": \"\\u4e09\\u5927\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "“须知政权是由枪杆子中取得的”的著名论断是（ ）提出 的。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6bdb\\u6cfd\\u4e1c\", \"B\": \"\\u5468\\u6069\\u6765\", \"C\": \"\\u674e\\u7acb\\u4e09\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）指出：“深入学习宣传贯彻党的二十大精神，是当前 和今后一个时期全党的首要政治任务，要推动学习宣传贯彻往深 里走、往实里走。” A．党的二十届二中全会 B．党的二十届三中全会 C．党的十九大 D．党的二十大 112．二十届三中全会指出，开放是中国式现代化的______。（）",
+    "answer": "",
+    "options": "{\"A\": \"2024 \\u5e747 \\u670815\\u201418 \\u65e5\", \"B\": \"2024 \\u5e749 \\u670815\\u201418 \\u65e5\", \"C\": \"2025 \\u5e747 \\u670815\\u201418 \\u65e5\", \"D\": \"2025 \\u5e749 \\u670815\\u201418 \\u65e5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全会强调，______是全面建设社会主义现代化国家的首要任 务。（） A，改革开放",
+    "answer": "",
+    "options": "{\"B\": \"\\u9ad8\\u8d28\\u91cf\\u53d1\\u5c55\", \"C\": \"\\u79d1\\u6280\\u521b\\u65b0\", \"D\": \"\\u5171\\u540c\\u5bcc\\u88d5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "毛泽东在（ ）文章中提出”没有调查，没有发言权”的科 学论断。",
+    "answer": "",
+    "options": "{\"A\": \"\\u300a\\u53cd\\u5bf9\\u672c\\u672c\\u4e3b\\u4e49\\u300b\", \"B\": \"\\u300a\\u4e95\\u5188\\u5c71\\u7684\\u6597\\u4e89\\u300b\", \"C\": \"\\u300a\\u661f\\u661f\\u4e4b\\u706b\\u53ef\\u4ee5\\u71ce\\u539f\\u300b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我们党在（ ）上确立了建立抗日民族统一战线的新策略。",
+    "answer": "",
+    "options": "{\"A\": \"\\u74e6\\u5bc6\\u5821\\u4f1a\\u8bae\", \"B\": \"\\u6d1b\\u5ddd\\u4f1a\\u8bae\", \"C\": \"\\u515a\\u7684\\u516d\\u5c4a\\u516d\\u4e2d\\u5168\\u4f1a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "抗日战争以来，中国共产党公开颁布的第一个关于土地制 度改革的纲领性文件是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u300a\\u4e2d\\u56fd\\u571f\\u5730\\u6cd5\\u5927\\u7eb2\\u300b\", \"B\": \"\\u300a\\u5173\\u4e8e\\u571f\\u5730\\u95ee\\u9898\\u7684\\u6307\\u793a\\u300b\", \"C\": \"\\u300a\\u4e94\\u56db\\u6307\\u793a\\u300b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中华人民共和国第一部宪法是（ ）年通过并正式公布的。",
+    "answer": "",
+    "options": "{\"A\": \"1949\", \"B\": \"1953\", \"C\": \"1954\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的十五大把（ ）写入党章，确立为党的指导思想。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5efa\\u8bbe\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u7406\\u8bba\", \"B\": \"\\u9093\\u5c0f\\u5e73\\u7406\\u8bba\", \"C\": \"\\u201c\\u4e09\\u4e2a\\u4ee3\\u8868\\u201d\\u91cd\\u8981\\u601d\\u60f3\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的十八大以后，中央决定以县处级以上领导机关、领导班 子、领导干部为重点开展了（ ）教育实践活动。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u7fa4\\u4f17\\u8def\\u7ebf\", \"B\": \"\\u515a\\u7684\\u601d\\u60f3\\u8def\\u7ebf\", \"C\": \"\\u515a\\u7684\\u57fa\\u672c\\u8def\\u7ebf\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我国社会主义现代化建设的三个重要支点是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9769\\u547d\\u53d1\\u5c55\\u5efa\\u8bbe\", \"B\": \"\\u6539\\u9769\\u53d1\\u5c55\\u7a33\\u5b9a\", \"C\": \"\\u7a33\\u589e\\u957f\\u8c03\\u7ed3\\u6784\\u4fc3\\u6539\\u9769\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "2016 年2 月，中共中央办公厅印发有关方案，决定2016 年 在全体党员中开展“学党章党规、学系列讲话，做（ ）”学习 教育（简称“两学一做”学习教育）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6a21\\u8303\\u5e72\\u90e8\", \"B\": \"\\u5408\\u683c\\u515a\\u5458\", \"C\": \"\\u5148\\u8fdb\\u5178\\u578b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "修改党的章程的职权属于（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u5168\\u56fd\\u4ee3\\u8868\\u5927\\u4f1a\", \"B\": \"\\u4e2d\\u592e\\u653f\\u6cbb\\u5c40\\u4f1a\\u8bae\", \"C\": \"\\u4e2d\\u592e\\u5168\\u4f1a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）就是党的根本大法，是全党必须遵循的总规矩。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7ae0\", \"B\": \"\\u5baa\\u6cd5\", \"C\": \"\\u515a\\u7eaa\\u56fd\\u6cd5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的基层组织有（ ）基本任务。",
+    "answer": "",
+    "options": "{\"A\": \"4 \\u9879\", \"B\": \"6 \\u9879\", \"C\": \"8 \\u9879\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党章规定，党总支部委员会和支部委员会每届任期（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"2 \\u5e74\", \"B\": \"3 \\u5e74\", \"C\": \"2 \\u5e74\\u62163 \\u5e74\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "《中国共产党纪律处分条例》是依据（ ）制定的。",
+    "answer": "",
+    "options": "{\"A\": \"\\u653f\\u6cbb\\u7eaa\\u5f8b\", \"B\": \"\\u5ec9\\u6d01\\u7eaa\\u5f8b\", \"C\": \"\\u7ec4\\u7ec7\\u7eaa\\u5f8b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "对中共党员的纪律处分有（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u8bb0\\u8fc7\\u3001\\u8bb0\\u5927\\u8fc7\\u3001\\u64a4\\u9500\\u515a\\u5185\\u804c\\u52a1\\u3001\\u7559\\u515a\\u5bdf\\u770b\\u3001\\u5f00\\u9664\\u515a\\u7c4d\", \"B\": \"\\u8b66\\u544a\\u3001\\u4e25\\u91cd\\u8b66\\u544a\\u3001\\u64a4\\u9500\\u515a\\u5185\\u804c\\u52a1\\u3001\\u7559\\u515a\\u5bdf\\u770b\\u3001\\u5f00\\u9664\\u515a\\u7c4d\", \"C\": \"\\u8b66\\u544a\\u3001\\u8bb0\\u8fc7\\u3001\\u64a4\\u9500\\u515a\\u5185\\u804c\\u52a1\\u3001\\u7559\\u515a\\u5bdf\\u770b\\u3001\\u5f00\\u9664\\u515a\\u7c4d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "民主集中制是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6c11\\u4e3b\\u57fa\\u7840\\u4e0a\\u7684\\u96c6\\u4e2d\", \"B\": \"\\u96c6\\u4e2d\\u6307\\u5bfc\\u4e0b\\u7684\\u6c11\\u4e3b\", \"C\": \"\\u6c11\\u4e3b\\u57fa\\u7840\\u4e0a\\u7684\\u96c6\\u4e2d\\u548c\\u96c6\\u4e2d\\u6307\\u5bfc\\u4e0b\\u7684\\u6c11\\u4e3b\\u76f8\\u7ed3\\u5408\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党党员必须（ ），不惜牺牲个人的一切，为实现 共产主义奋斗终身。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4ee5\\u7ecf\\u6d4e\\u5efa\\u8bbe\\u4e3a\\u4e2d\\u5fc3\", \"B\": \"\\u4ee5\\u4eba\\u4e3a\\u672c\", \"C\": \"\\u5168\\u5fc3\\u5168\\u610f\\u4e3a\\u4eba\\u6c11\\u670d\\u52a1\", \"D\": \"\\u5168\\u9762\\u4ece\\u4e25\\u6cbb\\u515a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党党员永远是（ ）的普通一员。除了法律和政策 规定范围内的个人利益和工作职权以外，所有共产党员都不得谋 求任何私利和特权。",
+    "answer": "",
+    "options": "{\"A\": \"\\u65e0\\u4ea7\\u9636\\u7ea7\", \"B\": \"\\u52b3\\u52a8\\u4eba\\u6c11\", \"C\": \"\\u5de5\\u4eba\\u9636\\u7ea7\", \"D\": \"\\u6c11\\u4f17\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "从（ ）党章开始，中央委员会委员长的职务改称为“总书 记”，地方各级党的执行委员会的委员长职务改称为“书记”。",
+    "answer": "",
+    "options": "{\"A\": \"\\u56db\\u5927\", \"B\": \"\\u4e94\\u5927\", \"C\": \"\\u516d\\u5927\", \"D\": \"\\u4e03\\u5927\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的各级委员会实行（ ）的制度。",
+    "answer": "",
+    "options": "{\"A\": \"\\u96c6\\u4f53\\u9886\\u5bfc\", \"B\": \"\\u4e2a\\u4eba\\u5206\\u5de5\\u8d1f\\u8d23\", \"C\": \"\\u96c6\\u4f53\\u9886\\u5bfc\\u548c\\u4e2a\\u4eba\\u5206\\u5de5\\u8d1f\\u8d23\\u76f8\\u7ed3\\u5408\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是党的生命，是党内政治生活积极健康的重要基础。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6c11\\u4e3b\\u96c6\\u4e2d\\u5236\", \"B\": \"\\u515a\\u5185\\u6c11\\u4e3b\", \"C\": \"\\u515a\\u7684\\u7ec4\\u7ec7\\u751f\\u6d3b\\u5236\\u5ea6\", \"D\": \"\\u6279\\u8bc4\\u4e0e\\u81ea\\u6211\\u6279\\u8bc4\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "中国共产党第二十届中央委员会第四次全体会议于（ ）在 北京举行。",
+    "answer": "",
+    "options": "{\"A\": \"2025 \\u5e7410 \\u670818 \\u65e5\\u81f321 \\u65e5\", \"B\": \"2025 \\u5e7410 \\u670820 \\u65e5\\u81f323 \\u65e5\", \"C\": \"2024 \\u5e7410 \\u670820 \\u65e5\\u81f323 \\u65e5\", \"D\": \"2025 \\u5e7411 \\u670820 \\u65e5\\u81f323 \\u65e5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十大党章明确，中国共产党以（ ）作为自己的行动 指南。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9a6c\\u514b\\u601d\\u5217\\u5b81\\u4e3b\\u4e49\\u3001\\u6bdb\\u6cfd\\u4e1c\\u601d\\u60f3\\u3001\\u9093\\u5c0f\\u5e73\\u7406\\u8bba\", \"B\": \"\\u201c\\u4e09\\u4e2a\\u4ee3\\u8868\\u201d\\u91cd\\u8981\\u601d\\u60f3\\u3001\\u79d1\\u5b66\\u53d1\\u5c55\\u89c2\", \"C\": \"\\u4e60\\u8fd1\\u5e73\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u601d\\u60f3\", \"D\": \"\\u4ee5\\u4e0a\\u90fd\\u662f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的最高理想和最终目标是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5b9e\\u73b0\\u5171\\u540c\\u5bcc\\u88d5\", \"B\": \"\\u5b9e\\u73b0\\u793e\\u4f1a\\u4e3b\\u4e49\\u73b0\\u4ee3\\u5316\", \"C\": \"\\u5b9e\\u73b0\\u5171\\u4ea7\\u4e3b\\u4e49\", \"D\": \"\\u5b9e\\u73b0\\u4e2d\\u534e\\u6c11\\u65cf\\u4f1f\\u5927\\u590d\\u5174\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会强调，“十五五”时期经济社会发展必 须坚持以（ ）为中心。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4eba\\u6c11\\u4e3a\\u4e2d\\u5fc3\", \"B\": \"\\u7ecf\\u6d4e\\u5efa\\u8bbe\", \"C\": \"\\u9ad8\\u8d28\\u91cf\\u53d1\\u5c55\", \"D\": \"\\u6539\\u9769\\u521b\\u65b0\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党章规定，我国正处于并将长期处于（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u4e2d\\u7ea7\\u9636\\u6bb5\", \"B\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u9ad8\\u7ea7\\u9636\\u6bb5\", \"C\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u521d\\u7ea7\\u9636\\u6bb5\", \"D\": \"\\u5171\\u4ea7\\u4e3b\\u4e49\\u521d\\u7ea7\\u9636\\u6bb5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会提出，（ ）是“十五五”时期经济社 会发展的根本动力。",
+    "answer": "",
+    "options": "{\"A\": \"\\u79d1\\u6280\\u521b\\u65b0\", \"B\": \"\\u6539\\u9769\\u521b\\u65b0\", \"C\": \"\\u4eba\\u624d\\u652f\\u6491\", \"D\": \"\\u5bf9\\u5916\\u5f00\\u653e\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "坚持深化改革开放，强调的是（ ）问题。",
+    "answer": "",
+    "options": "{\"A\": \"\\u53d1\\u5c55\\u76ee\\u7684\", \"B\": \"\\u524d\\u8fdb\\u65b9\\u5411\", \"C\": \"\\u53d1\\u5c55\\u52a8\\u529b\", \"D\": \"\\u65b9\\u5f0f\\u624b\\u6bb5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）时期是基本实现社会主义现代化的关键时期。",
+    "answer": "",
+    "options": "{\"A\": \"\\u201c\\u5341\\u4e8c\\u4e94\\u201dB.\\u201c\\u5341\\u4e09\\u4e94\\u201dC.\\u201c\\u5341\\u56db\\u4e94\\u201dD.\\u201c\\u5341\\u4e94\\u4e94\\u201d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会提出，要加快构建新发展格局，坚持 （ ）这个战略基点。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6269\\u5927\\u5185\\u9700\", \"B\": \"\\u6269\\u5927\\u5916\\u9700\", \"C\": \"\\u6df1\\u5316\\u6539\\u9769\", \"D\": \"\\u5bf9\\u5916\\u5f00\\u653e\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会强调，我国国家制度和国家治理体系具 有多方面的显著优势，共有（ ）",
+    "answer": "",
+    "options": "{\"A\": \"10 \\u4e2a\\u65b9\\u9762\", \"B\": \"12 \\u4e2a\\u65b9\\u9762\", \"C\": \"13 \\u4e2a\\u65b9\\u9762\", \"D\": \"14 \\u4e2a\\u65b9\\u9762\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会提出，要建立什么样的执政体制？",
+    "answer": "",
+    "options": "{\"A\": \"\\u603b\\u63fd\\u5168\\u5c40\\u3001\\u534f\\u8c03\\u5404\\u65b9\\u7684\\u515a\\u7684\\u9886\\u5bfc\\u4f53\\u5236\", \"B\": \"\\u670d\\u52a1\\u4eba\\u6c11\\u3001\\u9ad8\\u6548\\u6267\\u884c\\u7684\\u653f\\u5e9c\\u7ba1\\u7406\\u4f53\\u5236\", \"C\": \"\\u6c11\\u4e3b\\u96c6\\u4e2d\\u3001\\u79d1\\u5b66\\u51b3\\u7b56\\u7684\\u534f\\u5546\\u4f53\\u5236\", \"D\": \"\\u591a\\u65b9\\u53c2\\u4e0e\\u3001\\u4eba\\u6c11\\u76d1\\u7763\\u7684\\u6c11\\u4e3b\\u4f53\\u5236\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会《建议》的编制，其根本遵循和最高原 则是？",
+    "answer": "",
+    "options": "{\"A\": \"\\u65b0\\u53d1\\u5c55\\u7406\\u5ff5\", \"B\": \"\\u9ad8\\u8d28\\u91cf\\u53d1\\u5c55\", \"C\": \"\\u4e60\\u8fd1\\u5e73\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u601d\\u60f3D.\\u4e2d\\u56fd\\u5f0f\\u73b0\\u4ee3\\u5316\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会《建议》将“发展新质生产力”作为首 要任务。从生产力理论看，新质生产力区别于传统生产力的最根 本标志是？",
+    "answer": "",
+    "options": "{\"A\": \"\\u4ea7\\u4e1a\\u5f62\\u6001\\u7684\\u5148\\u8fdb\\u6027\", \"B\": \"\\u8d44\\u6e90\\u914d\\u7f6e\\u7684\\u9ad8\\u6548\\u7387\", \"C\": \"\\u79d1\\u6280\\u521b\\u65b0\\u7684\\u4e3b\\u5bfc\\u6027\", \"D\": \"\\u751f\\u6001\\u73af\\u5883\\u7684\\u53cb\\u597d\\u6027\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会《建议》将什么摆在“十五五”时期经 济社会发展各项任务的首位？",
+    "answer": "",
+    "options": "{\"A\": \"\\u575a\\u6301\\u521b\\u65b0\\u9a71\\u52a8\\u53d1\\u5c55\\uff0c\\u52a0\\u5feb\\u53d1\\u5c55\\u65b0\\u8d28\\u751f\\u4ea7\\u529b\", \"B\": \"\\u5168\\u9762\\u63a8\\u8fdb\\u4e61\\u6751\\u632f\\u5174\\uff0c\\u52a0\\u5feb\\u519c\\u4e1a\\u519c\\u6751\\u73b0\\u4ee3\\u5316\", \"C\": \"\\u4fc3\\u8fdb\\u533a\\u57df\\u534f\\u8c03\\u53d1\\u5c55\\uff0c\\u4f18\\u5316\\u91cd\\u5927\\u7ecf\\u6d4e\\u5e03\\u5c40\", \"D\": \"\\u6df1\\u5316\\u6539\\u9769\\u5f00\\u653e\\uff0c\\u6fc0\\u53d1\\u5404\\u7c7b\\u5e02\\u573a\\u4e3b\\u4f53\\u6d3b\\u529b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会《建议》在“十五五”时期对区域协调 发展的部署中，特别提出要发挥哪个区域的引领带动作用？",
+    "answer": "",
+    "options": "{\"A\": \"\\u4eac\\u6d25\\u5180\\u3001\\u957f\\u4e09\\u89d2\\u3001\\u7ca4\\u6e2f\\u6fb3\\u5927\\u6e7e\\u533a\", \"B\": \"\\u957f\\u6c5f\\u7ecf\\u6d4e\\u5e26\\u3001\\u9ec4\\u6cb3\\u6d41\\u57df\\u751f\\u6001\\u4fdd\\u62a4\\u548c\\u9ad8\\u8d28\\u91cf\\u53d1\\u5c55\", \"C\": \"\\u6210\\u6e1d\\u5730\\u533a\\u53cc\\u57ce\\u7ecf\\u6d4e\\u5708\\u3001\\u957f\\u6c5f\\u4e2d\\u6e38\\u57ce\\u5e02\\u7fa4\", \"D\": \"\\u4ee5\\u4e0a\\u90fd\\u662f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "在推进乡村全面振兴方面，党的二十届四中全会《建议》提 出，要学习运用“千万工程”经验，其核心要义是？",
+    "answer": "",
+    "options": "{\"A\": \"\\u5927\\u89c4\\u6a21\\u63a8\\u8fdb\\u519c\\u6751\\u57fa\\u7840\\u8bbe\\u65bd\\u5efa\\u8bbe\", \"B\": \"\\u56e0\\u5730\\u5236\\u5b9c\\u3001\\u5faa\\u5e8f\\u6e10\\u8fdb\\u3001\\u4e45\\u4e45\\u4e3a\\u529f\\uff0c\\u7edf\\u7b79\\u63a8\\u8fdb\\u57ce\\u4e61\\u878d\\u5408\\u53d1\\u5c55\", \"C\": \"\\u4ee5\\u5de5\\u4e1a\\u5316\\u7406\\u5ff5\\u8c0b\\u5212\\u519c\\u4e1a\\u519c\\u6751\\u53d1\\u5c55\", \"D\": \"\\u91cd\\u70b9\\u53d1\\u5c55\\u4e61\\u6751\\u7279\\u8272\\u4ea7\\u4e1a\\u548c\\u4e61\\u6751\\u65c5\\u6e38\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会《建议》提出，要健全多层次社会保障 体系，其覆盖范围的核心要求是？",
+    "answer": "",
+    "options": "{\"A\": \"\\u8986\\u76d6\\u5168\\u6c11\\u3001\\u7edf\\u7b79\\u57ce\\u4e61\\u3001\\u516c\\u5e73\\u7edf\\u4e00\\u3001\\u53ef\\u6301\\u7eed\", \"B\": \"\\u4fdd\\u57fa\\u672c\\u3001\\u591a\\u5c42\\u6b21\\u3001\\u5168\\u8986\\u76d6\\u3001\\u53ef\\u6301\\u7eed\", \"C\": \"\\u57ce\\u4e61\\u4e00\\u4f53\\u3001\\u4fdd\\u969c\\u9002\\u5ea6\\u3001\\u6743\\u8d23\\u6e05\\u6670\\u3001\\u8fd0\\u884c\\u9ad8\\u6548\", \"D\": \"\\u4e0e\\u7ecf\\u6d4e\\u53d1\\u5c55\\u6c34\\u5e73\\u76f8\\u9002\\u5e94\\u3001\\u4e0e\\u4eba\\u53e3\\u7ed3\\u6784\\u53d8\\u5316\\u76f8\\u5339\\u914d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的二十届四中全会强调，要健全国家安全体系，必须统筹 哪些方面的安全？",
+    "answer": "",
+    "options": "{\"A\": \"\\u4f20\\u7edf\\u5b89\\u5168\\u4e0e\\u975e\\u4f20\\u7edf\\u5b89\\u5168\", \"B\": \"\\u7ecf\\u6d4e\\u5b89\\u5168\\u4e0e\\u56fd\\u9632\\u5b89\\u5168\", \"C\": \"\\u5185\\u90e8\\u5b89\\u5168\\u4e0e\\u5916\\u90e8\\u5b89\\u5168\", \"D\": \"\\u56fd\\u571f\\u5b89\\u5168\\u4e0e\\u56fd\\u6c11\\u5b89\\u5168\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "留党察看处分，分为留党察看（ ）、留党察看（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u534a\\u5e74\\u3001\\u4e00\\u5e74\", \"B\": \"\\u4e8c\\u5e74\\u3001\\u4e09\\u5e74\", \"C\": \"\\u4e00\\u5e74\\u3001\\u4e8c\\u5e74\", \"D\": \"\\u4e00\\u5e74\\u3001\\u4e09\\u5e74\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "对出国（境）学习研究党员，由原就读高校或者工作单位党 组织保留其组织关系，（ ）至少与其联系1 次。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6bcf\\u6708\", \"B\": \"\\u6bcf\\u5b63\\u5ea6\", \"C\": \"\\u6bcf\\u534a\\u5e74\", \"D\": \"\\u6bcf\\u5e74\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我国土地制度改革在全国范围内基本完成是在（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"1951 \\u5e74\", \"B\": \"1952 \\u5e74\", \"C\": \"1960 \\u5e74\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "1982 年2 月，中共中央作出《关于建立老干部退休制度的 决定》，废除了干部领导职务实际上存在的（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4efb\\u671f\\u5236\", \"B\": \"\\u8fde\\u4efb\\u5236\", \"C\": \"\\u7ec8\\u8eab\\u5236\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我国社会主义初级阶段的基本经济制度是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u516c\\u6709\\u5236\\u4e3a\\u4e3b\\u4f53\\u3001\\u591a\\u79cd\\u591a\\u6837\\u6240\\u6709\\u5236\\u7ecf\\u6d4e\\u5171\\u540c\\u53d1\\u5c55\", \"B\": \"\\u56fd\\u6709\\u5236\\u4e3a\\u4e3b\\u4f53\\u3001\\u591a\\u79cd\\u591a\\u6837\\u6240\\u6709\\u5236\\u7ecf\\u6d4e\\u5171\\u540c\\u53d1\\u5c55\", \"C\": \"\\u79c1\\u6709\\u5236\\u4e3a\\u4e3b\\u4f53\\u3001\\u591a\\u79cd\\u591a\\u6837\\u6240\\u6709\\u5236\\u7ecf\\u6d4e\\u5171\\u540c\\u53d1\\u5c55\", \"D\": \"\\u96c6\\u4f53\\u6240\\u6709\\u5236\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的第（ ）全国代表大会阐明当代中国正处在社会主义初 级阶段。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5341\\u4e8c\\u6b21\", \"B\": \"\\u5341\\u4e09\\u6b21\", \"C\": \"\\u5341\\u56db\\u6b21\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "建设中国特色社会主义，总依据是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u201c\\u4e00\\u4e2a\\u4e2d\\u5fc3\\uff0c\\u4e24\\u4e2a\\u57fa\\u672c\\u70b9\\u201d\", \"B\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u521d\\u7ea7\\u9636\\u6bb5\", \"C\": \"\\u5b9e\\u73b0\\u793e\\u4f1a\\u4e3b\\u4e49\\u73b0\\u4ee3\\u5316\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "贯穿《共产党宣言》的基本思想是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\", \"B\": \"\\u8fa9\\u8bc1\\u552f\\u7269\\u4e3b\\u4e49\", \"C\": \"\\u5386\\u53f2\\u552f\\u7269\\u4e3b\\u4e49\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "对马克思主义的信仰，对社会主义和共产主义的信念，是共 产党人的（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u653f\\u6cbb\\u7075\\u9b42\", \"B\": \"\\u7cbe\\u795e\\u652f\\u67f1\", \"C\": \"\\u653f\\u6cbb\\u5e95\\u7ebf\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "经济体制改革的核心问题是处理好（ ）和市场的关系，必 须更加尊重市场规律，更好发挥政府作用。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4f01\\u4e1a\", \"B\": \"\\u653f\\u5e9c\", \"C\": \"\\u793e\\u4f1a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "习近平新时代中国特色社会主义思想，明确坚持和发展中国 特色社会主义，总任务是实现社会主义现代化和中华民族伟大复 兴，在全面建成小康社会的基础上，分（ ）在本世纪中叶建成 富强民主文明和谐美丽的社会主义现代化强国。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e24\\u6b65\\u8d70\", \"B\": \"\\u4e09\\u6b65\\u8d70\", \"C\": \"\\u56db\\u6b65\\u8d70\", \"D\": \"\\u4e94\\u6b65\\u8d70\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的十八大以来，在文化建设上，我国意识形态领域形势发 生全局性、根本性转变，全党全国各族人民（ ）明显增强，全 社会凝聚力和向心力极大提升。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6587\\u660e\\u7d20\\u8d28\", \"B\": \"\\u7cbe\\u795e\\u7d20\\u517b\", \"C\": \"\\u7269\\u8d28\\u9700\\u6c42\", \"D\": \"\\u6587\\u5316\\u81ea\\u4fe1\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全会强调，党的十八大以来，在坚持党的全面领导上，党中 央权威和集中统一领导得到有力保证，党的领导制度体系不断完 善，党的领导方式更科学，全党思想上（ ）、政治上（ ）、 行动上（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u66f4\\u52a0\\u7edf\\u4e00\\u66f4\\u52a0\\u56e2\\u7ed3\\u66f4\\u52a0\\u4e00\\u81f4\", \"B\": \"\\u66f4\\u52a0\\u56e2\\u7ed3\\u66f4\\u52a0\\u7edf\\u4e00\\u66f4\\u52a0\\u4e00\\u81f4\", \"C\": \"\\u66f4\\u52a0\\u4e00\\u81f4\\u66f4\\u52a0\\u7edf\\u4e00\\u66f4\\u52a0\\u56e2\\u7ed3\", \"D\": \"\\u66f4\\u52a0\\u7edf\\u4e00\\u66f4\\u52a0\\u4e00\\u81f4\\u66f4\\u52a0\\u56e2\\u7ed3\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "党的百年奋斗展示了马克思主义的强大生命力，马克思主义 的（ ）在中国得到充分检验。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4eba\\u6c11\\u6027\\u548c\\u5b9e\\u8df5\\u6027\", \"B\": \"\\u5f00\\u653e\\u6027\\u548c\\u65f6\\u4ee3\\u6027\", \"C\": \"\\u79d1\\u5b66\\u6027\\u548c\\u771f\\u7406\\u6027\", \"D\": \"\\u5148\\u8fdb\\u6027\\u548c\\u7eaf\\u6d01\\u6027\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "2021年7月1日，习近平在庆祝中国共产党成立100周年大会 发表重要讲话，提到“以史为鉴，可以知兴替”，此语出自（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u300a\\u8d1e\\u89c2\\u653f\\u8981\\u300b\", \"B\": \"\\u300a\\u53f2\\u8bb0\\u300b\", \"C\": \"\\u300a\\u8d44\\u6cbb\\u901a\\u9274\\u300b\", \"D\": \"\\u300a\\u95f2\\u95f2\\u8001\\u4eba\\u6ecf\\u6c34\\u6587\\u96c6\\u300b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "2021年7月1日，习近平在庆祝中国共产党成立100周年大会 发表重要讲话，我们创造了新民主主义革命的伟大成就，以（ ） 反对武装的反革命，推翻帝国主义、封建主义、官僚资本主义三 座大山。",
+    "answer": "",
+    "options": "{\"A\": \"\\u65e0\\u4ea7\\u9636\\u7ea7\\u9769\\u547d\", \"B\": \"\\u6b66\\u88c5\\u7684\\u529b\\u91cf\", \"C\": \"\\u6b66\\u88c5\\u7684\\u9769\\u547d\", \"D\": \"\\u5de5\\u4eba\\u9636\\u7ea7\\u9769\\u547d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "2021年7月1日，习近平在庆祝中国共产党成立100周年大会 发表重要讲话，一百年来，中国共产党团结带领中国人民进行的 一切（ ）、一切（ ）、一切（ ），归结起来就是一个主题： 实现中华民族伟大复兴。",
+    "answer": "",
+    "options": "{\"A\": \"\\u594b\\u6597\\uff1b\\u727a\\u7272\\uff1b\\u521b\\u9020\", \"B\": \"\\u9769\\u547d\\uff1b\\u594b\\u6597\\uff1b\\u521b\\u9020\", \"C\": \"\\u727a\\u7272\\uff1b\\u594b\\u6597\\uff1b\\u521b\\u65b0\", \"D\": \"\\u9769\\u547d\\uff1b\\u594b\\u6597\\uff1b\\u727a\\u7272\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "2021年7月1日，习近平在庆祝中国共产党成立100周年大会 发表重要讲话，我们党为了实现中华民族伟大复兴，创造了四个 历史阶段的伟大成就，指的是（ ）。 ①土地革命和新民主主义革命②社会主义革命和建设 ③改革开放和社会主义现代化建设④新时代中国特色社会主义 ⑤新民主主义革命。",
+    "answer": "",
+    "options": "{\"A\": \"\\u2460\\u2462\\u2463\\u2464\", \"B\": \"\\u2461\\u2462\\u2463\\u2464\", \"C\": \"\\u2460\\u2461\\u2462\\u2464\", \"D\": \"\\u2460\\u2461\\u2462\\u2463\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "《决议》中提到的“四力”指的是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u653f\\u6cbb\\u7edf\\u9886\\u529b\\u3001\\u601d\\u60f3\\u51dd\\u805a\\u529b\\u3001\\u7fa4\\u4f17\\u7ec4\\u7ec7\\u529b\\u3001\\u793e\\u4f1a\\u53f7\\u53ec\\u529b\", \"B\": \"\\u515a\\u7684\\u653f\\u6cbb\\u7edf\\u9886\\u529b\\u3001\\u601d\\u60f3\\u5f15\\u9886\\u529b\\u3001\\u7fa4\\u4f17\\u51dd\\u805a\\u529b\\u3001\\u793e\\u4f1a\\u53f7\\u53ec\\u529b\", \"C\": \"\\u515a\\u7684\\u653f\\u6cbb\\u9886\\u5bfc\\u529b\\u3001\\u601d\\u60f3\\u5f15\\u9886\\u529b\\u3001\\u7fa4\\u4f17\\u7ec4\\u7ec7\\u529b\\u3001\\u793e\\u4f1a\\u53f7\\u53ec\\u529b\", \"D\": \"\\u515a\\u7684\\u653f\\u6cbb\\u9886\\u5bfc\\u529b\\u3001\\u601d\\u60f3\\u5f15\\u9886\\u529b\\u3001\\u7fa4\\u4f17\\u51dd\\u805a\\u529b\\u3001\\u793e\\u4f1a\\u53f7\\u53ec\\u529b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "在经济建设上，我国经济发展（ ）明显增强。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5e73\\u8861\\u6027\\u3001\\u534f\\u8c03\\u6027\\u3001\\u53ef\\u6301\\u7eed\\u6027\", \"B\": \"\\u534f\\u8c03\\u6027\\u3001\\u5e73\\u8861\\u6027\\u3001\\u53ef\\u6301\\u7eed\\u6027\", \"C\": \"\\u53ef\\u6301\\u7eed\\u6027\\u3001\\u5e73\\u8861\\u6027\\u3001\\u534f\\u8c03\\u6027\", \"D\": \"\\u5e73\\u8861\\u6027\\u3001\\u53ef\\u6301\\u7eed\\u6027\\u3001\\u534f\\u8c03\\u6027\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全面推进中国特色大国外交，推动构建人类命运共同体，坚 定维护国家国际公平正义，毫不动摇反对任何单边主义、保护主 义、（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9738\\u51cc\\u4e3b\\u4e49\", \"B\": \"\\u9738\\u9053\\u4e3b\\u4e49\", \"C\": \"\\u9738\\u51cc\\u884c\\u5f84\", \"D\": \"\\u9738\\u9053\\u884c\\u5f84\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "国家的一切权利属于（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u516c\\u6c11\", \"B\": \"\\u7fa4\\u4f17\", \"C\": \"\\u4eba\\u6c11\", \"D\": \"\\u5de5\\u519c\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "（ ）是社会主义的生命。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6cd5\\u5236\", \"B\": \"\\u4eba\\u6c11\\u6c11\\u4e3b\", \"C\": \"\\u7d27\\u5bc6\\u8054\\u7cfb\\u7fa4\\u4f17\", \"D\": \"\\u4eba\\u6c11\\u5f53\\u5bb6\\u4f5c\\u4e3b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "我们要坚持在意识形态领域指导地位的根本制度（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\", \"B\": \"\\u9769\\u547d\\u6587\\u5316\", \"C\": \"\\u521b\\u65b0\\u601d\\u60f3\", \"D\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u6838\\u5fc3\\u4ef7\\u503c\\u89c2\"}",
+    "explanation": ""
+  },
+  {
+    "type": "choice",
+    "question": "全面落实意识形态工作责任制，巩固壮大奋进新时代的主流 思想舆论，加强（ ）建设，推动形成良好网络生态。",
+    "answer": "",
+    "options": "{\"A\": \"\\u65e5\\u672c\\u5929\\u7687\\u53d1\\u8868\\u201c\\u7ec8\\u6218\\u8bcf\\u4e66\\u201d\", \"B\": \"\\u65e5\\u672c\\u653f\\u5e9c\\u7b7e\\u7f72\\u5411\\u540c\\u76df\\u56fd\\u7684\\u6295\\u964d\\u4e66\", \"C\": \"\\u4e2d\\u3001\\u7f8e\\u3001\\u82f1\\u4e09\\u56fd\\u53d1\\u8868\\u6ce2\\u8328\\u5766\\u516c\\u544a\", \"D\": \"\\u4e2d\\u56fd\\u653f\\u5e9c\\u5728\\u53f0\\u6e7e\\u4e3e\\u884c\\u53d7\\u964d\\u4eea\\u5f0f,\\u53f0\\u6e7e\\u4ee5\\u53ca\\u6f8e\\u6e56\\u5217\\u5c9b\\u7531\\u4e2d\\u56fd\\u6536\\u56de\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年7 月1 日，习近平在庆祝中国共产党成立100 周年大 会发表重要讲话，我们党历经千锤百炼而朝气蓬勃，一个很重要 的原因就是我们始终坚持（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7684\\u7edf\\u4e00\\u9886\\u5bfcB.\\u515a\\u8981\\u7ba1\\u515aC.\\u6c11\\u4e3b\\u96c6\\u4e2d\\u5236D.\\u5168\\u9762\\u4ece\\u4e25\\u6cbb\\u515a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年7 月1 日，习近平在庆祝中国共产党成立100 周年大 会发重要讲话，新的征程上，用马克思主义观察时代、把握时代、 引领时代，继续发展（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\", \"B\": \"\\u5f53\\u4ee3\\u4e2d\\u56fd\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\", \"C\": \"21 \\u4e16\\u7eaa\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\", \"D\": \"\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年7 月1 日，习近平在庆祝中国共产党成立100 周年大 会发表重要讲话，中国共产党的领导是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u6700\\u672c\\u8d28\\u7684\\u7279\\u5f81\", \"B\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u5236\\u5ea6\\u7684\\u6700\\u5927\\u4f18\\u52bf\", \"C\": \"\\u515a\\u548c\\u56fd\\u5bb6\\u7684\\u6839\\u672c\\u6240\\u5728\\u3001\\u547d\\u8fd0\\u6240\\u5728\", \"D\": \"\\u5168\\u56fd\\u5404\\u65cf\\u4eba\\u6c11\\u7684\\u5229\\u76ca\\u6240\\u7cfb\\u3001\\u547d\\u8fd0\\u6240\\u7cfb\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年7 月1 日，习近平在庆祝中国共产党成立100 周年大 会发表重要讲话，新民主主义革命的胜利，彻底（ ）为实现中 华民族伟大复兴创造了根本社会条件。",
+    "answer": "",
+    "options": "{\"A\": \"\\u7ed3\\u675f\\u4e86\\u65e7\\u4e2d\\u56fd\\u534a\\u6b96\\u6c11\\u5730\\u534a\\u5c01\\u5efa\\u793e\\u4f1a\\u7684\\u5386\\u53f2\", \"B\": \"\\u5f7b\\u5e95\\u7ed3\\u675f\\u4e86\\u65e7\\u4e2d\\u56fd\\u4e00\\u76d8\\u6563\\u6c99\\u7684\\u5c40\\u9762\", \"C\": \"\\u6d88\\u706d\\u5728\\u4e2d\\u56fd\\u5ef6\\u7eed\\u51e0\\u5343\\u5e74\\u7684\\u5c01\\u5efa\\u5236\\u5ea6\", \"D\": \"\\u5f7b\\u5e95\\u5e9f\\u9664\\u4e86\\u5217\\u5f3a\\u5f3a\\u52a0\\u7ed9\\u4e2d\\u56fd\\u7684\\u4e0d\\u5e73\\u7b49\\u6761\\u7ea6\\u548c\\u5e1d\\u56fd\\u4e3b\\u4e49\\u5728\\u4e2d\\u56fd \\u7684\\u4e00\\u5207\\u7279\\u6743\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年7 月1 日，习近平在庆祝中国共产党成立100 周年大 会发表重要讲话，为了实现中华民族伟大复兴，中国共产党团结 带领中国人民（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6d74\\u8840\\u594b\\u6218\\u3001\\u767e\\u6298\\u4e0d\\u6320\\uff0c\\u521b\\u9020\\u4e86\\u65b0\\u6c11\\u4e3b\\u4e3b\\u4e49\\u9769\\u547d\\u7684\\u4f1f\\u5927\\u6210\\u5c31\", \"B\": \"\\u81ea\\u529b\\u66f4\\u751f\\u3001\\u53d1\\u6124\\u56fe\\u5f3a\\uff0c\\u521b\\u9020\\u4e86\\u793e\\u4f1a\\u4e3b\\u4e49\\u9769\\u547d\\u548c\\u5efa\\u8bbe\\u7684\\u4f1f\\u5927\\u6210\\u5c31\", \"C\": \"\\u89e3\\u653e\\u601d\\u60f3\\u3001\\u9510\\u610f\\u8fdb\\u53d6\\uff0c\\u521b\\u9020\\u4e86\\u6539\\u9769\\u5f00\\u653e\\u548c\\u793e\\u4f1a\\u4e3b\\u4e49\\u73b0\\u4ee3\\u5316\\u5efa\\u8bbe \\u7684\\u4f1f\\u5927\\u6210\\u5c31\", \"D\": \"\\u81ea\\u4fe1\\u81ea\\u5f3a\\u3001\\u5b88\\u6b63\\u521b\\u65b0\\uff0c\\u521b\\u9020\\u4e86\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u7684\\u4f1f\\u5927 \\u6210\\u5c31\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年7 月1 日，习近平在庆祝中国共产党成立100 周年大 会发表重要讲话，中国产生了共产党，这是开天辟地的大事变， 深刻改变了（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u8fd1\\u4ee3\\u4ee5\\u540e\\u4e2d\\u534e\\u6c11\\u65cf\\u53d1\\u5c55\\u7684\\u65b9\\u5411\\u548c\\u8fdb\\u7a0b\", \"B\": \"\\u6df1\\u523b\\u6539\\u53d8\\u4e86\\u4e2d\\u56fd\\u4eba\\u6c11\\u548c\\u4e2d\\u534e\\u6c11\\u65cf\\u7684\\u524d\\u9014\\u548c\\u547d\\u8fd0\", \"C\": \"\\u65e7\\u4e2d\\u56fd\\u534a\\u6b96\\u6c11\\u5730\\u534a\\u5c01\\u5efa\\u793e\\u4f1a\\u7684\\u5386\\u53f2\", \"D\": \"\\u6df1\\u523b\\u6539\\u53d8\\u4e86\\u4e16\\u754c\\u53d1\\u5c55\\u7684\\u8d8b\\u52bf\\u548c\\u683c\\u5c40\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年11 月16 日，习近平就《中共中央关于党的百年奋斗 重大成就和历史经验的决议》起草的有关情况向全会作说明，概 括了其具有根本性和长远指导意义的十条历史经验，揭示了：",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u548c\\u4eba\\u6c11\\u4e8b\\u4e1a\\u4e0d\\u65ad\\u6210\\u529f\\u7684\\u6839\\u672c\\u4fdd\\u8bc1\", \"B\": \"\\u515a\\u59cb\\u7ec8\\u7acb\\u4e8e\\u4e0d\\u8d25\\u4e4b\\u5730\\u7684\\u529b\\u91cf\\u6e90\\u6cc9\", \"C\": \"\\u515a\\u59cb\\u7ec8\\u638c\\u63e1\\u5386\\u53f2\\u4e3b\\u52a8\\u7684\\u6839\\u672c\\u539f\\u56e0\", \"D\": \"\\u515a\\u6c38\\u8446\\u5148\\u8fdb\\u6027\\u548c\\u7eaf\\u6d01\\u6027\\u3001\\u59cb\\u7ec8\\u8d70\\u5728\\u65f6\\u4ee3\\u524d\\u5217\\u7684\\u6839\\u672c\\u9014\\u5f84\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年11 月16 日，习近平就《中共中央关于党的百年奋斗 重大成就和历史经验的决议》起草的有关情况向全会作说明，全 面总结党的百年奋斗重大成就和历史经验，是郑重的历史性、战 略性决策，充分体现：",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u7262\\u8bb0\\u521d\\u5fc3\\u4f7f\\u547d\\u3001\\u6c38\\u8446\\u751f\\u673a\\u6d3b\\u529b\\u7684\\u575a\\u5f3a\\u610f\\u5fd7\\u548c\\u575a\\u5b9a\\u51b3\\u5fc3\", \"B\": \"\\u515a\\u6df1\\u523b\\u628a\\u63e1\\u5386\\u53f2\\u53d1\\u5c55\\u89c4\\u5f8b\\u3001\\u59cb\\u7ec8\\u638c\\u63e1\\u515a\\u548c\\u56fd\\u5bb6\\u4e8b\\u4e1a\\u53d1\\u5c55\\u7684\\u5386 \\u53f2\\u4e3b\\u52a8\\u548c\\u4f7f\\u547d\\u62c5\\u5f53\", \"C\": \"\\u52a0\\u5f3a\\u515a\\u7684\\u9886\\u5bfc\\u8fd9\\u4e2a\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\\u653f\\u515a\\u7684\\u9c9c\\u660e\\u7279\\u5f81\\u548c\\u653f\\u6cbb\\u4f18\\u52bf\", \"D\": \"\\u515a\\u7acb\\u8db3\\u5f53\\u4e0b\\u3001\\u7740\\u773c\\u672a\\u6765\\u3001\\u6ce8\\u91cd\\u603b\\u7ed3\\u548c\\u8fd0\\u7528\\u5386\\u53f2\\u7ecf\\u9a8c\\u7684\\u9ad8\\u77bb\\u8fdc \\u77a9\\u548c\\u6df1\\u8c0b\\u8fdc\\u8651\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2021 年11 月16 日，习近平就《中共中央关于党的百年奋斗 重大成就和历史经验的决议》起草的有关情况向全会作说明，对 这次全会决议起草，党中央明确要求着重把握好以下几点：",
+    "answer": "",
+    "options": "{\"A\": \"\\u805a\\u7126\\u603b\\u7ed3\\u515a\\u7684\\u767e\\u5e74\\u594b\\u6597\\u91cd\\u5927\\u6210\\u5c31\\u548c\\u5386\\u53f2\\u7ecf\\u9a8c\", \"B\": \"\\u7a81\\u51fa\\u515a\\u7684\\u653f\\u6cbb\\u5efa\\u8bbe\\u8fd9\\u4e2a\\u91cd\\u70b9\", \"C\": \"\\u7a81\\u51fa\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u65b0\\u65f6\\u4ee3\\u8fd9\\u4e2a\\u91cd\\u70b9\", \"D\": \"\\u5bf9\\u91cd\\u5927\\u4e8b\\u4ef6\\u3001\\u91cd\\u8981\\u4f1a\\u8bae\\u3001\\u91cd\\u8981\\u4eba\\u7269\\u7684\\u8bc4\\u4ef7\\u6ce8\\u91cd\\u540c\\u515a\\u4e2d\\u592e\\u5df2\\u6709 \\u7ed3\\u8bba\\u76f8\\u8854\\u63a5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "2022 年5 月10 日，庆祝中国共产主义青年团成立100 周年 大会隆重举行。习近平强调，在新的征程上，（ ），（ ）， 是新时代中国青年运动和青年工作必须回答的重大课题。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5982\\u4f55\\u66f4\\u597d\\u5730\\u628a\\u9752\\u5e74\\u56e2\\u7ed3\\u8d77\\u6765\\u3001\\u7ec4\\u7ec7\\u8d77\\u6765\\u3001\\u52a8\\u5458\\u8d77\\u6765\", \"B\": \"\\u5982\\u4f55\\u575a\\u5b9a\\u9752\\u5e74\\u7406\\u60f3\", \"C\": \"\\u4e3a\\u5b9e\\u73b0\\u5171\\u4ea7\\u4e3b\\u4e49\\u800c\\u594b\\u6597\", \"D\": \"\\u4e3a\\u5b9e\\u73b0\\u7b2c\\u4e8c\\u4e2a\\u767e\\u5e74\\u594b\\u6597\\u76ee\\u6807\\u3001\\u5b9e\\u73b0\\u4e2d\\u534e\\u6c11\\u65cf\\u4f1f\\u5927\\u590d\\u5174\\u7684\\u4e2d\\u56fd \\u68a6\\u800c\\u594b\\u6597\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "为顺应时代发展，以习近平同志为主要代表的中国共产党人， 从理论和实践结合上系统回答了新时代重大时代课题，创立了 （ ）的习近平新时代中国特色社会主义思想。",
+    "answer": "",
+    "options": "{\"A\": \"\\u600e\\u6837\\u575a\\u6301\\u548c\\u53d1\\u5c55\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\", \"B\": \"\\u600e\\u6837\\u5efa\\u8bbe\\u793e\\u4f1a\\u4e3b\\u4e49\\u548c\\u5efa\\u8bbe\\u4ec0\\u4e48\\u6837\\u7684\\u515a\", \"C\": \"\\u575a\\u6301\\u548c\\u53d1\\u5c55\\u4ec0\\u4e48\\u6837\\u7684\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\", \"D\": \"\\u600e\\u6837\\u5efa\\u8bbe\\u515a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "习近平新时代中国特色社会主义思想是（ ），是对马克思 列宁主义毛泽东思想、邓小平理论、“三个代表”重要思想、 科学发展观的继承和发展，必须长期坚持并不断发展。",
+    "answer": "",
+    "options": "{\"A\": \"\\u662f\\u9a6c\\u514b\\u601d\\u4e3b\\u4e49\\u4e2d\\u56fd\\u5316\\u6700\\u65b0\\u6210\\u679c\", \"B\": \"\\u662f\\u515a\\u548c\\u4eba\\u6c11\\u5b9e\\u8df5\\u7ecf\\u9a8c\\u548c\\u96c6\\u4f53\\u667a\\u6167\\u7684\\u7ed3\\u6676\", \"C\": \"\\u662f\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u7406\\u8bba\\u4f53\\u7cfb\\u7684\\u91cd\\u8981\\u7ec4\\u6210\\u90e8\\u5206\", \"D\": \"\\u662f\\u5168\\u515a\\u5168\\u56fd\\u4eba\\u6c11\\u4e3a\\u5b9e\\u73b0\\u4e2d\\u534e\\u6c11\\u65cf\\u4f1f\\u5927\\u590d\\u5174\\u800c\\u594b\\u6597\\u7684\\u884c\\u52a8\\u6307\\u5357\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "改革开放以来我们取得一切成绩和进步的根本原因，归结起 来就是（ ）.",
+    "answer": "",
+    "options": "{\"A\": \"\\u5f00\\u8f9f\\u4e86\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u9053\\u8def\", \"B\": \"\\u5f62\\u6210\\u4e86\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u7406\\u8bba\\u4f53\\u7cfb\", \"C\": \"\\u786e\\u7acb\\u4e86\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u5236\\u5ea6\", \"D\": \"\\u53d1\\u5c55\\u4e86\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u6587\\u5316\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党在自己的工作中实行群众路线，把党的正确主张变为群众 的自觉行动。（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e00\\u5207\\u4e3a\\u4e86\\u7fa4\\u4f17\", \"B\": \"\\u4e00\\u5207\\u4f9d\\u9760\\u7fa4\\u4f17\", \"C\": \"\\u4ece\\u7fa4\\u4f17\\u4e2d\\u6765\", \"D\": \"\\u5230\\u7fa4\\u4f17\\u4e2d\\u53bb\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "中国共产党在领导社会主义事业中，必须坚持以经济建设为 中心，促进国民经济发展。（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u66f4\\u9ad8\\u8d28\\u91cf\", \"B\": \"\\u66f4\\u6709\\u6548\\u7387\", \"C\": \"\\u66f4\\u52a0\\u516c\\u5e73\", \"D\": \"\\u66f4\\u53ef\\u6301\\u7eed\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "中国共产党第二十次全国代表大会主题是：高举中国特色社 会主义伟大旗帜，全面贯彻（ ）自信自强、守正创新，踔厉奋 发、勇毅前行，为全面建设社会主义现代化国家、全面推进中华 民族伟大复兴而团结奋斗。",
+    "answer": "",
+    "options": "{\"A\": \"\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u601d\\u60f3\", \"B\": \"\\u7b2c\\u4e8c\\u4e2a\\u767e\\u5e74\\u594b\\u6597\\u76ee\\u6807\", \"C\": \"\\u5f18\\u626c\\u4f1f\\u5927\\u5efa\\u515a\\u7cbe\\u795e\", \"D\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u73b0\\u4ee3\\u5316\\u56fd\\u5bb6\\u65b0\\u5f81\\u7a0b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十大报告指出，要坚持以严的基调强化正风肃纪，锲 而不舍落实中央八项规定精神，持续深化纠治“‘四风’”，重 点纠治（ ）、（ ），坚决破除（ ）和（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5f62\\u5f0f\\u4e3b\\u4e49\", \"B\": \"\\u4eab\\u4e50\\u4e3b\\u4e49\", \"C\": \"\\u5b98\\u50da\\u4e3b\\u4e49\", \"D\": \"\\u7279\\u6743\\u601d\\u60f3\", \"E\": \"\\u5962\\u9761\\u4e4b\\u98ce\", \"F\": \"\\u7279\\u6743\\u884c\\u4e3a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "习近平总书记在党的二十大报告中指出：全党同志务必（ ）， 务必（ ），务必（ ），坚定历史自信，增强历史主动，谱写 新时代中国特色社会主义更加绚丽的华章。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e0d\\u5fd8\\u521d\\u5fc3\\u3001\\u7262\\u8bb0\\u4f7f\\u547d\", \"B\": \"\\u81ea\\u4fe1\\u81ea\\u5f3a\\u3001\\u5b88\\u6b63\\u521b\\u65b0\", \"C\": \"\\u8c26\\u865a\\u8c28\\u614e\\u3001\\u8270\\u82e6\\u594b\\u6597\", \"D\": \"\\u6562\\u4e8e\\u6597\\u4e89\\u3001\\u5584\\u4e8e\\u6597\\u4e89\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "完整准确全面贯彻新发展理念，牢牢把握江西在构建新发展 格局中的定位，立足江西的特色和优势，着眼高质量发展、绿色 发展、低碳发展等新要求，（ ）（ ）（ ）（ ）努力在加 快革命老区高质量发展上走在前、在推动中部地区崛起上勇争先、 在推进长江经济带发展上善作为，奋力谱写中国式现代化江西篇 章。",
+    "answer": "",
+    "options": "{\"A\": \"\\u89e3\\u653e\\u601d\\u60f3\", \"B\": \"\\u5f00\\u62d3\\u8fdb\\u53d6\", \"C\": \"\\u626c\\u957f\\u8865\\u77edD.\\u56fa\\u672c\\u5174\\u65b0\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "广大青年要坚定不移听党话、跟党走，怀抱梦想又脚踏实地， 敢想敢为又善作善成，立志做（ ）、（ ）、（ ）、（ ） 的新时代好青年，让青春在全面建设社会主义现代化国家的火热 实践中绽放绚丽之花。 A、有理想 B、敢担当 C、能吃苦 D、肯奋斗",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十大主题是：（ ），自信自强、守正创新，踔厉奋 发、勇毅前行，为全面建设社会主义现代化国家、全面推进中华 民族伟大复兴而团结奋斗。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9ad8\\u4e3e\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u4f1f\\u5927\\u65d7\\u5e1c\", \"B\": \"\\u5168\\u9762\\u8d2f\\u5f7b\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u601d\\u60f3\", \"C\": \"\\u5f18\\u626c\\u4f1f\\u5927\\u5efa\\u515a\\u7cbe\\u795e\", \"D\": \"\\u4e0d\\u5fd8\\u521d\\u5fc3\\u3001\\u7262\\u8bb0\\u4f7f\\u547d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "全党同志（ ），坚定历史自信，增强历史主动，谱写新时 代中国特色社会主义更加绚丽的华章。",
+    "answer": "",
+    "options": "{\"A\": \"\\u52a1\\u5fc5\\u4e0d\\u5fd8\\u521d\\u5fc3\\u3001\\u7262\\u8bb0\\u4f7f\\u547d\", \"B\": \"\\u52a1\\u5fc5\\u8c26\\u865a\\u8c28\\u614e\\u3001\\u8270\\u82e6\\u594b\\u6597\", \"C\": \"\\u52a1\\u5fc5\\u4e0d\\u9a84\\u4e0d\\u8e81\\u3001\\u7825\\u783a\\u524d\\u884c\", \"D\": \"\\u52a1\\u5fc5\\u6562\\u4e8e\\u6597\\u4e89\\u3001\\u5584\\u4e8e\\u6597\\u4e89\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "从党的十八大召开至今，十年来我们经历了对党和人民事业 具有重大现实意义和深远历史意义的三件大事：一是（ ），二 是（ ），三是（ ），实现第一个百年奋斗目标。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5168\\u9762\\u6df1\\u5316\\u6539\\u9769\\u53d6\\u5f97\\u91cd\\u5927\\u7a81\\u7834\", \"B\": \"\\u8fce\\u6765\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u6210\\u7acb\\u4e00\\u767e\\u5468\\u5e74\", \"C\": \"\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u8fdb\\u5165\\u65b0\\u65f6\\u4ee3\", \"D\": \"\\u5b8c\\u6210\\u8131\\u8d2b\\u653b\\u575a\\u3001\\u5168\\u9762\\u5efa\\u6210\\u5c0f\\u5eb7\\u793e\\u4f1a\\u7684\\u5386\\u53f2\\u4efb\\u52a1\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十大报告指出，要坚持和加强党中央集中统一领导， 健全（ ）的党的领导制度体系。",
+    "answer": "",
+    "options": "{\"A\": \"\\u603b\\u63fd\\u5168\\u5c40B.\\u7edf\\u7b79\\u5404\\u65b9C.\\u534f\\u8c03\\u5404\\u65b9D.\\u534f\\u8c03\\u5168\\u5c40\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十大报告指出，党的理论是（ ）的理论，人民的创 造性实践是理论创新的不竭源泉。",
+    "answer": "",
+    "options": "{\"A\": \"\\u8131\\u79bb\\u4eba\\u6c11\", \"B\": \"\\u6765\\u81ea\\u4eba\\u6c11\", \"C\": \"\\u4e3a\\u4e86\\u4eba\\u6c11\", \"D\": \"\\u9020\\u798f\\u4eba\\u6c11\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十大报告指出，前进道路上，必须坚持和加强党的全 面领导，坚持中国特色社会主义道路，坚持（ ），坚持（ ）， 坚持（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4ee5\\u4eba\\u6c11\\u4e3a\\u4e2d\\u5fc3\\u7684\\u53d1\\u5c55\\u601d\\u60f3\", \"B\": \"\\u6df1\\u5316\\u6539\\u9769\\u5f00\\u653e\", \"C\": \"\\u53d1\\u626c\\u6597\\u4e89\\u7cbe\\u795e\", \"D\": \"\\u9ad8\\u901f\\u5ea6\\u53d1\\u5c55\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十大报告指出，要健全（ ）的社会治理制度，提升 社会治理效能。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5171\\u5efa\", \"B\": \"\\u5171\\u6cbb\", \"C\": \"\\u5171\\u4eab\", \"D\": \"\\u5171\\u7ba1\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "中国共产党是（ ）的先锋队。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2d\\u56fd\\u5de5\\u4eba\\u9636\\u7ea7\", \"B\": \"\\u4e2d\\u56fd\\u4eba\\u6c11\", \"C\": \"\\u4e2d\\u534e\\u6c11\\u65cf\", \"D\": \"\\u4e2d\\u56fd\\u5de5\\u519c\\u9636\\u7ea7\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "根据新修订《中国共产党纪律处分条例》规定党的纪律处分 工作遵循下列原则（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u575a\\u6301\\u515a\\u8981\\u7ba1\\u515a\\u3001\\u5168\\u9762\\u4ece\\u4e25\\u6cbb\\u515a\", \"B\": \"\\u515a\\u7eaa\\u9762\\u524d\\u4e00\\u5f8b\\u5e73\\u7b49\", \"C\": \"\\u5b9e\\u4e8b\\u6c42\\u662f\", \"D\": \"\\u6c11\\u4e3b\\u96c6\\u4e2d\\u5236\", \"E\": \"\\u60e9\\u524d\\u6bd6\\u540e\\u3001\\u6cbb\\u75c5\\u6551\\u4eba\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党员有作风纪律方面的苗头性、倾向性问题或者违犯党纪情 节轻微的，可以给予（ ）（ ）（ ）等，或者予以诫勉，不 予党纪处分。",
+    "answer": "",
+    "options": "{\"A\": \"\\u8c08\\u8bdd\\u63d0\\u9192\", \"B\": \"\\u6279\\u8bc4\\u6559\\u80b2\", \"C\": \"\\u8d23\\u4ee4\\u68c0\\u67e5\", \"D\": \"\\u901a\\u62a5\\u66dd\\u5149\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "弘扬伟大（ ），坚持（ ），贯彻全面（ ）战略方针； 落实新时代党的建设总要求",
+    "answer": "",
+    "options": "{\"A\": \"\\u5efa\\u515a\\u7cbe\\u795e\", \"B\": \"\\u81ea\\u6211\\u9769\\u547d\", \"C\": \"\\u4ece\\u4e25\\u6cbb\\u515a\", \"D\": \"\\u515a\\u7684\\u9886\\u5bfc\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "构建社会主义和谐社会是按照（ ）、充满活力、安定有序、 人与自然和谐相处的总要求。",
+    "answer": "",
+    "options": "{\"A\": \"\\u56e2\\u7ed3\\u4e00\\u5fc3\", \"B\": \"\\u516c\\u5e73\\u6b63\\u4e49\", \"C\": \"\\u8bda\\u4fe1\\u53cb\\u7231\", \"D\": \"\\u6c11\\u4e3b\\u6cd5\\u6cbb\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "我国正处于并将长期处于社会主义初级阶段,各项工作都要 把（ ）作为总的出发点和检验标准。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6709\\u5229\\u4e8e\\u8d85\\u8d8a\\u8d44\\u672c\\u4e3b\\u4e49\\u56fd\\u5bb6\", \"B\": \"\\u6709\\u5229\\u4e8e\\u589e\\u5f3a\\u793e\\u4f1a\\u4e3b\\u4e49\\u56fd\\u5bb6\\u7684\\u7efc\\u5408\\u56fd\\u529b\", \"C\": \"\\u6709\\u5229\\u4e8e\\u63d0\\u9ad8\\u4eba\\u6c11\\u7684\\u751f\\u6d3b\\u6c34\\u5e73\", \"D\": \"\\u6709\\u5229\\u4e8e\\u53d1\\u5c55\\u793e\\u4f1a\\u4e3b\\u4e49\\u793e\\u4f1a\\u7684\\u751f\\u4ea7\\u529b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十届四中全会充分肯定党的二十届三中全会以来中央 政治局的工作，强调统筹推进“五位一体”总体布局，“五位一 体”包括（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u7ecf\\u6d4e\\u5efa\\u8bbe\", \"B\": \"\\u653f\\u6cbb\\u5efa\\u8bbe\", \"C\": \"\\u6587\\u5316\\u5efa\\u8bbe\", \"D\": \"\\u793e\\u4f1a\\u5efa\\u8bbe\", \"E\": \"\\u751f\\u6001\\u6587\\u660e\\u5efa\\u8bbe\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "二十届三中全会提出，（ ）是中国式现代化的基础性、战 略性支撑。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6559\\u80b2\", \"B\": \"\\u79d1\\u6280\", \"C\": \"\\u4eba\\u624d\", \"D\": \"\\u6cd5\\u6cbb\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "全会提出，高质量发展必须（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4ee5\\u65b0\\u53d1\\u5c55\\u7406\\u5ff5\\u5f15\\u9886\\u6539\\u9769\", \"B\": \"\\u6df1\\u5316\\u4f9b\\u7ed9\\u4fa7\\u7ed3\\u6784\\u6027\\u6539\\u9769\", \"C\": \"\\u5b8c\\u5584\\u63a8\\u52a8\\u9ad8\\u8d28\\u91cf\\u53d1\\u5c55\\u6fc0\\u52b1\\u7ea6\\u675f\\u673a\\u5236\", \"D\": \"\\u5851\\u9020\\u53d1\\u5c55\\u65b0\\u52a8\\u80fd\\u65b0\\u4f18\\u52bf\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "二十届三中全会提出，（ ）是发挥社会主义市场经济体制 优势的内在要求。",
+    "answer": "",
+    "options": "{\"A\": \"\\u79d1\\u5b66\\u7684\\u5b8f\\u89c2\\u8c03\\u63a7\", \"B\": \"\\u6709\\u6548\\u7684\\u653f\\u5e9c\\u6cbb\\u7406\", \"C\": \"\\u5145\\u5206\\u7684\\u5e02\\u573a\\u81ea\\u7531\", \"D\": \"\\u5355\\u4e00\\u7684\\u884c\\u653f\\u7ba1\\u63a7\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "开展严肃认真的党内政治生活，是我们党的（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4f18\\u826f\\u4f20\\u7edf\", \"B\": \"\\u9c9c\\u660e\\u7279\\u70b9\", \"C\": \"\\u653f\\u6cbb\\u4f18\\u52bf\", \"D\": \"\\u9996\\u8981\\u4efb\\u52a1\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十届四中全会提出“十五五”时期经济社会发展必须 遵循的原则有（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u575a\\u6301\\u515a\\u7684\\u5168\\u9762\\u9886\\u5bfc\", \"B\": \"\\u575a\\u6301\\u4eba\\u6c11\\u81f3\\u4e0a\", \"C\": \"\\u575a\\u6301\\u9ad8\\u8d28\\u91cf\\u53d1\\u5c55\", \"D\": \"\\u575a\\u6301\\u5168\\u9762\\u6df1\\u5316\\u6539\\u9769\", \"E\": \"\\u575a\\u6301\\u7edf\\u7b79\\u53d1\\u5c55\\u548c\\u5b89\\u5168\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党章规定，党的干部必须具备的基本条件包括（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5fe0\\u8bda\\u5e72\\u51c0\\u62c5\\u5f53\", \"B\": \"\\u5177\\u6709\\u5171\\u4ea7\\u4e3b\\u4e49\\u8fdc\\u5927\\u7406\\u60f3\\u548c\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u575a\\u5b9a\\u4fe1\\u5ff5\", \"C\": \"\\u575a\\u6301\\u89e3\\u653e\\u601d\\u60f3\\u3001\\u5b9e\\u4e8b\\u6c42\\u662f\", \"D\": \"\\u6709\\u5f3a\\u70c8\\u7684\\u9769\\u547d\\u4e8b\\u4e1a\\u5fc3\\u548c\\u653f\\u6cbb\\u8d23\\u4efb\\u611f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十届四中全会提出“十五五”时期经济社会发展的主 要目标有（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9ad8\\u8d28\\u91cf\\u53d1\\u5c55\\u53d6\\u5f97\\u663e\\u8457\\u6210\\u6548\", \"B\": \"\\u79d1\\u6280\\u81ea\\u7acb\\u81ea\\u5f3a\\u6c34\\u5e73\\u5927\\u5e45\\u63d0\\u9ad8\", \"C\": \"\\u793e\\u4f1a\\u6587\\u660e\\u7a0b\\u5ea6\\u660e\\u663e\\u63d0\\u5347\", \"D\": \"\\u4eba\\u6c11\\u751f\\u6d3b\\u54c1\\u8d28\\u4e0d\\u65ad\\u63d0\\u9ad8\", \"E\": \"\\u56fd\\u5bb6\\u5b89\\u5168\\u5c4f\\u969c\\u66f4\\u52a0\\u5de9\\u56fa\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十届四中全会审议通过的《建议》提出，要健全国家 安全体系，其重点领域包括（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u7ecf\\u6d4e\\u5b89\\u5168\", \"B\": \"\\u79d1\\u6280\\u5b89\\u5168\", \"C\": \"\\u56fd\\u9632\\u5b89\\u5168\", \"D\": \"\\u7f51\\u7edc\\u5b89\\u5168\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十届四中全会要求，要协同推进（ ），其根本目的 是推动经济社会发展全面绿色转型。",
+    "answer": "",
+    "options": "{\"A\": \"\\u964d\\u78b3\", \"B\": \"\\u51cf\\u6c61\", \"C\": \"\\u6269\\u7eff\", \"D\": \"\\u589e\\u957f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十届四中全会《建议》提出，“十五五”时期经济社 会发展必须遵循的原则包括？（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u575a\\u6301\\u515a\\u7684\\u5168\\u9762\\u9886\\u5bfc\", \"B\": \"\\u575a\\u6301\\u4ee5\\u4eba\\u6c11\\u4e3a\\u4e2d\\u5fc3\", \"C\": \"\\u575a\\u6301\\u65b0\\u53d1\\u5c55\\u7406\\u5ff5\", \"D\": \"\\u575a\\u6301\\u6df1\\u5316\\u6539\\u9769\\u5f00\\u653e\", \"E\": \"\\u575a\\u6301\\u7cfb\\u7edf\\u89c2\\u5ff5\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "加快发展新质生产力，需要哪些方面的协同发力？（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u79d1\\u6280\\u521b\\u65b0\", \"B\": \"\\u4ea7\\u4e1a\\u5347\\u7ea7\", \"C\": \"\\u8981\\u7d20\\u914d\\u7f6e\", \"D\": \"\\u7eff\\u8272\\u53d1\\u5c55\", \"E\": \"\\u5236\\u5ea6\\u521b\\u65b0\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "在全面推进乡村振兴方面，党的二十届四中全会《建议》提 出要学习运用“千万工程”经验，其核心要义包括？（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u56e0\\u5730\\u5236\\u5b9c\", \"B\": \"\\u5faa\\u5e8f\\u6e10\\u8fdb\", \"C\": \"\\u4e45\\u4e45\\u4e3a\\u529f\", \"D\": \"\\u7edf\\u7b79\\u63a8\\u8fdb\\u57ce\\u4e61\\u878d\\u5408\\u53d1\\u5c55E.\\u4ee5\\u7f8e\\u4e3d\\u4e61\\u6751\\u7406\\u5ff5\\u8c0b\\u5212\\u519c\\u4e1a\\u519c\\u6751\\u53d1\\u5c55\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十届四中全会《建议》在文化建设方面，提出要健全 哪些方面的体制机制？（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u4ee5\\u793e\\u4f1a\\u4e3b\\u4e49\\u6838\\u5fc3\\u4ef7\\u503c\\u89c2\\u5f15\\u9886\\u6587\\u5316\\u5efa\\u8bbe\\u7684\\u5236\\u5ea6\", \"B\": \"\\u4eba\\u6c11\\u6587\\u5316\\u6743\\u76ca\\u4fdd\\u969c\\u5236\\u5ea6\", \"C\": \"\\u628a\\u793e\\u4f1a\\u6548\\u76ca\\u653e\\u5728\\u9996\\u4f4d\\u3001\\u793e\\u4f1a\\u6548\\u76ca\\u548c\\u7ecf\\u6d4e\\u6548\\u76ca\\u76f8\\u7edf\\u4e00\\u7684\\u6587\\u5316\\u521b\\u4f5c \\u751f\\u4ea7\\u4f53\\u5236\\u673a\\u5236\", \"D\": \"\\u7f51\\u7edc\\u5185\\u5bb9\\u751f\\u6001\\u6cbb\\u7406\\u673a\\u5236\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十届四中全会《建议》在区域协调发展方面，重点推 动哪些区域重大战略？（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u4eac\\u6d25\\u5180\\u534f\\u540c\\u53d1\\u5c55\", \"B\": \"\\u957f\\u6c5f\\u7ecf\\u6d4e\\u5e26\\u53d1\\u5c55\", \"C\": \"\\u7ca4\\u6e2f\\u6fb3\\u5927\\u6e7e\\u533a\\u5efa\\u8bbe\", \"D\": \"\\u957f\\u4e09\\u89d2\\u4e00\\u4f53\\u5316\\u53d1\\u5c55\", \"E\": \"\\u9ec4\\u6cb3\\u6d41\\u57df\\u751f\\u6001\\u4fdd\\u62a4\\u548c\\u9ad8\\u8d28\\u91cf\\u53d1\\u5c55\", \"F\": \"\\u65b0\\u7586\\u5efa\\u8bbe\\u5175\\u56e2\\u53d1\\u5c55\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "坚持党中央集中统一领导是最高政治原则，系统完善党的领 导制度体系，全党增强“四个意识”，自觉在思想上政治上行动 上同党中央保持高度一致，不断提高（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u653f\\u6cbb\\u5224\\u65ad\\u529b\", \"B\": \"\\u653f\\u6cbb\\u9886\\u609f\\u529b\", \"C\": \"\\u653f\\u6cbb\\u9886\\u5bfc\\u529b\", \"D\": \"\\u653f\\u6cbb\\u6267\\u884c\\u529b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "十八大以来，我们党勇于进行理论探索和创新，以全新的视 野深化对（ ）的认识，取得系列理论创新成果，集中体现为新 时代中国特色社会主义思想。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5171\\u4ea7\\u515a\\u6267\\u653f\\u89c4\\u5f8b\", \"B\": \"\\u5171\\u4ea7\\u4e3b\\u4e49\\u5efa\\u8bbe\\u89c4\\u5f8b\", \"C\": \"\\u793e\\u4f1a\\u4e3b\\u4e49\\u5efa\\u8bbe\\u89c4\\u5f8b\", \"D\": \"\\u4eba\\u7c7b\\u793e\\u4f1a\\u53d1\\u5c55\\u89c4\\u5f8b\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的基层组织，根据工作需要和党员人数，经上级党组织批 准，分别设立党的（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u57fa\\u5c42\\u59d4\\u5458\\u4f1aB.\\u603b\\u652f\\u90e8\\u59d4\\u5458\\u4f1aC.\\u652f\\u90e8\\u59d4\\u5458\\u4f1aD.\\u4e2d\\u592e\\u59d4\\u5458\\u4f1a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "以下属于党的组织生活的是（ ）",
+    "answer": "",
+    "options": "{\"A\": \"\\u201c\\u4e09\\u4f1a\\u4e00\\u8bfe\\u201d\", \"B\": \"\\u6c11\\u4e3b\\u751f\\u6d3b\\u4f1a\\u548c\\u7ec4\\u7ec7\\u751f\\u6d3b\\u4f1a\", \"C\": \"\\u8c08\\u5fc3\\u8c08\\u8bdd\", \"D\": \"\\u6c11\\u4e3b\\u8bc4\\u8bae\\u515a\\u5458\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的组织生活是党内政治生活的重要内容和载体，是党组织 对党员进行教育管理监督的重要形式。必须坚持党的组织生活各 项制度，创新方式方法，增强党的组织生活活力。下列属于党的 组织生活制度的有：（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u201c\\u4e09\\u4f1a\\u4e00\\u8bfe\\u201d\\u5236\\u5ea6\", \"B\": \"\\u6c11\\u4e3b\\u751f\\u6d3b\\u4f1a\\u548c\\u7ec4\\u7ec7\\u751f\\u6d3b\\u4f1a\\u5236\\u5ea6\", \"C\": \"\\u6c11\\u610f\\u8c03\\u67e5\\u5236\\u5ea6\", \"D\": \"\\u8c08\\u5fc3\\u8c08\\u8bdd\\u5236\\u5ea6\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "与时俱进，就是党的全部理论和工作要（ ）。 A、表达时代性 B、具有战略性 C、富于创造性 D、把握规律性",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "《中国共产党章程》指出，强化管党治党（ ）和（ ）， 加强对党的领导机关和党员领导干部特别是主要领导干部的监 督，不断完善党内监督体系。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e3b\\u4f53\\u8d23\\u4efb\", \"B\": \"\\u9886\\u5bfc\\u8d23\\u4efb\", \"C\": \"\\u76d1\\u7763\\u8d23\\u4efb\", \"D\": \"\\u7ba1\\u7406\\u8d23\\u4efb\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "年满十八的中国（ ）知识分子和其他社会阶层的先进分子， 成认党的纲领和章程，愿意参加党的一个组织并在其中积极工作， 执行党的决议，和按期交纳党费的，可以申请参加中国共产党。 A、工人 B、商人 C、军人 D、农民",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "（ ）都必须经支部大会讨论通过并报上级党委批准。 A、延长预备期 B、按期转正 C、取消预备党员资格 D、确定为入党开展对象",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "政治审查的基本方法是:（ ）。 A、同本人谈话 B、查阅有关档案材料 C、找有关单位和人员了解 D、必要的函调或外调",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的上下级组织之间要做到的是（ ） A、上级组织要经常听取下级组织和党员群众的意见 B、下级组织既要向上级组织请示和报告工作 C、下级组织要向上级组织求助解决自己职责范围内的问题 D、上下级组织之间要互通情报、互相支持和互相监督",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "中国共产党历史上的两大伟大转折点是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u516b\\u4e03\\u4f1a\\u8bae\", \"B\": \"\\u9075\\u4e49\\u4f1a\\u8bae\", \"C\": \"\\u5341\\u4e00\\u5c4a\\u4e09\\u4e2d\\u5168\\u4f1a\", \"D\": \"\\u4e5d\\u4e00\\u4f1a\\u8bae\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "“两个确立”反映了全党全军全国各族人民共同心愿，对新 时代党和国家事业发展、对推进中华民族伟大复兴历史进程具有 决定性意义。“两个确立”是指（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u786e\\u7acb\\u515a\\u5728\\u793e\\u4f1a\\u4e3b\\u4e49\\u521d\\u7ea7\\u9636\\u6bb5\\u7684\\u57fa\\u672c\\u8def\\u7ebf\", \"B\": \"\\u786e\\u7acb\\u201c\\u4e00\\u4e2a\\u4e2d\\u5fc3\\u3001\\u4e24\\u4e2a\\u57fa\\u672c\\u70b9\\u201d\", \"C\": \"\\u786e\\u7acb\\u4e60\\u8fd1\\u5e73\\u540c\\u5fd7\\u515a\\u4e2d\\u592e\\u7684\\u6838\\u5fc3\\u3001\\u5168\\u515a\\u7684\\u6838\\u5fc3\\u5730\\u4f4d\", \"D\": \"\\u786e\\u7acb\\u4e60\\u8fd1\\u5e73\\u65b0\\u65f6\\u4ee3\\u4e2d\\u56fd\\u7279\\u8272\\u793e\\u4f1a\\u4e3b\\u4e49\\u601d\\u60f3\\u7684\\u6307\\u5bfc\\u5730\\u4f4d\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的各级委员会实行集体领导和个人分工负责相结合的制度。 凡属重大问题都要按照集体领导、（ ）、（ ）、（ ）的原 则，由党的委员会集体讨论，作出决定；委员会成员要根据集体 的决定和分工，切实履行自己的职责。",
+    "answer": "",
+    "options": "{\"A\": \"\\u6c11\\u4e3b\\u96c6\\u4e2d\", \"B\": \"\\u4e2a\\u522b\\u915d\\u917f\", \"C\": \"\\u968f\\u673a\\u5e94\\u53d8\", \"D\": \"\\u4f1a\\u8bae\\u51b3\\u5b9a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党员个人代表党组织发表重要主张,如果超出党组织已有决 定的范围,必须提交所在的党组织（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u7533\\u8bf7\", \"B\": \"\\u6c47\\u62a5\", \"C\": \"\\u8ba8\\u8bba\\u51b3\\u5b9a\", \"D\": \"\\u5411\\u4e0a\\u7ea7\\u515a\\u7ec4\\u7ec7\\u8bf7\\u793a\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "党的二十大确立了全面建成社会主义现代化强国、实现第二 个百年奋斗目标，以中国式现代化全面推进中华民族伟大复兴的 中心任务，阐述了中国式现代化的（ ）、（ ）、（ ）等， 对推进中国式现代化作出战略部署。",
+    "answer": "",
+    "options": "{\"A\": \"\\u4e2d\\u56fd\\u7279\\u8272\", \"B\": \"\\u73b0\\u5b9e\\u56f0\\u5883\", \"C\": \"\\u672c\\u8d28\\u8981\\u6c42\", \"D\": \"\\u91cd\\u5927\\u539f\\u5219\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "人民政协作为中国共产党领导的政治组织，由具有共同政治 基础和奋斗目标的各党派团体和各族各界人士参加，开展（ ）、 （ ）、（ ），有利于完善人民当家作主的制度体系，更好保 障最广大人民整体利益、根本利益、长远利益。",
+    "answer": "",
+    "options": "{\"A\": \"\\u653f\\u6cbb\\u534f\\u5546\", \"B\": \"\\u4f9d\\u6cd5\\u7acb\\u6cd5\", \"C\": \"\\u6c11\\u4e3b\\u76d1\\u7763\", \"D\": \"\\u53c2\\u653f\\u8bae\\u653f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "《党章》指出，（ ）是关系党生死存亡的问题。",
+    "answer": "",
+    "options": "{\"A\": \"\\u515a\\u98ce\\u95ee\\u9898\", \"B\": \"\\u8131\\u79bb\\u7fa4\\u4f17\\u95ee\\u9898\", \"C\": \"\\u515a\\u540c\\u4eba\\u6c11\\u7fa4\\u4f17\\u8054\\u7cfb\\u95ee\\u9898\", \"D\": \"\\u8150\\u8d25\\u95ee\\u9898\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "下列关于预备党员的说法正确的是（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u9884\\u5907\\u515a\\u5458\\u7684\\u9884\\u5907\\u671f\\u4e3a\\u4e00\\u5e74\", \"B\": \"\\u9884\\u5907\\u515a\\u5458\\u7684\\u4e49\\u52a1\\u540c\\u6b63\\u5f0f\\u515a\\u5458\\u4e00\\u6837\", \"C\": \"\\u9884\\u5907\\u515a\\u5458\\u7684\\u6743\\u5229\\uff0c\\u9664\\u4e86\\u6ca1\\u6709\\u9009\\u4e3e\\u6743\\u548c\\u88ab\\u9009\\u4e3e\\u6743\\u4ee5\\u5916\\uff0c\\u4e5f\\u540c\\u6b63\\u5f0f \\u515a\\u5458\\u4e00\\u6837\", \"D\": \"\\u9884\\u5907\\u515a\\u5458\\u7684\\u9884\\u5907\\u671f\\uff0c\\u4ece\\u652f\\u90e8\\u5927\\u4f1a\\u901a\\u8fc7\\u4ed6\\u4e3a\\u9884\\u5907\\u515a\\u5458\\u4e4b\\u65e5\\u7b97\\u8d77\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "聚焦发展全过程人民民主，坚持（ ）、（ ）、（ ）有 机统一，推动人民当家作主制度更加健全、协商民主广泛多层制 度化发展、中国特色社会主义法治体系更加完善，社会主义法治 国家建设达到更高水平。 A．中国特色社会主义制度 B．党的领导 C．人民当家作主 D．依法治国 69．共产党员要坚持贯彻党在社会主义初级阶段的基本路线。党 的基本路线是党在现阶段的（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u63d0\\u5347\\u519c\\u4e1a\\u7efc\\u5408\\u751f\\u4ea7\\u80fd\\u529b\\u548c\\u8d28\\u91cf\\u6548\\u76ca\", \"B\": \"\\u63a8\\u8fdb\\u5b9c\\u5c45\\u5b9c\\u4e1a\\u548c\\u7f8e\\u4e61\\u6751\\u5efa\\u8bbe\", \"C\": \"\\u63d0\\u9ad8\\u5f3a\\u519c\\u60e0\\u519c\\u5bcc\\u519c\\u653f\\u7b56\\u6548\\u80fd\", \"D\": \"\\u51cf\\u5c11\\u519c\\u6751\\u516c\\u5171\\u670d\\u52a1\\u4f9b\\u7ed9\"}",
+    "explanation": ""
+  },
+  {
+    "type": "multi_choice",
+    "question": "“十五五”时期经济社会发展全面绿色转型的举措包括（ ）。",
+    "answer": "",
+    "options": "{\"A\": \"\\u5c06\\u515a\\u5458\\u5fbd\\u7ae0\\u4f69\\u6234\\u5728\\u5de6\\u80f8\\u4e2d\\u95f4\\u4f4d\\u7f6e\", \"B\": \"\\u4e0e\\u5176\\u4ed6\\u5fbd\\u7ae0\\u540c\\u65f6\\u4f69\\u6234\\u65f6\\uff0c\\u5c06\\u515a\\u5458\\u5fbd\\u7ae0\\u7f6e\\u4e8e\\u5176\\u4ed6\\u5fbd\\u7ae0\\u4e4b\\u4e0b\", \"C\": \"\\u5c06\\u515a\\u5458\\u5fbd\\u7ae0\\u4f69\\u6234\\u5728\\u53f3\\u80f8\\u4e2d\\u95f4\\u4f4d\\u7f6e\", \"D\": \"\\u7740\\u6b63\\u88c5\\u65f6\\uff0c\\u5c06\\u515a\\u5458\\u5fbd\\u7ae0\\u4f69\\u6234\\u5728\\u5916\\u5957\\u4e0a\", \"E\": \"\\u575a\\u6301\\u5b88\\u6b63\\u521b\\u65b0 202\\uff0e\\u515a\\u7ae0\\u89c4\\u5b9a\\uff0c\\u515a\\u5458\\u4eab\\u6709\\u7684\\u6743\\u5229\\u5305\\u62ec\\uff08 \\uff09\\u3002 204\\uff0e\\u5404\\u7ea7\\u9886\\u5bfc\\u5e72\\u90e8\\u8981\\u6811\\u7acb\\u548c\\u8df5\\u884c\\u6b63\\u786e\\u653f\\u7ee9\\u89c2\\uff0c\\u9700\\u68c0\\u89c6\\u81ea\\u8eab\\u601d\\u60f3\\u548c \\u884c\\u52a8\\uff0c\\u5177\\u4f53\\u5305\\u542b\\u54ea\\u4e9b\\u65b9\\u9762\\uff08 \\uff09 205\\uff0e\\u575a\\u6301\\u4ece\\u5b9e\\u9645\\u51fa\\u53d1\\u3001\\u6309\\u89c4\\u5f8b\\u529e\\u4e8b\\uff0c\\u901a\\u8fc7\\u79d1\\u5b66\\u51b3\\u7b56\\u548c\\u5b9e\\u5e72\\u82e6\\u5e72\\uff0c \\u521b\\u9020\\u7684\\u4e1a\\u7ee9\\u5e94\\u5f53\\u505a\\u5230\\uff08 \\uff09 206\\uff0e\\u653f\\u7ee9\\u89c2\\u8868\\u9762\\u770b\\u662f\\u201c\\u600e\\u4e48\\u5e72\\u4e8b\\u3001\\u5e72\\u6210\\u4ec0\\u4e48\\u6837\\u7684\\u4e8b\\u201d\\u7684\\u95ee\\u9898\\uff0c\\u6df1 \\u5c42\\u6b21\\u770b\\u5219\\u662f\\uff08 \\uff09\\u7684\\u95ee\\u9898\\u3002 207\\uff0e\\u4e0b\\u5217\\u5c5e\\u4e8e\\u5408\\u683c\\u515a\\u5458\\u7684\\u201c\\u56db\\u4e2a\\u5408\\u683c\\u201d\\u6807\\u51c6\\u7684\\u662f\\uff08 \\uff09 208\\uff0e\\u5175\\u56e2\\u7cbe\\u795e\\u7684\\u4e3b\\u8981\\u5185\\u6db5\\u662f\\u4ec0\\u4e48\\uff1f\\uff08 \\uff09 209\\uff0e\\u300a\\u515a\\u7ae0\\u300b\\u4e2d\\u89c4\\u5b9a\\u5c5e\\u4e8e\\u515a\\u652f\\u90e8\\u804c\\u8d23\\u7684\\u6709\\uff1a\\uff08 \\uff09\\u3002 210\\uff0e\\u5173\\u4e8e\\u5171\\u4ea7\\u515a\\u5458\\u6b63\\u786e\\u4f69\\u6234\\u515a\\u5458\\u5fbd\\u7ae0\\uff0c\\u4e0b\\u5217\\u54ea\\u4e9b\\u505a\\u6cd5\\u662f\\u7b26\\u5408\\u89c4 \\u5b9a\\u7684\\uff1f\"}",
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____的中国工人、农民、军人、知识分子和其他阶 层的先进分子，承认党的纲领和章程，愿意参加党的一个组 织并在其中积极工作、执行党的决议和按期交纳党费的，可 以申请加入中国共产党。",
+    "answer": "年满十八岁",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "发展党员，必须经过党的支部，坚持____的原则。",
+    "answer": "个别吸收",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员的预备期一般为____。",
+    "answer": "一年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员的____与正式党员一样。预备党员的____除了 没有____、____和被____以外，也同正式党员 一样。",
+    "answer": "义务",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "申请入党的人，要有____正式党员作介绍人。",
+    "answer": "1-2名",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的最高理想和最终目标是____。",
+    "answer": "实现共产主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的基本宗旨是____。",
+    "answer": "全心全意为人民服务",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的中央委员会每届任期为____年。",
+    "answer": "五",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的纪律处分由轻到重分别是____、____、____、____、____。",
+    "answer": "警告",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "留党察看的期限最长不超过____年。",
+    "answer": "两",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "对党员的纪律处分，必须经过____讨论决定，报党的 基层委员会批准。",
+    "answer": "支部大会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党是根据自己的____，按照____ 原则组织起来的统一整体。",
+    "answer": "纲领和章程",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员预备期满必须由____向____提出转正申 请。",
+    "answer": "考察人",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "端正____是争取入党的首要问题。",
+    "answer": "入党动机",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "申请入党的人，要填写入党志愿书，要有____作 介绍人，要经过支部大会通过和上级党组织批准，并且经过 预备期的考察，才能成为正式党员。",
+    "answer": "两名正式党员",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员预备期满时，应由____主动向党组织提出转为 正式党员的申请。",
+    "answer": "本人",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员预备期满时，需要继续考察和教育的，可以延长预 备期，但不能超过____。",
+    "answer": "一年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员转为正式党员，或延长预备期，或取消预备党员资 格，都应当经____。",
+    "answer": "支部大会讨论通过和上级党组织批准",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "预备党员的预备期，从____他为预备党员之日算 起。",
+    "answer": "支部大会通过",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "共产党员的党龄，从____之日算起。",
+    "answer": "预备期满转为正式党员",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的各级委员会实行____的制 度。",
+    "answer": "集体领导和个人分工负责相结合",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党员受到开除党籍处分，（五）年内不得重新入党。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是党内的最高处分。",
+    "answer": "开除党籍",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "对党员的纪律处分，必须经过____讨论决定，报党的 ____批准。",
+    "answer": "支部大会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党党徽为____组成的图案。",
+    "answer": "镰刀和锤头",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党党旗为旗面缀有____的红旗。",
+    "answer": "金黄色党徽图案",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "国际歌的曲作者是____，词作者是____。",
+    "answer": "比尔·狄盖特",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的中央组织是党的最高领导机关，负责领导全党的各项工 作。包括党的____以及由它选举产生的____和____。",
+    "answer": "全国代表大会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党组织讨论决定问题，必须执行____的原则。",
+    "answer": "少数服从多数",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "各基层单位，凡是有正式党员____以上，都应当成立党的基 层组织。",
+    "answer": "3人",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的各级代表大会代表实行____。",
+    "answer": "任期制",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的中央和省、自治区、直辖市委员会实行____。",
+    "answer": "巡视制度",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《中国共产党章程》明确规定，中国共产党以马克思列宁主义、 毛泽东思想、邓小平理论、“三个代表”重要思想和科学发 展观、____作为自己的行 动指南。",
+    "answer": "习近平新时代中国特色社会主义思想",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《中国共产党章程》明确，必须坚持____的发展思 想，坚持创新、协调、绿色、开放、共享的新发展理念。",
+    "answer": "以人民为中心",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《中国共产党章程》总纲指出，要充分发挥____作为第 一生产力的作用，充分发挥创新作为引领发展第一动力的作 用。",
+    "answer": "科学技术",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党诞生于____年。中国共产党第一次党的全国代 表大会于那年的7月23日至8月初在上海法租界望志路举行。 最后一天的会议改在____的游船上举行。",
+    "answer": "1921",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1934年10月，中央红军撤出中央根据地，进行____，1936年红军三大主力会师，历时两年的长征， 最后以____的胜利而宣告结束。",
+    "answer": "战略转移）， 开始了(长征",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1934年10月中旬，中央机关和中央红军8万多人撤离中央苏 区，踏上向西突围的征程，长征开始。1936年三大红军主力 在____会师，顺利完成长征。",
+    "answer": "陕北",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1934年10月中旬，中央机关和中央红军8万多人撤离____，踏上向西突围的征程，伟大的长征开始。",
+    "answer": "中央苏 区",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1935年1月15日至17日中共中央在贵州召开的____是 党的历史上一个生死攸关的转折点，它标志着中国共产党在 政治上的成熟。",
+    "answer": "遵义会议",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中共六大1928年6月8日至7月1日在____召开。",
+    "answer": "莫斯科",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的七大的主要功绩之一是确立了____在全党的指 导地位。",
+    "answer": "毛泽东思想",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "社会主义初级阶段从时间上说开始于____年。",
+    "answer": "1956",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1978年5月11日，《光明日报》刊登了____的特约评论员文章。",
+    "answer": "《实践是检验真理的 唯一标准》",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1978年12月，中共____全会在____召开，作出了 把党和国家工作重点转移到____上来和 ____的战略决策。",
+    "answer": "十一届三中",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "1987年10月，党的十三大召开，比较系统地阐述了关于____的理论。",
+    "answer": "社会 主义初级阶段",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的____完整地概括了党在社会主义初级阶段的基本路 线。",
+    "answer": "十三大",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "江泽民在党的____上提出了社会主义初级阶段的基本纲 领。",
+    "answer": "十五大",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2007年10月党的十七大报告提出了____的重大命题。",
+    "answer": "中国特色社会主义理论 体系",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是中国特色社会主义的初始阶段。",
+    "answer": "社会主义初级阶段",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是党的根本组织制度。",
+    "answer": "民主集中制",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "四项基本原则是坚持（社会主义道路）、坚持____、 坚持____、坚持____。",
+    "answer": "人民民主专政",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国特色社会主义进入新时代，在现阶段，我国社会的主要 矛盾是____和____之间的矛盾。",
+    "answer": "人民日益增长的美好生活需要",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我国社会主义基本经济制度是____。",
+    "answer": "以公有制为主体、多种所有制 经济共同发展",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我国社会的分配制度是____。",
+    "answer": "按劳分配为主体、多种分配方式并 存",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我国社会主义的根本政治制度是____。",
+    "answer": "人民代表大会制度",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党领导人民发展社会主义民主政治。坚持____、____、____有机统一，走中国特色社 会主义政治发展道路。",
+    "answer": "党的领 导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会指出，“十五五”时期是基本实现社会 主义现代化（夯实基础）、（全面发力）的关键时期。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "必须按照中国特色社会主义事业总体布局，全面推进经济建 设、政治建设、文化建设、社会建设、____建设。",
+    "answer": "生态文明",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "(党的政治建设）作为党的根本性建设，决定党的建设方向和效 果，事关统揽推进伟大斗争、伟大工程、伟大事业、伟大梦想。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2019年10月28日至31日召开的____审议通 过了《中共中央关于坚持和完善中国特色社会主义制度、推 进国家治理体系和治理能力现代化若干重大问题的决定》。",
+    "answer": "党的十九届四中全会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是中国特色社会主义最本质的特征，是中 国特色社会主义制度的最大优势，党是最高政治领导力量。",
+    "answer": "中国共产党领导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《中共中央关于制定国民经济和社会发展第十五个五年规划 的建议》指出，健全外商投资服务保障体系，全面落实（国 民待遇），推进数据高效便利安全跨境流动，营造透明稳定 可预期的制度环境。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《中共中央关于制定国民经济和社会发展第十五个五年规划 的建议》指出，培育形成规模宏大、结构合理、锐意创新的 高水平文化人才队伍。广泛开展群众性文化活动，繁荣互联 网条件下（新大众文艺）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "“十五五”时期是基本实现社会主义现代化夯实基础、（全面 发力）的关键时期，在基本实现社会主义现代化进程中具有 （承前启后）的重要地位。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的各级纪检检查委员会是党内监督（专责）机关。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会中议通过了《中共中央关于制定国民经 济和社会发展第（五）个五年规划和2035年远景目标的建议》。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": ".党的二十大报告指出:（分配制度）是促进共同富裕的基础 性制度。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党自一九二一年成立以来，始终坚持____理 想和____信念，团结带领全国各族人民为争取民族独 立、人民解放和实现国家富强、人民幸福而不懈奋斗，已经 走过一百年光辉历程。",
+    "answer": "共产主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "“十五五”时期我国发展环境面临深刻复杂变化，我国发展处 于（战略机遇）和风险挑战并存、不确定（难预料）因素增 多的时期。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2021年7月1日，习近平在庆祝中国共产党成立100周年大会上 强调，勇于____是中国共产党区别于其他政党的显著 标志。",
+    "answer": "自我革命",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的百年奋斗开辟了实现中华民族伟大复兴的正确道路，中 国仅用几十年时间就走完发达国家几百年走过的工业化历 程，创造了经济快速发展和____两大奇迹。",
+    "answer": "社会长期稳定",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是我们立党立国的根本指导思想，是我们党的 灵魂和旗帜。",
+    "answer": "马克思主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "一百年来，中国共产党弘扬____精神，在长期奋斗中 构建起中国共产党人的精神谱系，锤炼出鲜明的政治品格。",
+    "answer": "伟大建党",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的宗旨是____。",
+    "answer": "全心全意为人民服务",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的组织原则是____。",
+    "answer": "民主集中制",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新时代以来，以习近平同志为核心的党中央高度重视（平安 中国建设），领导广大人民群众成功续写了经济快速发展和 社会长期稳定两大奇迹新篇章。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "保持党的团结统一，要求全党必须做到____。",
+    "answer": "对党忠诚",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的成就和贡献，不仅是____，也是____。",
+    "answer": "历史性的",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的历史自信，既是对____，也是对 ____。",
+    "answer": "奋斗成就的自信",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "被习近平总书记称为共产党人精神上的“钙”的是____。",
+    "answer": "理想信 念",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "弘扬以伟大建党精神为源头的中国共产党人精神谱系，用好 红色资源，深入开展社会主义核心价值观宣传教育，深化____、集体主义、社会主义教育，着力培养担当民族复兴 大任的时代新人。",
+    "answer": "爱 国主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党史学习教育的十六字明确要求是：____，____， ____，____。",
+    "answer": "学史明理",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是党最根本、最重要的纪律，遵守党的政治纪律 是遵守党的全部纪律的基础。",
+    "answer": "政治纪律",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2022年5月10日，庆祝中国共产主义青年团成立100周年大会 隆重举行。习近平强调，在新民主主义革命时期，共青团广 泛传播马克思主义，用先进思想启迪青年觉醒、凝聚青春力 量，团结带领广大团员青年踊跃投身反帝反封建的____、____、____。",
+    "answer": "工人运 动",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "2022年5月10日，庆祝中国共产主义青年团成立100周年大会 隆重举行。习近平强调，在新民主主义革命时期，共青团积 极参加党领导的革命武装，在____、____、____的伟大斗争中冲锋陷阵，展现出不怕牺 牲、浴血斗争的精神风貌。",
+    "answer": "打倒军阀",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十大主题是：高举中国特色社会主义伟大旗帜，全面 贯彻新时代中国特色社会主义思想，弘扬伟大建党精神，自 信自强、守正创新，踔厉奋发、勇毅前行，为全面建设____、全面推进____而团结奋 斗。",
+    "answer": "社会 主义现代化国家",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党第二十次全国代表大会，是在全党全国各族人民 迈上全面建设社会主义现代化国家新征程、向____ 奋斗目标进军的关键时刻召开的一次十分重要的大会。",
+    "answer": "第二个百年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "十年来，我们经历了对党和人民事业具有重大现实意义和深 远历史意义的三件大事：一是____，二是____，三是____。",
+    "answer": "迎来中国共产党成立一百周 年",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "实践告诉我们，中国共产党为什么能，中国特色社会主义为 什么好，归根到底是____，是____。",
+    "answer": "马克思主义行",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "要健全____制度体系，扩大人民有序政治参与， 保证人民依法实行民主选举、民主协商、民主决策、民主管 理、民主监督。",
+    "answer": "人民当家作主",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持法治国家、法治政府、____一体建设，全面推进 科学立法、严格执法、公正司法、全民守法，全面推进国家 各方面工作法治化。",
+    "answer": "法治社会",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持党对人民军队的____，坚持政治建军、改革强军、 科技强军、人才强军、依法治军。",
+    "answer": "绝对领导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我们要坚持____在意识形态领域指导地位的根本制 度。",
+    "answer": "马克思主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新时代十年的伟大变革，在党史、新中国史、改革开放史、____、中华民族发展史上具有里程碑意义。",
+    "answer": "社 会主义发展史",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "开展了史无前例的反腐败斗争，以“得罪千百人、不负十四 亿”的使命担当祛疴治乱，不敢腐、____、____一 体推进。",
+    "answer": "不能腐",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "人民群众获得感、幸福感、安全感更加充实、更有保障、更 可持续，____取得新成效。",
+    "answer": "共同富裕",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新时代的伟大成就是____一道拼出来、干出来、奋斗 出来的！",
+    "answer": "党和人民",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是实现中华民族伟大复兴的必由之路。",
+    "answer": "中国特色社会主义",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "拥有马克思主义科学理论指导是我们党坚定信仰信念、把握 历史主动的____。",
+    "answer": "根本所在",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "广大青年要坚定不移听党话、跟党走，怀抱梦想又脚踏实地， 敢想敢为又善作善成，立志做____、能吃苦、 肯奋斗的新时代好青年，让青春在全面建设社会主义现代化 国家的火热实践中绽放绚丽之花。",
+    "answer": "有理想、敢担当",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国式现代化，是____领导的社会主义现代化，既 有各国现代化的共同特征，更有基于自己国情的中国特色。",
+    "answer": "中国共产党",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国坚持在____基础上同各国发展友好合 作，推动构建新型国际关系，深化拓展平等、开放、合作的 全球伙伴关系，致力于扩大同各国利益的汇合点。",
+    "answer": "和平共处五项原则",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国积极参与全球治理体系改革和建设，践行____的全球治理观，坚持真正的多边主义，推进国际关系民主 化，推动全球治理朝着更加公正合理的方向发展。",
+    "answer": "共商共建共 享",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党员在留觉察看期间没有（表决权）、（选举权）和（被选 举权）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是坚持和发展中国特色社会主义的必 由之路。",
+    "answer": "坚持党的全面领导",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持以____为中心的创作导向，推出更多增强人民精神力 量的优秀作品，培育造就大批德艺双馨的文学艺术家和规模 宏大的文化文艺人才队伍。",
+    "answer": "人民",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十大报告明确提出：“我们创立了新时代中国特色社会 主义思想，明确坚持和发展中国特色社会主义的基本方略，提 出一系列治国理政新理念新思想新战略，实现了马克思主义____新的飞跃。”",
+    "answer": "中 国化、时代化",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "我们必须增强____，坚持____，做到居安思危、 未雨绸缪，准备经受风高浪急甚至惊涛骇浪的重大考验。",
+    "answer": "忧患意识",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "牢牢掌握____对意识形态工作领导权，全面落实意识形态工 作责任制，巩固壮大奋进新时代的主流思想舆论。",
+    "answer": "党",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持____在我国现代化建设全局中的核心地位。",
+    "answer": "创新",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新的征程上，我们必须坚持党的全面领导，不断完善党的领 导，增强____、坚定____、做到(“两 个维护”），牢记“国之大者”，不断提高党科学执政、民 主执政、依法执政水平，充分发挥党总揽全局、协调各方的 领导核心作用！",
+    "answer": "“四个意识”",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新的征程上，我们必须坚持党的基本理论、基本路线、基本 方略，统筹推进经济建设，____，____，____，政治建设“五位一体”总体布局。",
+    "answer": "生态文明建设",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "解决台湾问题、实现祖国完全统一，是中国共产党矢志不渝 的历史任务，是全体中华儿女的共同愿望。要坚持____和____，推进祖国和平统一进程。",
+    "answer": "一个中国 原则",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "____是中国共产党团结海内外全体中华儿女实 现中华民族伟大复兴的重要法宝。",
+    "answer": "爱国统一战线",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚定中国特色社会主义道路自信、理论自信、制度自信，说 到底就是要坚定____",
+    "answer": "文化自信",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党人的初心和使命，是（为中国人民谋幸福），（为 中华民族谋复兴）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（加快建设教育强国）、（加快推进教育现代化），将是未 来一段时期内我国教育改革发展的主要任务。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "乡村要振兴，关键是（把基层党组织建好、建强）。基层党 组织要成为群众致富的领路人，确保党的惠民政策落地见效， 真正成为战斗堡垒。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "有序扩大民间投资市场准入，推进促进公平竞争的政策实施， 构建（亲清统一）的新型政商关系，促进民营经济健康发展。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "坚持____、____、____，把农业建设成 为大产业，加快建设农业强省",
+    "answer": "产业兴农",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "通过网络、广播、电视、报刊、传单、书籍等，或者利用讲 座、论坛、报告会、座谈会等方式，公开发表坚持资产阶级 自由化立场、反对（四项基本原则），反对党的改革开放决 策的文章、演说、宣言、声明等的，给予开除党籍处分。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "根据新修订《中国共产党纪律处分条例》规定，在党内组织 秘密集团或者组织其他分裂党的活动的，给予（开除党籍） 处分。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的基层委员会每届任期（三年至五年）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "根据新修订《中国共产党纪律处分条例》规定组织、参加旨 在反对（党的领导）、反对（社会主义制度）或者敌视政府 等组织的，对策划者、组织者和骨干分子，给予开除党籍处 分。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "侵犯党员的____，情节较重的，给 予警告或者严重警告处分；情节严重的，给予撤销党内职务 处分。",
+    "answer": "表决权、选举权和被选举权",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党员干部必须正确行使（人民赋予的权力），清正廉洁，反 对特权思想和特权现象，反对任何滥用职权、谋求私利的行 为。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党领导人民构建社会主义和谐社会，以（保障和改 善民生）为重点。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "必须充分发扬党内民士，尊重党员士体地位，保障党员民主 权利，发挥名级党组织和广大党员的（先锋模范作用）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（党的纪律）是党的各级组织和全体党员必须遵守的行为规 则。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "把（习近平新时代中国特色社会主义思想）的新发展写入党 章，作为全党全国人民的行动指南，这是新时代新征程上， 确保我们党坚定信仰信念、把握历史主动、实现民族复兴的 根本保障。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章强调实行（正确的集中），坚定维护以习近平同志为核 心的党中央权威和集中统一领导，保证全党的团结统一和行 动一致，保证党的决定得到迅速有效的贯彻执行。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "把（全面建成社会主义现代化强国，分两步走）的总的战略 安排写入党章，即：到二〇三五年基本实现社会主义现代化， 到本世纪中叶把我国建成社会主义现代化强国。这凝聚起全 党全国各族人民共同奋斗的意志和力量，激励着全党全国人 民坚定信心、锐意进取。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党员有权在党的会议上（有根据）地批评党的任何组织和任 何党员。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章规定，中国共产党代表中国先进生产力的发展要求，代 表中国先进文化的前进方向，代表（中国最广大人民的根本 利益）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "二十届三中全会指出，进一步全面深化改革的总目标是继续 完善和发展（中国特色社会主义制度），推进国家治理体系 和治理能力现代化。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "二十届三中全会提出，（城乡融合发展）是中国式现代化的 必然要求。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会指出，“十五五”时期经济社会发展以 （满足人民日益增长的美好生活需要）为根本目的。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "习近平新时代中国特色社会主义思想是党和人民实践经验 和集体智慧的结晶，是（中国特色社会主义理论体系）的重 要组成部分。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会强调，要坚持（有效市场）和有为政府 相结合，推动经济社会高质量发展。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章规定，党的最大政治优势是（密切联系群众），党执政 后的最大危险是脱离群众。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会提出，要坚决破除阻碍（全国统一大市 场）建设卡点堵点，增强国内大循环内生动力。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党人的初心和使命，就是为中国人民（谋幸福）， 为中华民族谋复兴。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会指出，要加快经济社会发展全面绿色转 型，建设（美丽中国）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章规定，坚持（改革开放），是我们的强国之路。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会强调，要推进国家安全体系和能力现代 化，建设（更高水平）平安中国。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十大报告指出，（坚持党的全面领导）是当代中国发 展进步的根本保证。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党章规定，党的各级组织要按规定实行（党务公开），使党 员对党内事务有更多地了解和参与。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的二十届四中全会指出，要如期实现（建军一百年）奋斗 目标，高质量推进国防和军队现代化。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（新质生产力）是生产力中创新最活跃、技术最前沿、前景 最广阔、影响最广泛的部分，代表生产力的演进方向。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "“十五五”时期国防和军队现代化建设，一定要把（政治建 军）摆在首要位置。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "人民军队的生命力在于（战斗力）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（防灾减灾救灾）涉及经济、社会、生态等各个领域，既是 国家治理的首要任务，又是国家治理能力的重要体现。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "新时代以来，以习近平同志为核心的党中央高度重视（平安 中国建设），领导广大人民群众成功续写了经济快速发展和 社会长期稳定两大奇迹新篇章。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "衡量党性强弱的根本尺子是（公）、（私）二字。只有党性 坚强、摒弃私心杂念，才能保证政绩观不出偏差。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "各级领导干部要树立和践行正确政绩观，以（功成不必在我、 功成必定有我)的精神境界，心无旁骛推进中国式现代化。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "《党章》明确，必须按照中国特色社会主义事业“（五位一 体）”总体布局和“（四个全面）”战略布局，全面统筹推 进经济建设、政治建设、文化建设、社会建设、生态文明建 设，协调推进全面建成小康社会、全面深化改革、全面依法 治国、全面从严治党。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中央军事委员会实行（主席）负责制。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中央军事委员会负责军队中党的工作和（政治工作）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中共一大会议选举（陈独秀）任书记。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（《中国共产党的第一个纲领》）是党的第一个正式文献， 虽然不是正式的党章，实际上起到了党章的作用。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国进入改革开放和社会主义现代化建设新时期的起点是 （党的十一届三中全会）的召开。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党性、党风、党纪是有机整体，（党性）是根本，（党风） 是表现，（党纪）是保障。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党支部召开党员大会开展民主评议党员时，按照（个人自评）、 （党员互评）、（民主测评）的程序，组织党员进行评议。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "党的基层组织进行选举时，有选举权的到会人数不少于应到 会人数的（五分之四），会议有效。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国梦的本质是（国家富强）、（民族振兴）、（人民幸福）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "中国共产党的象征和标志是（党徽）和（党旗）。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "（文化）认同是最深层次的认同，是民族团结之根、民族和 睦之魂。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "习近平总书记在2023年中央经济工作会议中指出，必须把推 进（中国式现代化）作为最大的政治。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "fill_blank",
+    "question": "保证全党服从中央，坚持党中央权威和集中统一领导是党的 （政治建设）的首要任务。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "中国共产党的性质是什么？",
+    "answer": "中国共产党是中国工人阶级的先锋队，同时是中国人民和中 华民族的先锋队，是中国特色社会主义事业的领导核心，代表中 国先进生产力的发展要求，代表中国先进文化的前进方向，代表 中国最广大人民的根本利益。党的最高理想和最终目标是实现共 产主义。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "中国共产党的指导思想是什么？",
+    "answer": "中国共产党以马克思列宁主义、毛泽东思想、邓小平理论、 “三个代表”重要思想、科学发展观、习近平新时代中国特色社 会主义思想作为自己的行动指南。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "共产党员必须履行的八项义务是什么？",
+    "answer": "根据党章第三条的规定，党员必须履行下列义务： （一）认真学习马克思列宁主义、毛泽东思想、邓小平理论、“三 个代表”重要思想、科学发展观、习近平新时代中国特色社会主 义思想，学习党的路线、方针、政策和决议，学习党的基本知识 和党的历史，学习科学、文化、法律和业务知识，努力提高为人 民服务的本领。 （二）增强“四个意识”、坚定“四个自信”、做到“两个维护”， 贯彻执行党的基本路线和各项方针、政策，带头参加改革开放和 社会主义现代化建设，带动群众为经济发展和社会进步艰苦奋斗， 在生产、工作、学习和社会生活中起先锋模范作用。 （三）坚持党和人民的利益高于一切，个人利益服从党和人民的 利益，吃苦在前，享受在后，克己奉公，多做贡献。 （四）自觉遵守党的纪律，首先是党的政治纪律和政治规矩，模 范遵守国家的法律法规，严格保守党和国家的秘密，执行党的决 定，服从组织分配，积极完成党的任务。 （五）维护党的团结和统一，对党忠诚老实，言行一致，坚决反 对一切派别组织和小集团活动，反对阳奉阴违的两面派行为和一 切阴谋诡计。 （六）切实开展批评和自我批评，勇于揭露和纠正违反党的原则 的言行和工作中的缺点、错误，坚决同消极腐败现象作斗争。 （七）密切联系群众，向群众宣传党的主张，遇事同群众商量， 及时向党反映群众的意见和要求，维护群众的正当利益。 （八）发扬社会主义新风尚，带头实践社会主义核心价值观和社 会主义荣辱观，提倡共产主义道德，弘扬中华民族传统美德，为 了保护国家和人民的利益，在一切困难和危险的时刻挺身而出， 英勇斗争，不怕牺牲",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "中国共产党的根本宗旨是什么？",
+    "answer": "全心全意为人民服务是党的根本宗旨。党除了工人阶级和最 广大人民群众的利益，没有自己特殊的利益。党在任何时候都把 群众利益放在第一位，同群众同甘共苦，保持最密切的联系。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "2021 年1 月4 日，新修订的《中国共产党党员权利保障条例》 全文公布。修订后的条例用13 个条文将党章规定的8 个方面 党员权利进一步明确细化。党员的13 项权利都有哪些？ （1）党内知情权 （2）接受党的教育培训权 （3）党内参加讨论权 （4）党内建议和倡议权 （5）党内监督权 （6）党内提出罢免撤换要求权 （7）党内表决权 （8）党内选举权和被选举权 （9）党内申辩权 （10）党内提出不同意见权 （11）党内请求权 （12）党内申诉权 （13）党内控告权",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "中国共产党的入党誓词是什么?",
+    "answer": "我志愿加入中国共产党，拥护党的纲领，遵守党的章程，履 行党员义务，执行党的决定，严守党的纪律，保守党的秘密，对 党忠诚，积极工作，为共产主义奋斗终身，随时准备为党和人民 牺牲一切，永不叛党。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "预备党员享有哪些权利？",
+    "answer": "预备党员的义务同正式党员一样。预备党员的权利，除了没 有表决权、选举权和被选举权以外，也同正式党员一样。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "“五位一体”总体布局指的是什么？",
+    "answer": "“五位一体”总体布局是指经济建设、政治建设、文化建设、 社会建设和生态文明建设五位一体，全面推进。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "为什么要端正入党动机？正确的入党动机是怎样形成的？",
+    "answer": "正确的入党动机是思想上入党的根本问题，是激励人们入党 的主观原因，它从根本上决定了每一个党员的素质和行为，是共 产党员的世界观、人生观的集中反映。因此，树立正确的入党动 机是十分重要的问题。正确的入党动机，指争取入党的内在原因 是忠诚地信仰共产主义，把最终实现共产主义社会制度作为自己 的最高理想，决心为了壮丽的共产主义事业奋斗终身，全心全意 为人民服务。 (1)要求入党的同志因为他们受到党的培养教育，使人生道路上 锻炼成长，在事业上取得一定的成绩，使他们对党产生朴素的热 爱之情。 (2)作为知识分子要认识和理解党的基本知识，基本纲领，基本 路线，基本经验，认真学习党的基本知识，了解党的性质，党的 指导思想，党的基本宗旨，党的奋斗目标，党的基本原则等，培 养理性认识在积极分子入党动机的提升上起着至关重要的作用。 (3)入党积极分子只有将理论和实践紧密结合起来，才能逐步实 现既定的远大目标。 （4）通过反复的实践，将积极分子的思想认识和政治觉悟提高 到一个新的境界，最终树立起坚定的共产主义信仰。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "为什么说端正入党动机是要求入党的同志必须解决的首要问 题?",
+    "answer": "(1)入党动机正确与否，不仅关系到要求入党的同志能否为 创造入党条件产生正确的导向和内在动力，而且关系到要求入党 的同志能否在入党以后始终不渝地坚持共产党人的世界观、人生 观、价值观，永葆共产党员的本色。 (2)正确的入党动机可以产生正确的入党行为，并用科学的方法 去实践它；不正确的入党动机则会驱使人们采用不正确的思想和 行为去实现个人的愿望。所以，端正入党动机是要求入党的同志 必须解决的首要问题。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "国际歌歌词内容",
+    "answer": "第一段：起来饥寒交迫的奴隶，起来全世界受苦的人，满腔 的热血已经沸腾，要为真理而斗争。旧世界打个落花流水，奴隶 们起来、起来！不要说我们一无所有，我们要做天下的主人。这 是最后的斗争，团结起来到明天，英特纳雄耐尔就一定要实现！ 这是最后的斗争，团结起来到明天，英特纳雄耐尔就一定要实现！ （第二段和第三段略）。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "马克思主义经典作家把从资本主义到共产主义划分为哪三个 阶段？",
+    "answer": "马克思主义经典作家把从资本主义到共产主义划分为三个阶 段：一是从资本主义到共产主义的过渡时期；二是共产主义的低 级阶段即社会主义社会；三是共产主义的高级阶段即共产主义社 会。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "党的纪律主要包括哪六大类？",
+    "answer": "政治纪律、组织纪律、廉洁纪律、群众纪律、工作纪律、生 活纪律。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "对党员的纪律处分有哪五种？",
+    "answer": "警告、严重警告、撤销党内职务、留党察看、开除党籍。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "社会主义核心价值观的内容是什么？",
+    "answer": "国家层面：富强、民主、文明、和谐；社会层面：自由、平 等、公正、法治；个人层面：爱国、敬业、诚信、友善。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "习近平总书记指出，中国共产党的先驱们创建了中国共产党， 形成了怎样的伟大建党精神？",
+    "answer": "形成了坚持真理、坚守理想，践行初心、担当使命，不怕牺 牲、英勇斗争，对党忠诚、不负人民的伟大建党精神。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "我们经历了对党和人民事业具有重大现实意义和深远历史意 义的三件大事，这三件大事是什么？",
+    "answer": "一是迎来中国共产党成立一百周年，二是中国特色社会主义 进入新时代，三是完成脱贫攻坚、全面建成小康社会的历史任务， 实现第一个百年奋斗目标。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "中国共产党第二十次全国代表大会的主题是什么？",
+    "answer": "高举中国特色社会主义伟大旗帜，全面贯彻新时代中国特色 社会主义思想，弘扬伟大建党精神，自信自强、守正创新，踔厉 奋发、勇毅前行，为全面建设社会主义现代化国家、全面推进中 华民族伟大复兴而团结奋斗。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "“六个必须坚持”就是习近平新时代中国特色社会主义思想 的世界观和方法论的集中反映，是逻辑缜密的理论体系，请 问这“六个坚持”是什么？",
+    "answer": "必须坚持人民至上，必须坚持自信自立，必须坚持守正创新， 必须坚持问题导向，必须坚持系统观念，必须坚持胸怀天下。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "根据新修订《中国共产党纪律处分条例》规定，党的纪律处 分工作遵循哪些原则？",
+    "answer": "坚持党要管党、全面从严治党。党纪面前一律平等。实事求 是。民主集中制。惩前毖后、治病救人。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "简述规定党员义务和权利的必要性。",
+    "answer": "第一，规定党员的义务和权利是保证党的先进性、提高党的 战斗力和实现党的正确领导的需要。规定了党员的义务就是规定 了共产党员的具体标准。规定了党员的权利，有利于调动党员的 积极性和创造性，更好地完成党的历史使命，巩固党的执政地位 和提高党的执政能力。 第二，规定党员的义务和权利，是加强党同人民群众联系、保证 中国特色社会主义事业顺利进行的需要。 第三，规定党员的义务和权利，是推动社会主义民主建设和坚持 民主集中制原则的需要。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "简述“十五五”时期经济社会发展必须遵循的原则",
+    "answer": "（1）关于坚持党的全面领导； （2）关于坚持人民至上； （3）关于坚持高质量发展； （4）关于坚持全面深化改革； （5）关于坚持有效市场和有为政府相结合； （6）关于坚持统筹发展和安全",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "《建议》提出的“十五五”时期经济社会发展的主要目标是 什么？",
+    "answer": "（1）全面建设社会主义现代化国家新征程实现良好开局， 为向新的目标迈进提供了坚实基础； （2）锚定到2035 年我国发展的总体目标，科学制定阶段性目标 任务； （3）紧紧抓住战略机遇，在危机中育新机、于变局中开新局",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "党的二十届四中全会提出的提高党对进一步全面深化改革、 推进中国式现代化领导水平的主要要求有哪些？",
+    "answer": "（1）坚持党中央对进一步全面深化改革的集中统一领导 （2）深化党的建设制度改革 （3）坚持党的自我革命 （4）以钉钉子精神抓好改革落实 （5）持续以党的理论统一思想，统一意志，统一行动",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "根据党的二十大报告，新时期应如何开辟马克思主义中国化 时代化新境界？",
+    "answer": "坚持和发展马克思主义，必须同中国具体实际相结合；坚持 和发展马克思主义，必须同中华优秀传统文化相结合。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "简述“两个确立”的决定性意义。",
+    "answer": "“两个确立”是新时代取得一切成就最根本的保证，是党应 对一切不确定性的最大确定性、最大底气、最大保证；深刻领悟 “两个确立”的决定性意义，才能增强“四个意识”、坚定“四 个自信”、做到“两个维护”，凝聚起推进中国式现代化的磅礴 力量。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "中国共产党在社会主义初级阶段的基本路线是什么？",
+    "answer": "中国共产党在社会主义初级阶段的基本路线是：领导和团结 全国各族人民，以经济建设为中心，坚持四项基本原则、坚持改 革开放，自力更生，艰苦创业，为把我国建设成为富强、民主、 文明、和谐、美丽的社会主义现代化强国而奋斗。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "四项基本原则的内容是什么？",
+    "answer": "四项基本原则是指坚持社会主义道路、坚持人民民主专政、 坚持中国共产党的领导、坚持马克思列宁主义毛泽东思想这四项 基本原则，是我们的立国之本。在社会主义现代化建设的整个过 程中，必须坚持四项基本原则，反对资产阶级自由化。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "“四个意识”和“两个维护”的内容分别是什么？",
+    "answer": "“四个意识”是政治意识、大局意识、核心意识、看齐意识。 “两个维护”是指坚决维护习近平总书记党中央的核心、全党的 核心地位，坚决维护党中央权威和集中统一领导。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "简述中国式现代化的五个中国特色。",
+    "answer": "人口规模巨大的现代化、全体人民共同富裕的现代化、物质 文明和精神文明相协调的现代化、人与自然和谐共生的现代化、 走和平发展道路的现代化。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "新时代我国社会的主要矛盾是什么？",
+    "answer": "新时代我国社会的主要矛盾是人民日益增长的美好生活需要 和不平衡不充分的发展之间的矛盾。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "简述中国式现代化的本质要求。",
+    "answer": "坚持中国共产党领导，坚持中国特色社会主义，实现高质量 发展，发展全过程人民民主，丰富人民精神世界，实现全体人民 共同富裕，促进人与自然和谐共生，推动构建人类命运共同体， 创造人类文明新形态。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "党员发展工作的十六字方针是什么？",
+    "answer": "控制总量、优化结构、提高质量、发挥作用。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "入党的基本条件是什么？",
+    "answer": "年满十八岁的中国工人、农民、军人、知识分子和其他社会 阶层的先进分子，承认党的纲领和章程，愿意参加党的一个组织 并在其中积极工作、执行党的决议和按期交纳党费的，可以申请 加入中国共产党。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "什么是党的纲领？分为哪两个层面？",
+    "answer": "党的纲领是党的政治主张和奋斗目标的集中体现，是党团结 带领人民前进的旗帜。分为最高纲领和最低纲领，最高纲领是实 现共产主义，最低纲领是结合不同历史阶段的国情制定的阶段性 奋斗目标。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "党的三大历史任务是什么？",
+    "answer": "推进现代化建设、完成祖国统一、维护世界和平与促进共同 发展。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "新时代党的建设总要求是什么？",
+    "answer": "坚持和加强党的全面领导，坚持党要管党、全面从严治党， 以加强党的长期执政能力建设、先进性和纯洁性建设为主线，以 党的政治建设为统领，以坚定理想信念宗旨为根基，以调动全党 积极性、主动性、创造性为着力点，全面推进党的政治建设、思 想建设、组织建设、作风建设、纪律建设，把制度建设贯穿其中， 深入推进反腐败斗争，不断提高党的建设质量。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "党章规定的党的建设必须坚决实现的基本要求有哪些？",
+    "answer": "（1）坚持党的基本路线； （2）坚持解放思想，实事求是，与时俱进，求真务实； （3）坚持全心全意为人民服务； （4）坚持民主集中制。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "简述二十届三中全会提出的“六个坚持”重大原则的核心要 义。",
+    "answer": "（1）坚持党的全面领导 （2）坚持以人民为中心 （3）坚持守正创新 （4）坚持以制度建设为主线 （5）坚持全面依法治国 （6）坚持系统观念",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "党的二十届四中全会提出的建设现代化产业体系的重点方向 是什么？",
+    "answer": "坚持把发展经济的着力点放在实体经济上，坚持智能化、绿 色化、融合化方向，加快建设制造强国、质量强国、航天强国、 交通强国、网络强国；保持制造业合理比重，优化提升传统产业， 培育壮大新兴产业和未来产业，促进服务业优质高效发展，构建 现代化基础设施体系。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "依法治国的总目标是什么？",
+    "answer": "建设中国特色社会主义法治体系，建设社会主义法治国家。",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "简述正确政绩观的核心内涵。",
+    "answer": "（1）政绩观问题是一个根本性问题，关乎立党为公、执政为民 （2）树立和践行正确政绩观，起决定性作用的是党性 （3）为民造福是最大政绩，坚持以人民为中心 （4）高质量发展是全面建设社会主义现代化国家的首要任务 （5）追求经得起实践、人民、历史检验的实绩",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "简述树立和践行正确政绩观学习教育的总要求",
+    "answer": "立党为公、为民造福、科学决策、真抓实干",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "中国共产党的最终目标是什么？联系实际谈谈自己的认识？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "如何正确理解党员权利与义务的关系？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "新时代青年要如何做到自觉履行党员义务，正确行使党员权 利？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "论述新时代坚持“两个确立”、做到“两个维护”的重大意义。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "谈谈你对党的民主集中制原则的理解，以及新时代如何践行这 一原则。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "正确的入党动机是什么？结合新党章的有关要求联系实际，谈 谈自己怎样以实际行动争取早日加入党组织？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "谈谈如何按照党员标准严格要求自己，切实发挥先锋模范作用， 以实际行动做一名“四讲四有”的合格共产党员？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "伟大建党精神的内涵是什么？新时代青年应如何传承和弘扬 伟大建党精神？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "请结合实际，谈谈自己应如何学习贯彻党的二十大精神？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "请结合实际，谈谈对习近平总书记“六个坚持”的理解？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "结合党的二十届四中全会精神和党的二十大党章要求，谈谈 新时代入党发展对象应如何坚定理想信念、践行初心使命。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "请结合实际，谈谈你对“全心全意为人民服务”这一党的宗 旨的理解和认识。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "论述全面从严治党的重要意义，以及青年党员如何严守纪律 规矩。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "谈谈你对中国特色社会主义道路的理解，以及新时代青年如 何坚定道路自信。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "作为新时代青年，如何将个人理想融入党和国家事业，实现 人生价值？",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "论述新时代青年如何践行社会主义核心价值观。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "结合实际，试述“十五五”时期当代青年在“以中国式现代 化全面推进中华民族伟大复兴”中的使命担当。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "谈谈你对党的自我革命的理解？你认为青年党员如何践行自 我革命精神。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "请结合党的二十届四中全会精神，谈谈你对“为什么高质量 发展是全面建设社会主义现代化国家的首要任务”的认识。",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  },
+  {
+    "type": "essay",
+    "question": "结合实际谈谈你应如何树立和践行正确政绩观?",
+    "answer": "",
+    "options": null,
+    "explanation": ""
+  }
+]
