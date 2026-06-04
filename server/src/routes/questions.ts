@@ -80,8 +80,6 @@ router.get('/', async (req, res) => {
       data = data.sort(() => Math.random() - 0.5);
     }
     
-    if (error) throw new Error(`查询失败: ${error.message}`);
-    
     // 解析 options 和 answer JSON 字段
     const formattedResult = (data || []).map((q: any) => {
       let parsedOptions = null;

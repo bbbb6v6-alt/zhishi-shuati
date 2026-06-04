@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { LLMClient, Config } from 'coze-coding-dev-sdk';
+import type { Message } from 'coze-coding-dev-sdk';
 import { getSupabaseClient } from '../storage/database/supabase-client.js';
 
 const router = Router();
@@ -41,22 +42,22 @@ router.post('/', async (req, res) => {
     if (question.type === 'judgment') {
       prompt = `题目：${question.question}\n题型：判断题\n正确答案：${question.answer === 'true' ? '正确' : '错误'}`;
     } else if (question.type === 'choice') {
-      const options = JSON.parse(question.options || '[]');
-      const optionsText = options.map((opt, i) => `${String.fromCharCode(65 + i)}. ${opt}`).join('\n');
+      const options: string[] = JSON.parse(question.options || '[]');
+      const optionsText = options.map((opt: string, i: number) => `${String.fromCharCode(65 + i)}. ${opt}`).join('\n');
       prompt = `题目：${question.question}\n题型：单选题\n选项：\n${optionsText}\n正确答案：${question.answer}`;
     } else if (question.type === 'multiple_choice') {
-      const options = JSON.parse(question.options || '[]');
-      const optionsText = options.map((opt, i) => `${String.fromCharCode(65 + i)}. ${opt}`).join('\n');
+      const options: string[] = JSON.parse(question.options || '[]');
+      const optionsText = options.map((opt: string, i: number) => `${String.fromCharCode(65 + i)}. ${opt}`).join('\n');
       prompt = `题目：${question.question}\n题型：多选题\n选项：\n${optionsText}\n正确答案：${question.answer}`;
     } else if (question.type === 'fill_blank') {
       prompt = `题目：${question.question}\n题型：填空题\n正确答案：${question.answer}`;
     }
-
+    
     // 调用LLM生成解析
     const config = new Config();
     const llmClient = new LLMClient(config);
 
-    const messages = [
+    const messages: Message[] = [
       { role: 'system', content: SYSTEM_PROMPT },
       { role: 'user', content: prompt }
     ];
