@@ -16,11 +16,16 @@ import { Ionicons } from '@expo/vector-icons';
 
 const EXPO_PUBLIC_BACKEND_BASE_URL = process.env.EXPO_PUBLIC_BACKEND_BASE_URL;
 
+interface QuestionOption {
+  key: string;
+  value: string;
+}
+
 interface Question {
   id: number;
   type: string;
   question: string;
-  options: string[] | null;
+  options: string[] | QuestionOption[] | null;
   answer: string;
   explanation?: string;
 }
@@ -259,15 +264,31 @@ export default function PracticeScreen() {
     return String.fromCharCode(65 + index);
   };
 
+  // 解析选项值（兼容对象格式和字符串数组格式）
+  const getOptionText = (option: string | QuestionOption): string => {
+    if (typeof option === 'string') {
+      return option;
+    }
+    return option.value;
+  };
+
+  // 解析选项键
+  const getOptionKey = (option: string | QuestionOption, index: number): string => {
+    if (typeof option === 'object' && option.key) {
+      return option.key;
+    }
+    return getOptionLabel(index);
+  };
+
   // 渲染单选题选项
   const renderChoiceOptions = () => {
     if (!currentQuestion?.options) return null;
     return (
       <View className="mt-4 space-y-3">
         {currentQuestion.options.map((option, index) => {
-          const optionKey = getOptionLabel(index);
+          const optionKey = getOptionKey(option, index);
           const isSelected = selectedAnswer === optionKey;
-          const isCorrectAnswer = currentQuestion.answer === getOptionLabel(index);
+          const isCorrectAnswer = currentQuestion.answer === optionKey;
           let bgClass = 'bg-white dark:bg-gray-800';
           let borderClass = 'border-gray-200 dark:border-gray-700';
 
@@ -287,7 +308,7 @@ export default function PracticeScreen() {
           return (
             <TouchableOpacity
               key={index}
-              onPress={() => handleOptionSelect(getOptionLabel(index))}
+              onPress={() => handleOptionSelect(optionKey)}
               disabled={isSubmitted}
               className={`p-4 rounded-xl border-2 ${borderClass} ${bgClass} ${isSubmitted ? 'opacity-80' : ''}`}
             >
@@ -302,11 +323,11 @@ export default function PracticeScreen() {
                       isSelected ? 'text-white' : 'text-gray-600 dark:text-gray-300'
                     }`}
                   >
-                    {getOptionLabel(index)}
+                    {optionKey}
                   </Text>
                 </View>
                 <Text className="flex-1 text-gray-800 dark:text-gray-200 text-base">
-                  {option}
+                  {getOptionText(option)}
                 </Text>
                 {isSubmitted && isCorrectAnswer && (
                   <Ionicons name="checkmark-circle" size={24} color="#22c55e" />
@@ -330,9 +351,9 @@ export default function PracticeScreen() {
     return (
       <View className="mt-4 space-y-3">
         {currentQuestion.options.map((option, index) => {
-          const key = getOptionLabel(index);
-          const isSelected = Array.isArray(selectedAnswer) && selectedAnswer.includes(key);
-          const isCorrectAnswer = correctAnswers.includes(key);
+          const optionKey = getOptionKey(option, index);
+          const isSelected = Array.isArray(selectedAnswer) && selectedAnswer.includes(optionKey);
+          const isCorrectAnswer = correctAnswers.includes(optionKey);
           let bgClass = 'bg-white dark:bg-gray-800';
           let borderClass = 'border-gray-200 dark:border-gray-700';
 
@@ -352,7 +373,7 @@ export default function PracticeScreen() {
           return (
             <TouchableOpacity
               key={index}
-              onPress={() => handleMultiSelect(key)}
+              onPress={() => handleMultiSelect(optionKey)}
               disabled={isSubmitted}
               className={`p-4 rounded-xl border-2 ${borderClass} ${bgClass} ${isSubmitted ? 'opacity-80' : ''}`}
             >
@@ -367,11 +388,11 @@ export default function PracticeScreen() {
                       isSelected ? 'text-white' : 'text-gray-600 dark:text-gray-300'
                     }`}
                   >
-                    {key}
+                    {optionKey}
                   </Text>
                 </View>
                 <Text className="flex-1 text-gray-800 dark:text-gray-200 text-base">
-                  {option}
+                  {getOptionText(option)}
                 </Text>
                 {isSubmitted && isCorrectAnswer && (
                   <Ionicons name="checkmark-circle" size={24} color="#22c55e" />
