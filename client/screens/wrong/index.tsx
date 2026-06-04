@@ -359,6 +359,16 @@ export default function WrongQuestionsScreen() {
 
   return (
     <Screen safeAreaEdges={['top', 'bottom']}>
+      {/* 返回按钮 */}
+      <View className="absolute top-4 left-3 z-50">
+        <TouchableOpacity
+          onPress={() => safeRouter.back()}
+          className="w-10 h-10 rounded-full bg-black/50 items-center justify-center"
+        >
+          <Ionicons name="arrow-back" size={22} color="white" />
+        </TouchableOpacity>
+      </View>
+      
       <ScrollView 
         className="flex-1 px-4" 
         contentContainerStyle={{ paddingBottom: insets.bottom + 80 }}
