@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, ScrollView, ActivityIndicator, TextInput,
 import { Screen } from '@/components/Screen';
 import { useSafeRouter } from '@/hooks/useSafeRouter';
 import { useFocusEffect } from 'expo-router';
-import { FontAwesome6 } from '@expo/vector-icons';
+import { FontAwesome6, FontAwesome5, Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const EXPO_PUBLIC_BACKEND_BASE_URL = process.env.EXPO_PUBLIC_BACKEND_BASE_URL || 'http://localhost:9091';
@@ -89,7 +89,7 @@ export default function WrongQuestionsScreen() {
       const correctVal = correctAnswer === 'true' || correctAnswer === true || correctAnswer === '对';
       return userVal === correctVal;
     }
-    if (type === 'choice' || type === 'multi_choice') {
+    if (type === 'choice' || type === 'multiple_choice') {
       // 选择题：直接比较字符串
       const normalizedUser = String(userAnswer).toUpperCase();
       const normalizedCorrect = String(correctAnswer).toUpperCase();
@@ -203,7 +203,7 @@ export default function WrongQuestionsScreen() {
     switch (type) {
       case 'judgment': return '判断题';
       case 'choice': return '单选题';
-      case 'multi_choice': return '多选题';
+      case 'multiple_choice': return '多选题';
       case 'fill_blank': return '填空题';
       default: return '选择题';
     }
@@ -213,7 +213,7 @@ export default function WrongQuestionsScreen() {
     switch (type) {
       case 'judgment': return '#059669';
       case 'choice': return '#0EA5E9';
-      case 'multi_choice': return '#8B5CF6';
+      case 'multiple_choice': return '#8B5CF6';
       case 'fill_blank': return '#F59E0B';
       default: return '#6B7280';
     }
@@ -282,7 +282,7 @@ export default function WrongQuestionsScreen() {
       return (
         <View className="mt-4 gap-2">
           {Object.entries(options).map(([key, value]) => {
-            const isMulti = type === 'multi_choice';
+            const isMulti = type === 'multiple_choice';
             const selectedKeys = Array.isArray(selectedAnswer) ? selectedAnswer : selectedAnswer ? [selectedAnswer] : [];
             const isSelected = selectedKeys.includes(key);
             const isCorrectOption = Array.isArray(answer) ? answer.includes(key) : answer === key;
@@ -311,10 +311,10 @@ export default function WrongQuestionsScreen() {
                 </View>
                 <Text className="flex-1 text-gray-100 font-medium">{value as string}</Text>
                 {showCorrect && (
-                  <FontAwesome6 name="check-circle" size={20} color="#22C55E" />
+                  <FontAwesome5 name="check-circle" size={20} color="#22C55E" />
                 )}
                 {isWrongSelection && (
-                  <FontAwesome6 name="times-circle" size={20} color="#EF4444" />
+                  <FontAwesome5 name="times-circle" size={20} color="#EF4444" />
                 )}
               </TouchableOpacity>
             );
@@ -362,7 +362,7 @@ export default function WrongQuestionsScreen() {
       {/* 返回按钮 */}
       <View className="absolute top-4 left-3 z-50">
         <TouchableOpacity
-          onPress={() => safeRouter.back()}
+          onPress={() => router.back()}
           className="w-10 h-10 rounded-full bg-black/50 items-center justify-center"
         >
           <Ionicons name="arrow-back" size={22} color="white" />
@@ -473,7 +473,7 @@ export default function WrongQuestionsScreen() {
               isCorrect ? 'bg-green-500/20' : 'bg-red-500/20'
             }`}>
               <View className="flex-row items-center gap-3">
-                <FontAwesome6 
+                <FontAwesome5 
                   name={isCorrect ? 'check-circle' : 'times-circle'} 
                   size={24} 
                   color={isCorrect ? '#22C55E' : '#EF4444'} 
