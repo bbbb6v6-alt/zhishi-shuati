@@ -390,8 +390,8 @@ export default function PracticeScreen() {
   // 渲染判断题选项
   const renderJudgmentOptions = () => {
     const options = [
-      { label: '正确', value: 'true' },
-      { label: '错误', value: 'false' },
+      { label: '正确', value: 'Y' },
+      { label: '错误', value: 'N' },
     ];
 
     return (
