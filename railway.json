@@ -3,9 +3,9 @@
   "build": {
     "builder": "NIXPACKS",
     "nixpacksJson": {
-      "name": "党史刷题App",
+      "name": "zhishi-shuati",
       "install": {
-        "commands": ["pnpm install --frozen-lockfile"]
+        "commands": ["pnpm install --frozen-lockfile --registry=https://registry.npmmirror.com"]
       },
       "build": {
         "commands": ["cd server && pnpm run build"]
@@ -14,9 +14,8 @@
   },
   "deploy": {
     "numInstances": 1,
-    "restartPolicy": "ON_FAILURE",
-    "restartLimit": 3,
-    "script": "cd server && pnpm run start"
-  },
-  "port": 5000
+    "restartPolicyType": "ON_FAILURE",
+    "restartThreshold": 3,
+    "startCommand": "cd server && PORT=5000 pnpm run start"
+  }
 }
