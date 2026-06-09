@@ -267,6 +267,17 @@ export default function PracticeScreen() {
     return String.fromCharCode(65 + index);
   };
 
+  // 处理题目文本，将所有空标记和括号内容显示为空
+  const processQuestionText = (text: string) => {
+    if (!text) return '';
+    // 将 ____ 或 （xxx） 格式都显示为空
+    // 处理下划线格式
+    let result = text.replace(/____/g, '【空】');
+    // 处理括号格式：匹配 （xxx） 并替换为【空】
+    result = result.replace(/（[^）]*）/g, '【空】');
+    return result;
+  };
+
   // 解析选项值（兼容对象格式和字符串数组格式）
   const getOptionText = (option: string | QuestionOption): string => {
     if (typeof option === 'string') {
@@ -472,11 +483,11 @@ export default function PracticeScreen() {
         .trim();
     };
 
-    // 将答案中的多个空格转换为多个填空框的提示
+    // 将答案中的多个空格或逗号转换为多个填空框的提示
     const formatAnswer = (answer: string) => {
       const cleaned = cleanAnswer(answer);
-      // 按空格分割，每个部分是一个空格的答案
-      const parts = cleaned.split(' ').filter(p => p.length > 0);
+      // 按空格或逗号分割，每个部分是一个空的答案
+      const parts = cleaned.split(/[\s,，、]+/).filter(p => p.length > 0);
       return parts;
     };
 
@@ -642,7 +653,7 @@ export default function PracticeScreen() {
 
           {/* 题目内容 */}
           <Text className="text-xl font-semibold text-gray-800 dark:text-white leading-relaxed">
-            {currentQuestion.question}
+            {processQuestionText(currentQuestion.question)}
           </Text>
 
           {/* 题目选项或输入框 */}
