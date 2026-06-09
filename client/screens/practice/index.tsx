@@ -7,6 +7,8 @@ import {
   TextInput,
   ActivityIndicator,
   Alert,
+  Modal,
+  FlatList,
 } from 'react-native';
 import { useFocusEffect } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -32,10 +34,9 @@ interface Question {
 
 export default function PracticeScreen() {
   const safeRouter = useSafeRouter();
-  const params = useSafeSearchParams<{ type?: string; questionIds?: string; count?: string }>();
+  const params = useSafeSearchParams<{ type?: string; questionIds?: string }>();
   const questionType = params.type || 'judgment';
   const initialQuestionIds = params.questionIds ? JSON.parse(params.questionIds) : null;
-  const requestedCount = params.count ? parseInt(params.count, 10) : null;
   const insets = useSafeAreaInsets();
 
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -52,6 +53,7 @@ export default function PracticeScreen() {
   const [aiExplanation, setAiExplanation] = useState<string | null>(null);
   const [loadingExplanation, setLoadingExplanation] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
+  const [showQuestionPicker, setShowQuestionPicker] = useState(false);
 
   const currentQuestion = questions[currentIndex];
 
@@ -59,14 +61,11 @@ export default function PracticeScreen() {
   const fetchQuestions = useCallback(async (questionIds?: (number | string)[]) => {
     try {
       setIsLoading(true);
-      // 使用请求的题目数量，如果没有指定则默认获取所有题目
-      const limit = requestedCount || 1000;
-      let url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&limit=${limit}`;
+      let url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&limit=1000`;
       
       if (questionIds && questionIds.length > 0) {
         // 如果有指定的题目ID，按ID获取
-        const idsToFetch = questionIds.slice(0, limit); // 限制数量
-        url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&ids=${idsToFetch.join(',')}`;
+        url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&ids=${questionIds.join(',')}`;
       }
       
       const response = await fetch(url);
@@ -86,7 +85,7 @@ export default function PracticeScreen() {
     } finally {
       setIsLoading(false);
     }
-  }, [questionType, requestedCount]);
+  }, [questionType]);
 
   useFocusEffect(
     useCallback(() => {
@@ -463,36 +462,55 @@ export default function PracticeScreen() {
 
   // 渲染填空题输入
   const renderFillBlank = () => {
-    // 解析多空答案，用逗号或顿号分隔
-    const answerText = currentQuestion?.answer || '';
-    const answers = answerText.split(/[,，、]/).filter(a => a.trim());
-    const isMultiBlank = answers.length > 1;
+    // 清理HTML标签，转换为可显示的答案格式
+    const cleanAnswer = (answer: string) => {
+      return answer
+        .replace(/<[^>]*>/g, '') // 移除所有HTML标签
+        .replace(/&nbsp;/g, ' ')  // 转换&nbsp;为空格
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .trim();
+    };
+
+    // 将答案中的多个空格转换为多个填空框的提示
+    const formatAnswer = (answer: string) => {
+      const cleaned = cleanAnswer(answer);
+      // 按空格分割，每个部分是一个空格的答案
+      const parts = cleaned.split(' ').filter(p => p.length > 0);
+      return parts;
+    };
+
+    const answerParts = formatAnswer(currentQuestion?.answer || '');
 
     return (
       <View className="mt-6">
         <TextInput
           className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-xl p-4 text-gray-800 dark:text-gray-200 text-lg"
-          placeholder={isMultiBlank ? "请按顺序输入多个答案，用逗号分隔" : "请输入答案"}
+          placeholder={answerParts.length > 0 ? `请输入答案（多个答案用空格分隔，共${answerParts.length}个空）` : "请输入答案"}
           placeholderTextColor="#9ca3af"
           value={fillBlankAnswer}
           onChangeText={setFillBlankAnswer}
           editable={!isSubmitted}
-          multiline={isMultiBlank}
+          multiline
         />
-        {isSubmitted && (
+        {isSubmitted && answerParts.length > 0 && (
           <View className="mt-4 p-4 bg-green-50 dark:bg-green-900/30 rounded-xl">
-            <Text className="text-green-700 dark:text-green-400 font-medium mb-2">正确答案：</Text>
-            {isMultiBlank ? (
-              <View>
-                {answers.map((ans, idx) => (
-                  <Text key={idx} className="text-green-700 dark:text-green-400 text-base">
-                    第{idx + 1}空：{ans.trim()}
-                  </Text>
-                ))}
+            <Text className="text-green-700 dark:text-green-400 font-medium mb-2">
+              正确答案：
+            </Text>
+            {answerParts.map((part, index) => (
+              <View key={index} className="flex-row items-center mb-1">
+                <Text className="text-green-600 dark:text-green-400 mr-2">空{index + 1}：</Text>
+                <Text className="text-green-800 dark:text-green-300 font-semibold">{part}</Text>
               </View>
-            ) : (
-              <Text className="text-green-700 dark:text-green-400 text-base">{answerText}</Text>
-            )}
+            ))}
+          </View>
+        )}
+        {isSubmitted && answerParts.length === 0 && (
+          <View className="mt-4 p-4 bg-green-50 dark:bg-green-900/30 rounded-xl">
+            <Text className="text-green-700 dark:text-green-400 font-medium">
+              正确答案：{cleanAnswer(currentQuestion?.answer || '')}
+            </Text>
           </View>
         )}
       </View>
@@ -721,11 +739,11 @@ export default function PracticeScreen() {
             </TouchableOpacity>
 
             <TouchableOpacity
-              onPress={handleRefresh}
-              className="px-4 py-2 bg-orange-100 dark:bg-orange-900/30 rounded-lg"
+              onPress={() => setShowQuestionPicker(true)}
+              className="px-4 py-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg"
             >
-              <Text className="text-orange-600 dark:text-orange-400 font-medium">
-                刷新重做
+              <Text className="text-blue-600 dark:text-blue-400 font-medium">
+                {currentIndex + 1}/{questions.length}
               </Text>
             </TouchableOpacity>
 
@@ -755,6 +773,62 @@ export default function PracticeScreen() {
             </TouchableOpacity>
           </View>
         </View>
+
+        {/* 题目选择弹窗 */}
+        <Modal
+          visible={showQuestionPicker}
+          transparent
+          animationType="slide"
+          onRequestClose={() => setShowQuestionPicker(false)}
+        >
+          <View className="flex-1 bg-black/50 justify-end">
+            <View className="bg-white dark:bg-gray-800 rounded-t-3xl max-h-[70%]">
+              <View className="flex-row items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
+                <Text className="text-lg font-bold text-gray-800 dark:text-white">
+                  选择题目
+                </Text>
+                <TouchableOpacity onPress={() => setShowQuestionPicker(false)}>
+                  <Ionicons name="close" size={24} color="#6b7280" />
+                </TouchableOpacity>
+              </View>
+              <FlatList
+                data={questions}
+                keyExtractor={(item) => item.id.toString()}
+                numColumns={5}
+                contentContainerClassName="p-4"
+                renderItem={({ item, index }) => (
+                  <TouchableOpacity
+                    key={item.id}
+                    onPress={() => {
+                      setCurrentIndex(index);
+                      setSelectedAnswer(null);
+                      setFillBlankAnswer('');
+                      setIsSubmitted(false);
+                      setIsCorrect(false);
+                      setShowExplanation(false);
+                      setShowQuestionPicker(false);
+                    }}
+                    className={`w-[18%] aspect-square m-1 rounded-lg items-center justify-center ${
+                      index === currentIndex
+                        ? 'bg-blue-500'
+                        : 'bg-gray-100 dark:bg-gray-700'
+                    }`}
+                  >
+                    <Text
+                      className={`font-medium ${
+                        index === currentIndex
+                          ? 'text-white'
+                          : 'text-gray-700 dark:text-gray-300'
+                      }`}
+                    >
+                      {index + 1}
+                    </Text>
+                  </TouchableOpacity>
+                )}
+              />
+            </View>
+          </View>
+        </Modal>
       </View>
     </Screen>
   );
