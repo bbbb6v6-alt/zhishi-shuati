@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView, ActivityIndicator, Modal, Platform } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, ActivityIndicator, Modal, Platform, TextInput } from 'react-native';
 import { Screen } from '@/components/Screen';
 import { useSafeRouter } from '@/hooks/useSafeRouter';
 import { useFocusEffect } from 'expo-router';
@@ -30,6 +30,8 @@ export default function HomeScreen() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [loading, setLoading] = useState(true);
   const [selectedCount, setSelectedCount] = useState(10);
+  const [startQuestionId, setStartQuestionId] = useState('');  // 起始题目序号
+  const [useQuestionId, setUseQuestionId] = useState(false);   // 是否使用题目序号模式
   const [showCountModal, setShowCountModal] = useState(false);
   const [pendingPracticeType, setPendingPracticeType] = useState<string | null>(null);
 
@@ -60,10 +62,29 @@ export default function HomeScreen() {
 
   const confirmPractice = () => {
     if (pendingPracticeType) {
-      router.push('/practice', { type: pendingPracticeType, count: selectedCount.toString() });
+      // 如果选择了题目序号模式
+      if (useQuestionId && startQuestionId) {
+        const qid = parseInt(startQuestionId, 10);
+        if (qid > 0 && stats && qid <= stats.total) {
+          // 指定单题练习，使用 JSON 数组格式
+          router.push('/practice', { 
+            type: pendingPracticeType, 
+            questionIds: JSON.stringify([qid]), 
+            count: '1' 
+          });
+        } else {
+          alert(`题目序号必须在 1-${stats?.total || 0} 之间`);
+          return;
+        }
+      } else {
+        // 正常模式：随机抽取指定数量
+        router.push('/practice', { type: pendingPracticeType, count: selectedCount.toString() });
+      }
     }
     setShowCountModal(false);
     setPendingPracticeType(null);
+    setUseQuestionId(false);
+    setStartQuestionId('');
   };
 
   const handleWrong = () => {
@@ -291,7 +312,7 @@ export default function HomeScreen() {
         </TouchableOpacity>
       </ScrollView>
 
-      {/* 题目数量选择模态框 */}
+      {/* 题目数量/序号选择模态框 */}
       <Modal
         visible={showCountModal}
         transparent
@@ -303,34 +324,72 @@ export default function HomeScreen() {
           activeOpacity={1}
           onPress={() => setShowCountModal(false)}
         >
-          <View className="bg-white rounded-2xl w-72 p-5 mx-4 shadow-xl">
-            <Text className="text-lg font-bold text-gray-800 text-center mb-1">选择题目数量</Text>
-            <Text className="text-sm text-gray-500 text-center mb-5">请选择每次练习的题目数量</Text>
+          <View className="bg-white rounded-2xl w-80 p-5 mx-4 shadow-xl" onStartShouldSetResponder={() => true}>
+            <Text className="text-lg font-bold text-gray-800 text-center mb-1">选择题目</Text>
+            <Text className="text-sm text-gray-500 text-center mb-4">请选择题目数量或指定起始题号</Text>
             
-            <View className="flex-row flex-wrap justify-between gap-2">
-              {QUESTION_COUNTS.map((item) => (
-                <TouchableOpacity
-                  key={item.value}
-                  className={`w-[47%] py-3 rounded-xl border-2 ${
-                    selectedCount === item.value 
-                      ? 'border-[#C41E3A] bg-[#FEF2F2]' 
-                      : 'border-gray-200 bg-gray-50'
-                  }`}
-                  onPress={() => setSelectedCount(item.value)}
-                >
-                  <Text className={`text-center font-semibold ${
-                    selectedCount === item.value ? 'text-[#C41E3A]' : 'text-gray-600'
-                  }`}>
-                    {item.label}
-                  </Text>
-                </TouchableOpacity>
-              ))}
-            </View>
+            {/* 题目序号模式切换 */}
+            <TouchableOpacity
+              className={`p-3 rounded-xl border-2 mb-4 ${useQuestionId ? 'border-[#C41E3A] bg-[#FEF2F2]' : 'border-gray-200 bg-gray-50'}`}
+              onPress={() => setUseQuestionId(!useQuestionId)}
+            >
+              <Text className={`text-center font-semibold ${useQuestionId ? 'text-[#C41E3A]' : 'text-gray-600'}`}>
+                指定起始题目序号
+              </Text>
+              {stats && (
+                <Text className="text-xs text-gray-400 text-center mt-1">
+                  当前题库共 {stats.total} 题
+                </Text>
+              )}
+            </TouchableOpacity>
 
-            <View className="flex-row mt-5 gap-3">
+            {useQuestionId ? (
+              // 题目序号输入模式
+              <View className="mb-4">
+                <Text className="text-sm text-gray-600 mb-2">请输入起始题目序号</Text>
+                <TextInput
+                  className="bg-gray-100 text-gray-800 rounded-xl px-4 py-3 text-center text-lg"
+                  placeholder="例如：120"
+                  placeholderTextColor="#9CA3AF"
+                  keyboardType="number-pad"
+                  value={startQuestionId}
+                  onChangeText={setStartQuestionId}
+                />
+                <Text className="text-xs text-gray-400 mt-2 text-center">
+                  将从第 {startQuestionId || '?'} 题开始，做 1 道题
+                </Text>
+              </View>
+            ) : (
+              // 题目数量选择模式
+              <View className="flex-row flex-wrap justify-between gap-2 mb-4">
+                {QUESTION_COUNTS.map((item) => (
+                  <TouchableOpacity
+                    key={item.value}
+                    className={`w-[47%] py-3 rounded-xl border-2 ${
+                      selectedCount === item.value 
+                        ? 'border-[#C41E3A] bg-[#FEF2F2]' 
+                        : 'border-gray-200 bg-gray-50'
+                    }`}
+                    onPress={() => setSelectedCount(item.value)}
+                  >
+                    <Text className={`text-center font-semibold ${
+                      selectedCount === item.value ? 'text-[#C41E3A]' : 'text-gray-600'
+                    }`}>
+                      {item.label}
+                    </Text>
+                  </TouchableOpacity>
+                ))}
+              </View>
+            )}
+
+            <View className="flex-row mt-2 gap-3">
               <TouchableOpacity
                 className="flex-1 py-3 rounded-xl bg-gray-100"
-                onPress={() => setShowCountModal(false)}
+                onPress={() => {
+                  setShowCountModal(false);
+                  setUseQuestionId(false);
+                  setStartQuestionId('');
+                }}
               >
                 <Text className="text-center text-gray-600 font-semibold">取消</Text>
               </TouchableOpacity>
