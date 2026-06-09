@@ -32,9 +32,10 @@ interface Question {
 
 export default function PracticeScreen() {
   const safeRouter = useSafeRouter();
-  const params = useSafeSearchParams<{ type?: string; questionIds?: string }>();
+  const params = useSafeSearchParams<{ type?: string; questionIds?: string; count?: string }>();
   const questionType = params.type || 'judgment';
   const initialQuestionIds = params.questionIds ? JSON.parse(params.questionIds) : null;
+  const requestedCount = params.count ? parseInt(params.count, 10) : null;
   const insets = useSafeAreaInsets();
 
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -58,11 +59,14 @@ export default function PracticeScreen() {
   const fetchQuestions = useCallback(async (questionIds?: (number | string)[]) => {
     try {
       setIsLoading(true);
-      let url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&limit=1000`;
+      // 使用请求的题目数量，如果没有指定则默认获取所有题目
+      const limit = requestedCount || 1000;
+      let url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&limit=${limit}`;
       
       if (questionIds && questionIds.length > 0) {
         // 如果有指定的题目ID，按ID获取
-        url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&ids=${questionIds.join(',')}`;
+        const idsToFetch = questionIds.slice(0, limit); // 限制数量
+        url = `${EXPO_PUBLIC_BACKEND_BASE_URL}/api/v1/questions?type=${questionType}&ids=${idsToFetch.join(',')}`;
       }
       
       const response = await fetch(url);
@@ -82,7 +86,7 @@ export default function PracticeScreen() {
     } finally {
       setIsLoading(false);
     }
-  }, [questionType]);
+  }, [questionType, requestedCount]);
 
   useFocusEffect(
     useCallback(() => {
@@ -459,22 +463,36 @@ export default function PracticeScreen() {
 
   // 渲染填空题输入
   const renderFillBlank = () => {
+    // 解析多空答案，用逗号或顿号分隔
+    const answerText = currentQuestion?.answer || '';
+    const answers = answerText.split(/[,，、]/).filter(a => a.trim());
+    const isMultiBlank = answers.length > 1;
+
     return (
       <View className="mt-6">
         <TextInput
           className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-xl p-4 text-gray-800 dark:text-gray-200 text-lg"
-          placeholder="请输入答案"
+          placeholder={isMultiBlank ? "请按顺序输入多个答案，用逗号分隔" : "请输入答案"}
           placeholderTextColor="#9ca3af"
           value={fillBlankAnswer}
           onChangeText={setFillBlankAnswer}
           editable={!isSubmitted}
-          multiline
+          multiline={isMultiBlank}
         />
         {isSubmitted && (
           <View className="mt-4 p-4 bg-green-50 dark:bg-green-900/30 rounded-xl">
-            <Text className="text-green-700 dark:text-green-400 font-medium">
-              正确答案：{currentQuestion?.answer}
-            </Text>
+            <Text className="text-green-700 dark:text-green-400 font-medium mb-2">正确答案：</Text>
+            {isMultiBlank ? (
+              <View>
+                {answers.map((ans, idx) => (
+                  <Text key={idx} className="text-green-700 dark:text-green-400 text-base">
+                    第{idx + 1}空：{ans.trim()}
+                  </Text>
+                ))}
+              </View>
+            ) : (
+              <Text className="text-green-700 dark:text-green-400 text-base">{answerText}</Text>
+            )}
           </View>
         )}
       </View>

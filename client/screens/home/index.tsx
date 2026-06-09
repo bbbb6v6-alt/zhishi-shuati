@@ -1,11 +1,19 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView, ActivityIndicator } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, ActivityIndicator, Modal, Platform } from 'react-native';
 import { Screen } from '@/components/Screen';
 import { useSafeRouter } from '@/hooks/useSafeRouter';
 import { useFocusEffect } from 'expo-router';
 import { FontAwesome6 } from '@expo/vector-icons';
 
 const EXPO_PUBLIC_BACKEND_BASE_URL = process.env.EXPO_PUBLIC_BACKEND_BASE_URL || 'http://localhost:9091';
+
+// 题目数量选项
+const QUESTION_COUNTS = [
+  { label: '5 道', value: 5 },
+  { label: '10 道', value: 10 },
+  { label: '20 道', value: 20 },
+  { label: '50 道', value: 50 },
+];
 
 interface Stats {
   total: number;
@@ -21,6 +29,9 @@ export default function HomeScreen() {
   const router = useSafeRouter();
   const [stats, setStats] = useState<Stats | null>(null);
   const [loading, setLoading] = useState(true);
+  const [selectedCount, setSelectedCount] = useState(10);
+  const [showCountModal, setShowCountModal] = useState(false);
+  const [pendingPracticeType, setPendingPracticeType] = useState<string | null>(null);
 
   const fetchStats = async () => {
     try {
@@ -43,7 +54,16 @@ export default function HomeScreen() {
   );
 
   const handlePractice = (type: string) => {
-    router.push('/practice', { type });
+    setPendingPracticeType(type);
+    setShowCountModal(true);
+  };
+
+  const confirmPractice = () => {
+    if (pendingPracticeType) {
+      router.push('/practice', { type: pendingPracticeType, count: selectedCount.toString() });
+    }
+    setShowCountModal(false);
+    setPendingPracticeType(null);
   };
 
   const handleWrong = () => {
@@ -51,7 +71,8 @@ export default function HomeScreen() {
   };
 
   const handleRefresh = () => {
-    router.push('/practice', { type: 'random', refresh: 'true' });
+    setPendingPracticeType('random');
+    setShowCountModal(true);
   };
 
   if (loading) {
@@ -269,6 +290,60 @@ export default function HomeScreen() {
           </View>
         </TouchableOpacity>
       </ScrollView>
+
+      {/* 题目数量选择模态框 */}
+      <Modal
+        visible={showCountModal}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setShowCountModal(false)}
+      >
+        <TouchableOpacity 
+          className="flex-1 bg-black/50 justify-center items-center"
+          activeOpacity={1}
+          onPress={() => setShowCountModal(false)}
+        >
+          <View className="bg-white rounded-2xl w-72 p-5 mx-4 shadow-xl">
+            <Text className="text-lg font-bold text-gray-800 text-center mb-1">选择题目数量</Text>
+            <Text className="text-sm text-gray-500 text-center mb-5">请选择每次练习的题目数量</Text>
+            
+            <View className="flex-row flex-wrap justify-between gap-2">
+              {QUESTION_COUNTS.map((item) => (
+                <TouchableOpacity
+                  key={item.value}
+                  className={`w-[47%] py-3 rounded-xl border-2 ${
+                    selectedCount === item.value 
+                      ? 'border-[#C41E3A] bg-[#FEF2F2]' 
+                      : 'border-gray-200 bg-gray-50'
+                  }`}
+                  onPress={() => setSelectedCount(item.value)}
+                >
+                  <Text className={`text-center font-semibold ${
+                    selectedCount === item.value ? 'text-[#C41E3A]' : 'text-gray-600'
+                  }`}>
+                    {item.label}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+
+            <View className="flex-row mt-5 gap-3">
+              <TouchableOpacity
+                className="flex-1 py-3 rounded-xl bg-gray-100"
+                onPress={() => setShowCountModal(false)}
+              >
+                <Text className="text-center text-gray-600 font-semibold">取消</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                className="flex-1 py-3 rounded-xl bg-[#C41E3A]"
+                onPress={confirmPractice}
+              >
+                <Text className="text-center text-white font-semibold">开始练习</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </TouchableOpacity>
+      </Modal>
     </Screen>
   );
 }
