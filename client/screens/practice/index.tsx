@@ -39,10 +39,26 @@ export default function PracticeScreen() {
   const initialQuestionIds = params.questionIds ? JSON.parse(params.questionIds) : null;
   const insets = useSafeAreaInsets();
 
+  // 样式定义
+  const styles = {
+    textInput: {
+      marginTop: 16,
+      backgroundColor: '#ffffff',
+      borderWidth: 1,
+      borderColor: '#d1d5db',
+      borderRadius: 12,
+      padding: 16,
+      minHeight: 150,
+      fontSize: 16,
+      color: '#1f2937',
+    } as any,
+  };
+
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | string[] | null>(null);
   const [fillBlankAnswer, setFillBlankAnswer] = useState('');
+  const [answers, setAnswers] = useState<Record<number, string>>({});
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -661,6 +677,17 @@ export default function PracticeScreen() {
           {currentQuestion.type === 'multiple_choice' && renderMultiOptions()}
           {currentQuestion.type === 'judgment' && renderJudgmentOptions()}
           {currentQuestion.type === 'fill_blank' && renderFillBlank()}
+          {(currentQuestion.type === 'short_answer' || currentQuestion.type === 'essay') && (
+            <TextInput
+              style={styles.textInput}
+              multiline
+              numberOfLines={6}
+              placeholder="请输入您的答案..."
+              value={answers[currentQuestion.id] || ''}
+              onChangeText={(text) => setAnswers(prev => ({ ...prev, [currentQuestion.id]: text }))}
+              className="mt-4 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-xl p-4 text-gray-800 dark:text-white min-h-[150px] text-base"
+            />
+          )}
 
           {/* 智能解析 */}
           {isSubmitted && (
