@@ -126,6 +126,9 @@ export default function PracticeScreen() {
       if (Array.isArray(selectedAnswer) && selectedAnswer.length > 0) {
         answerToSubmit = [...selectedAnswer].sort().join('');
       }
+    } else if (currentQuestion.type === 'short_answer' || currentQuestion.type === 'essay') {
+      // 简答题和论述题使用 answers 状态
+      answerToSubmit = answers[currentQuestion.id] || '';
     } else {
       // 判断题和单选题
       if (selectedAnswer !== null && selectedAnswer !== undefined) {
