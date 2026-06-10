@@ -379,7 +379,7 @@ export default function PracticeScreen() {
   // 渲染多选题选项
   const renderMultiOptions = () => {
     if (!currentQuestion?.options) return null;
-    const correctAnswers = currentQuestion.answer.split('');
+    const correctAnswers = currentQuestion.answer.split(/[\s,，、]+/).filter(p => p.trim());
 
     return (
       <View className="mt-4 space-y-3">
